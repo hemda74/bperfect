@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app-staging:
+    build:
+      context: ../../
+      dockerfile: docker/staging/Dockerfile
+    image: app-env-staging
+    ports:
+      - "3002:3000"
+    volumes:
+      - ~/.aws:/root/.aws
+  nginx-staging:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - app-staging

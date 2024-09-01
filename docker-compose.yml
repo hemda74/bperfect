@@ -1,0 +1,10 @@
+version: '3.9'
+
+
+services:
+  momentum-production:
+    build:
+      dockerfile: ./dockerfile
+    image: momentum-env-production
+    ports:
+      - "3000:3000"
