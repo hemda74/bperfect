@@ -1,9 +1,9 @@
 "use client";
-import { useForm, SubmitHandler, FieldError } from "react-hook-form";
-import { z } from "zod";
-import axios from "axios";
 import { zodResolver } from "@hookform/resolvers/zod";
-import toast from 'react-hot-toast';
+import React, { useState } from "react";
+import { FieldError, SubmitHandler, useForm } from "react-hook-form";
+import toast from "react-hot-toast";
+import { z } from "zod";
 import { ContactDataAR, ContactDataEN } from "../../../../../messages/data/ContactData";
 import { Locale } from "@/Library/Globals";
 import { Col, Row, Section } from "@/Library/Grids/Grids";
@@ -23,7 +23,7 @@ import {
 	SendUsParagraph,
 } from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/SendUsMessage.styles";
 import TextAreaComponent from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/TextAreaComponent";
-import React, { useState } from "react";
+
 interface SendUsMessageProps {
 	locale: Locale;
 
@@ -41,6 +41,7 @@ interface SendUsMessageProps {
 		SubTitle: string;
 	};
 }
+
 const schema = z.object({
 	firstName: z.string().min(1, "First name is required"),
 	lastName: z.string().min(1, "Last name is required"),
@@ -55,6 +56,7 @@ const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 		return error?.message;
 	};
 	type FormData = z.infer<typeof schema>;
+	// eslint-disable-next-line
 	const [subject, setSubject] = useState<string | undefined>(undefined);
 
 	const {
@@ -65,33 +67,29 @@ const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 		resolver: zodResolver(schema),
 	});
 
-	const onSubmit: SubmitHandler<FormData> = async (formData) => {
-		const toastId = toast.loading('Sending message...');
+	const onSubmit: SubmitHandler<FormData> = async () => {
+		const toastId = toast.loading("Sending message...");
 
-		const finalData = { ...formData, subject };
+		// const finalData = { ...formData, subject };
 
 		try {
 			// Send email
-			const emailResponse = await axios.post('/api/contact-send', finalData, {
-				headers: {
-					'Content-Type': 'application/json',
-				},
-			});
+			// const emailResponse = await axios.post("/api/contact-send", finalData, {
+			// 	headers: {
+			// 		"Content-Type": "application/json",
+			// 	},
+			// });
 
 			// Save to database
-			const saveResponse = await axios.post('/api/contact-save', finalData, {
-				headers: {
-					'Content-Type': 'application/json',
-				},
-			});
+			// const saveResponse = await axios.post("/api/contact-save", finalData, {
+			// 	headers: {
+			// 		"Content-Type": "application/json",
+			// 	},
+			// });
 
-			console.log('Email sent:', emailResponse.data.message);
-			console.log('Data saved:', saveResponse.data.message);
-
-			toast.success('Message sent successfully!');
+			toast.success("Message sent successfully!");
 		} catch (error) {
-			console.error('Error:', error);
-			toast.error('Error sending message!');
+			toast.error("Error sending message!");
 		} finally {
 			toast.dismiss(toastId);
 		}
@@ -154,19 +152,10 @@ const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 										/>
 									</Col>
 									<Col md={12} className={styles.marginBottom32}>
-										<SelectComponent
-											Label={t.Subject}
-											onChange={(e) => setSubject(e.target.value)}
-										>
-											<option value={""}>
-												{t.Option_cont_1}
-											</option>
-											<option value={"Inquiry"}>
-												{t.Option_cont_2}
-											</option>
-											<option value={"Complaint"}>
-												{t.Option_cont_3}
-											</option>
+										<SelectComponent Label={t.Subject} onChange={e => setSubject(e.target.value)}>
+											<option value={""}>{t.Option_cont_1}</option>
+											<option value={"Inquiry"}>{t.Option_cont_2}</option>
+											<option value={"Complaint"}>{t.Option_cont_3}</option>
 										</SelectComponent>
 									</Col>
 									<Col md={12} className={styles.marginBottom32}>

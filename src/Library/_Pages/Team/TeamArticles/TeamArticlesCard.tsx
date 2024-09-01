@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Locale } from "@/Library/Globals";
-import { HeadingH3, TextSingle200 } from "@/Library/Typography/Typography";
+import { HeadingH3 } from "@/Library/Typography/Typography";
 import Link from "@/Library/_Pages/Services/ServicesHeroSection/Link";
 import {
 	CardFooter,
@@ -11,36 +11,35 @@ import {
 	TeamArticlesCardInner,
 } from "@/Library/_Pages/Team/TeamArticles/TeamArticlesCard.styles";
 
-const TeamArticlesCard = ({
-	Img,
-	Heading,
-	Date,
-	CardLink,
-	locale,
-}: {
+interface TeamArticlesCardProps extends Locale {
 	Img: string;
 	Heading: string;
-	Date: string;
+
 	CardLink: string;
-} & Locale) => {
+}
+
+const TeamArticlesCard: React.FC<TeamArticlesCardProps> = ({
+	Img,
+	Heading,
+
+	CardLink,
+	locale,
+}) => {
 	return (
-		<>
-			<TeamArticlesCardInner>
-				<TeamArticlesCardImage>
-					<Image src={Img} alt={""} width={500} height={367} />
-				</TeamArticlesCardImage>
+		<TeamArticlesCardInner>
+			<TeamArticlesCardImage>
+				<Image src={Img} alt={Heading} width={500} height={367} />
+			</TeamArticlesCardImage>
 
-				<TeamArticlesCardCaption>
-					<HeadingH3>{Heading}</HeadingH3>
-					<TeamArticlesCardDivider />
+			<TeamArticlesCardCaption>
+				<HeadingH3>{Heading}</HeadingH3>
+				<TeamArticlesCardDivider />
 
-					<CardFooter justify={"space-between"} aligncenter={"center"}>
-						<TextSingle200>{Date}</TextSingle200>
-						<Link locale={locale} Body={CardLink} />
-					</CardFooter>
-				</TeamArticlesCardCaption>
-			</TeamArticlesCardInner>
-		</>
+				<CardFooter justify={"space-between"} aligncenter={"center"}>
+					<Link locale={locale} Body={CardLink} href={`/blogs/${Heading}`} />
+				</CardFooter>
+			</TeamArticlesCardCaption>
+		</TeamArticlesCardInner>
 	);
 };
 

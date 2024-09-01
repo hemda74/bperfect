@@ -3,8 +3,8 @@
 import styled from "styled-components";
 import { Breakpoints, Flexbox } from "@/Library/Grids/Grids";
 
-export const OurServicesShell = styled.section`
-	background-color: var(--neutral--200);
+export const OurServicesShell = styled.section<{ contactInfo: boolean }>`
+	background-color: ${({ contactInfo }) => (contactInfo ? "var(--neutral--200)" : "transparent")};
 	padding-block: 240px;
 
 	@media screen and (max-width: ${Breakpoints.lg}) {

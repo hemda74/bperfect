@@ -15,7 +15,6 @@ const Page = () => {
 				// Youtube={t("TeamHeroSection.TeamMembers.TeamMember2.Links.Link3")}
 				Name={t("TeamHeroSection.TeamMembers.TeamMember2.Name")}
 			/>
-
 		</>
 	);
 };

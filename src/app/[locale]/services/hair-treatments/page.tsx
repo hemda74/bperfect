@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -7,14 +6,15 @@ import { Col, Row, Section } from "@/Library/Grids/Grids";
 import styles from "@/Library/Grids/Spaces.module.css";
 import { Display4, MutedText } from "@/Library/Typography/Typography";
 import Button from "@/Library/UI/Button/Button";
-import uuid from "@/Library/UUID";
 import {
 	AboutHeaders,
 	AboutThisServiceCaption,
 	AboutThisServiceForm,
 } from "@/Library/_Pages/AboutThisService/AboutThisService.styles";
+import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFacilities.styles";
+import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
+import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
-import CareServices from "@/Library/_Pages/Services/ServicesHeroSection/CareServices";
 
 const Page = ({ params }: { params: Locale }) => {
 	const { locale } = params;
@@ -53,18 +53,19 @@ const Page = ({ params }: { params: Locale }) => {
 								{/*	})}*/}
 								{/*</ul>*/}
 
-								<Image
-									src={t("AboutThisService.HairTreatments.Img")}
-									alt={""}
-									width={660}
-									height={348}
-									style={{
-										width: "100%",
-										objectFit: "cover",
-										borderRadius: "20px",
-										marginTop: "20px",
-									}}
-								/>
+								<Link href={videoLinks[2].link} passHref>
+									<VideoContainer className={styles.marginTop40}>
+										<iframe
+											width="900"
+											height="506"
+											src={videoLinks[2].link}
+											title={videoLinks[2].title}
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+											referrerPolicy="strict-origin-when-cross-origin"
+											allowFullScreen
+										></iframe>
+									</VideoContainer>
+								</Link>
 							</div>
 						</AboutThisServiceCaption>
 					</Col>
@@ -83,24 +84,7 @@ const Page = ({ params }: { params: Locale }) => {
 				</Row>
 			</Section>
 
-			<Section>
-				<Row as={"ul"}>
-					{[...Array(3)].map((_, index) => {
-						return (
-							<Col as={"li"} md={6} xl={4} key={uuid()}>
-								<CareServices
-									locale={locale}
-									Heading={t(`AboutThisService.Cards.Card${index + 1}.Heading`)}
-									LinkBody={t(`AboutThisService.Cards.Card${index + 1}.Link`)}
-									Body={t(`AboutThisService.Cards.Card${index + 1}.Body`)}
-									Img={t(`AboutThisService.Cards.Card${index + 1}.Image`)}
-									Icon={t(`AboutThisService.Cards.Card${index + 1}.Icon`)}
-								/>
-							</Col>
-						);
-					})}
-				</Row>
-			</Section>
+			<OurServices contactInfo={false} locale={locale} />
 		</>
 	);
 };

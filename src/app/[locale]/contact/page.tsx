@@ -11,7 +11,6 @@ interface PageParams {
 }
 
 const Page: React.FC<PageParams> = ({ params }) => {
-
 	const locale: Locale = { locale: params.locale };
 
 	return (

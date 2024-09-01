@@ -12,7 +12,6 @@ import {
 	ComeAndVisitUsBody,
 	ComeAndVisitUsHeading,
 	ComeAndVisitUsImage,
-	ComeAndVisitUsParagraph,
 	Divider,
 	LinkContainer,
 	LinksStyles,

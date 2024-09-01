@@ -73,7 +73,6 @@ const AboutUs = () => {
 													<InsightSymbol>
 														{t(`Statistics.Statistic${index + 1}.Number`)}
 													</InsightSymbol>
-
 												</InsightHeader>
 												<InsightsCaption>
 													{t(`Statistics.Statistic${index + 1}.Body`)}

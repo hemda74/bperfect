@@ -19,13 +19,13 @@ import {
 } from "@/Library/_Pages/HomeSection/OurServices/OurServices.styles";
 import CareServices from "@/Library/_Pages/Services/ServicesHeroSection/CareServices";
 
-const OurServices = ({ locale }: Locale) => {
+const OurServices = ({ locale, contactInfo = true }: Locale & { contactInfo?: boolean }) => {
 	const t = useTranslations("Home.OurServices");
 	return (
 		<>
-			<ContactInfo />
+			{contactInfo && <ContactInfo />}
 
-			<OurServicesShell>
+			<OurServicesShell contactInfo={contactInfo}>
 				<Section as={"div"}>
 					<OurServicesHeading>
 						<TagLine>{t("Title")}</TagLine>
@@ -45,7 +45,6 @@ const OurServices = ({ locale }: Locale) => {
 										locale={locale}
 										Heading={t(`Cards.Card${index + 1}.Heading`)}
 										LinkBody={t(`Cards.Card${index + 1}.Link`)}
-										Body={t(`Cards.Card${index + 1}.Body`)}
 										Img={t(`Cards.Card${index + 1}.Image`)}
 										Icon={t(`Cards.Card${index + 1}.Icon`)}
 									/>

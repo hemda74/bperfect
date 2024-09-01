@@ -33,7 +33,6 @@ const ServicesHeroSection = ({ locale }: Locale) => {
 										locale={locale}
 										Heading={t(`Cards.Card${index + 1}.Heading`)}
 										LinkBody={t(`Cards.Card${index + 1}.Link`)}
-										Body={t(`Cards.Card${index + 1}.Body`)}
 										Img={t(`Cards.Card${index + 1}.Image`)}
 										Icon={t(`Cards.Card${index + 1}.Icon`)}
 									/>

@@ -1,30 +1,26 @@
 import React, { ChangeEventHandler, forwardRef, ReactNode } from "react";
-import { LabelName, ErrorMessage } from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/InputComponent.styles";
-import { SelectShell, SelectStyle } from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/SelectComponent.styles";
+import {
+	LabelName,
+	ErrorMessage,
+} from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/InputComponent.styles";
+import {
+	SelectShell,
+	SelectStyle,
+} from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/SelectComponent.styles";
 
-const SelectComponent = forwardRef<HTMLSelectElement, {
-	Label: string;
-	children: ReactNode;
-	error?: string;
-	onChange?: ChangeEventHandler<HTMLSelectElement>;
-
-}>(({
-	Label,
-	children,
-	error,
-	onChange,
-	...rest
-}, ref) => (
+const SelectComponent = forwardRef<
+	HTMLSelectElement,
+	{
+		Label: string;
+		children: ReactNode;
+		error?: string;
+		onChange?: ChangeEventHandler<HTMLSelectElement>;
+	}
+>(({ Label, children, error, onChange, ...rest }, ref) => (
 	<SelectShell>
 		{error && <ErrorMessage>{error}</ErrorMessage>}
 		<LabelName htmlFor={Label}>{Label}</LabelName>
-		<SelectStyle
-			id={Label}
-			hasError={!!error}
-			ref={ref}
-			{...rest}
-			onChange={onChange}
-		>
+		<SelectStyle id={Label} hasError={!!error} ref={ref} {...rest} onChange={onChange}>
 			{children}
 		</SelectStyle>
 		<svg
@@ -47,6 +43,6 @@ const SelectComponent = forwardRef<HTMLSelectElement, {
 	</SelectShell>
 ));
 
-SelectComponent.displayName = 'SelectComponent';
+SelectComponent.displayName = "SelectComponent";
 
 export default SelectComponent;

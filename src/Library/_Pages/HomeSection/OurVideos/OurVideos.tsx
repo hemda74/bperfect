@@ -1,23 +1,12 @@
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 import React from "react";
+import { VideoContainer } from "../OurFacilites/OurFacilities.styles";
 import CarousalServices from "@/Library/Carousal/CarousalServices/CarousalServices";
 import { Section } from "@/Library/Grids/Grids";
-import styles from "@/Library/Grids/Spaces.module.css";
-import { Display2 } from "@/Library/Typography/Typography";
-import Button from "@/Library/UI/Button/Button";
-import { TagLine } from "@/Library/_Pages/About/AboutUs/AboutUs.styles";
 import ContactInfo from "@/Library/_Pages/HomeSection/ContactInfo/ContactInfo";
-import { SpanStyles } from "@/Library/_Pages/HomeSection/HeroSection/HomeHeroSection.styles";
-import {
-	ButtonContainer,
-	OurServicesHeading,
-	OurServicesParagraph,
-	OurServicesShell,
-} from "@/Library/_Pages/HomeSection/OurServices/OurServices.styles";
-import { VideoContainer } from "../OurFacilites/OurFacilities.styles";
-import { Locale } from "@/Library/Globals";
-const videoLinks = [
+import { OurServicesShell } from "@/Library/_Pages/HomeSection/OurServices/OurServices.styles";
+
+export const videoLinks = [
 	{
 		link: "https://www.youtube.com/embed/mvpv6pWXAM4",
 		title: "Video Card1",
@@ -56,13 +45,13 @@ const videoLinks = [
 	},
 ];
 
-const OurVideos = ({ locale }: Locale) => {
-	const t = useTranslations("Home.OurVideos");
+const OurVideos = () => {
+	// const t = useTranslations("Home.OurVideos");
 
 	return (
 		<>
 			<ContactInfo />
-			<OurServicesShell>
+			<OurServicesShell contactInfo={false}>
 				<Section as="div">
 					<CarousalServices>
 						{videoLinks.map((video, index) => (

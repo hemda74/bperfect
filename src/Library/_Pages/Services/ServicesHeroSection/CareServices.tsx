@@ -5,7 +5,6 @@ import { Locale } from "@/Library/Globals";
 import { Flexbox } from "@/Library/Grids/Grids";
 import { Display3 } from "@/Library/Typography/Typography";
 import {
-	CareServicesBody,
 	CareServicesCaption,
 	CareServicesImageContainer,
 	CareServicesInner,
@@ -16,14 +15,12 @@ const CareServices = ({
 	Img,
 	Icon,
 	Heading,
-	Body,
 	LinkBody,
 	locale,
 }: {
 	Img: string | StaticImport;
 	Icon: string;
 	Heading: string;
-	Body: string;
 	LinkBody: string;
 } & Locale) => {
 	return (
@@ -43,7 +40,7 @@ const CareServices = ({
 				<Display3>{Heading}</Display3>
 				{/* <CareServicesBody>{Body}</CareServicesBody> */}
 				<Flexbox aligncenter={"center"}>
-					<Link locale={locale} Body={LinkBody} />
+					<Link href={LinkBody} locale={locale} Body={LinkBody} />
 				</Flexbox>
 			</CareServicesCaption>
 		</CareServicesInner>

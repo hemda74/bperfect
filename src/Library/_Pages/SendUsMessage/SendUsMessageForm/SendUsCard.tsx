@@ -34,5 +34,4 @@ const SendUsCard = ({
 	);
 };
 
-
 export default SendUsCard;

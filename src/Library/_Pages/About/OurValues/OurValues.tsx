@@ -42,7 +42,6 @@ const OurValues = () => {
 										key={uuid()}
 										title={t(`Cards.Card${index + 1}.Heading`)}
 										body={t(`Cards.Card${index + 1}.Body`)}
-
 									/>
 								);
 							})}

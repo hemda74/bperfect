@@ -88,9 +88,6 @@ const AboutThisService = ({
 									locale={locale}
 									Heading={"Laser Hair Removal"}
 									LinkBody={"View service"}
-									Body={
-										"Sed lacus, nullam sodales et nisl justo viverra duis vel praesent est fusce elit netus cursus senectus faucibus vitae et tristique enim tincidunt quam amet."
-									}
 									Img={"/4.jpg"}
 									Icon={"/Home.svg"}
 								/>

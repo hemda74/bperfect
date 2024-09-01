@@ -3,9 +3,9 @@ import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 import { Poppins } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import React from "react";
+import { Toaster } from "react-hot-toast";
 import { getLangDir } from "rtl-detect";
 import MainLayout from "@/Library/Layouts/MainLayout";
-import { Toaster } from "react-hot-toast";
 
 const poppins: NextFontWithVariable = Poppins({
 	weight: ["400", "500", "600", "700"],

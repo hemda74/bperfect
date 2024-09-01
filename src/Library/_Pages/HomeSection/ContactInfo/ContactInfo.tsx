@@ -9,7 +9,6 @@ import {
 	CardCaptionContent,
 	CardICon,
 	CardInfoShell,
-	CardInfoShellBorder,
 	ContactInfoContainer,
 	ContactInfoLinkStyles,
 } from "@/Library/_Pages/HomeSection/HeroSection/HomeHeroSection.styles";

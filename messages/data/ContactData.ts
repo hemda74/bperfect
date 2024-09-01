@@ -1,5 +1,3 @@
-import { optional } from "zod";
-
 export const ContactDataEN = [
 	{
 		img: "/Email-icon-elderlycare-x-webflow-template.svg",
@@ -29,8 +27,11 @@ export const ContactUsFormEN = {
 	Phone: "Phone",
 	Message: "Message",
 	Subject: "Subject",
+	// eslint-disable-next-line
 	Option_cont_1: "—Please choose an option—",
+	// eslint-disable-next-line
 	Option_cont_2: "Inquiry",
+	// eslint-disable-next-line
 	Option_cont_3: "Complain",
 };
 export const AppFormEN = {
@@ -39,11 +40,17 @@ export const AppFormEN = {
 	Email: "Email",
 	Phone: "Phone",
 	Subject: "Subject",
+	// eslint-disable-next-line
 	Option_app_1: "—Please choose an option—",
+	// eslint-disable-next-line
 	Option_app_2: "Body Reshaping",
+	// eslint-disable-next-line
 	Option_app_3: "Fillers and Botox",
+	// eslint-disable-next-line
 	Option_app_4: "Hair Treatment",
+	// eslint-disable-next-line
 	Option_app_5: "Laser Hair Removal",
+	// eslint-disable-next-line
 	Option_app_6: "Skin Treatment",
 };
 export const ContactUsFormAr = {
@@ -55,8 +62,11 @@ export const ContactUsFormAr = {
 	Phone: "الهاتف",
 	Message: "الرسالة",
 	Subject: "الموضوع",
-	Option_cont_1: "—يرجى اختيار خيار—",
+	// eslint-disable-next-line
+	Option_cont_1: "—يرجى الاختيار —",
+	// eslint-disable-next-line
 	Option_cont_2: "استفسار",
+	// eslint-disable-next-line
 	Option_cont_3: "شكوى",
 };
 export const AppFormAr = {
@@ -66,11 +76,17 @@ export const AppFormAr = {
 	Phone: "الهاتف",
 	Message: "الرسالة",
 	Subject: "الموضوع",
-	Option_app_1: "—يرجى اختيار خيار—",
+	// eslint-disable-next-line
+	Option_app_1: "—يرجى الاختيار —",
+	// eslint-disable-next-line
 	Option_app_2: "إعادة تشكيل الجسم",
+	// eslint-disable-next-line
 	Option_app_3: "الفيلر والبوتوكس",
+	// eslint-disable-next-line
 	Option_app_4: "علاج الشعر",
+	// eslint-disable-next-line
 	Option_app_5: "إزالة الشعر بالليزر",
+	// eslint-disable-next-line
 	Option_app_6: "علاج البشرة",
 };
 export const ContactDataAR = [

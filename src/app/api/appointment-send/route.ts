@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
 		const smtpUser = "bperfectclinic3@gmail.com";
 		const smtpPass = "fzmzqsrjesdpywlk";
 
-		let transporter = nodemailer.createTransport({
+		const transporter = nodemailer.createTransport({
 			host: smtpHost,
 			port: smtpPort,
 			secure: false,
@@ -58,10 +58,10 @@ export async function POST(req: NextRequest) {
 		await transporter.sendMail(mailOptionsToUser);
 		await transporter.sendMail(mailOptionsToAdmin);
 		return NextResponse.json({ message: "Emails sent successfully" }, { status: 200 });
+		// eslint-disable-next-line
 	} catch (error: any) {
-		console.error("Nodemailer Error:", error);
 		return NextResponse.json(
-			{ error: "Error sending emails", details: error.message },
+			{ error: "Error sending emails", details: error?.message },
 			{ status: 500 },
 		);
 	}

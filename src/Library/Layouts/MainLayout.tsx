@@ -17,9 +17,9 @@ const MainLayout = ({
 	return (
 		<StyledComponentsRegistry>
 			<GlobalStyle />
-			<body >
+			<body>
 				<Header locale={locale} />
-				<main style={{ width: '', margin: 'auto' }}>{children}</main>
+				<main style={{ width: "", margin: "auto" }}>{children}</main>
 				<Footer locale={locale} />
 			</body>
 		</StyledComponentsRegistry>

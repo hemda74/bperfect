@@ -27,14 +27,18 @@ import {
 import Button from "@/Library/UI/Button/Button";
 import Chevron from "@/Library/UI/IconGraphy/Chevron/Chevron";
 import EmailIcon from "@/Library/UI/IconGraphy/EmailIcon/EmailIcon";
-import FaceBookIcon from "@/Library/UI/IconGraphy/SocialIcon/FaceBookIcon";
 import PhoneIcon from "@/Library/UI/IconGraphy/PhoneIcon/PhoneIcon";
-import TiktokIcon from "@/Library/UI/IconGraphy/SocialIcon/TiktokIcon";
+import FaceBookIcon from "@/Library/UI/IconGraphy/SocialIcon/FaceBookIcon";
 import InstagramIcon from "@/Library/UI/IconGraphy/SocialIcon/InstagramIcon";
+import TiktokIcon from "@/Library/UI/IconGraphy/SocialIcon/TiktokIcon";
 
 const Header = ({ locale }: Locale) => {
 	const [open, setOpen] = useState(false);
 	const [openService, setOpenService] = useState(false);
+	const closeMobileMenu = (): void => {
+		setOpenService(false);
+		setOpen(false);
+	};
 
 	const pathname = usePathname();
 	const originalPathname = pathname.replace(/^\/(en|ar)\//, "/");
@@ -57,11 +61,6 @@ const Header = ({ locale }: Locale) => {
 	const handleLinkClick = async (href: string) => {
 		await router.push(href);
 		closeMobileMenu();
-	};
-
-	const closeMobileMenu = (): void => {
-		setOpenService(false);
-		setOpen(false);
 	};
 
 	return (
@@ -90,10 +89,18 @@ const Header = ({ locale }: Locale) => {
 								<Link target={"_blank"} rel="noreffer" href={"https://facebook.com/BPerfectClinic"}>
 									<FaceBookIcon />
 								</Link>
-								<Link target={"_blank"} rel="noreffer" href={"https://www.instagram.com/bperfect.clinic/"}>
+								<Link
+									target={"_blank"}
+									rel="noreffer"
+									href={"https://www.instagram.com/bperfect.clinic/"}
+								>
 									<InstagramIcon />
 								</Link>
-								<Link target={"_blank"} rel="noreffer" href={"https://www.tiktok.com/@bperfect.clinic"}>
+								<Link
+									target={"_blank"}
+									rel="noreffer"
+									href={"https://www.tiktok.com/@bperfect.clinic"}
+								>
 									<TiktokIcon />
 								</Link>
 							</Flexbox>
@@ -214,7 +221,7 @@ const Header = ({ locale }: Locale) => {
 							</DesktopMenu>
 							<MobileMenu>
 								<HamburgerMenu
-									onClick={() => setOpen((prev) => !prev)}
+									onClick={() => setOpen(prev => !prev)}
 									id={"menuButton"}
 									className={` ${open ? "active" : undefined}  ${styles.marginLeft24}`}
 								>
@@ -239,7 +246,7 @@ const Header = ({ locale }: Locale) => {
 
 								<ChevronIcon
 									className={"ChevronIcon"}
-									onClick={() => setOpenService((prev) => !prev)}
+									onClick={() => setOpenService(prev => !prev)}
 								>
 									<Chevron />
 								</ChevronIcon>
@@ -247,27 +254,42 @@ const Header = ({ locale }: Locale) => {
 
 							<ServiceLinkMobile className={`links ${openService ? "" : "displayNone"}`}>
 								<li>
-									<Link onClick={() => handleLinkClick("/services/body-reshaping")} href={"/services/body-reshaping"}>
+									<Link
+										onClick={() => handleLinkClick("/services/body-reshaping")}
+										href={"/services/body-reshaping"}
+									>
 										{t.header.links.services.bodyReshaping}
 									</Link>
 								</li>
 								<li>
-									<Link onClick={() => handleLinkClick("/services/fillers-botox")} href={"/services/fillers-botox"}>
+									<Link
+										onClick={() => handleLinkClick("/services/fillers-botox")}
+										href={"/services/fillers-botox"}
+									>
 										{t.header.links.services.fillersBotox}
 									</Link>
 								</li>
 								<li>
-									<Link onClick={() => handleLinkClick("/services/hair-treatments")} href={"/services/hair-treatments"}>
+									<Link
+										onClick={() => handleLinkClick("/services/hair-treatments")}
+										href={"/services/hair-treatments"}
+									>
 										{t.header.links.services.hairTreatment}
 									</Link>
 								</li>
 								<li>
-									<Link onClick={() => handleLinkClick("/services/laser-hair-removal")} href={"/services/laser-hair-removal"}>
+									<Link
+										onClick={() => handleLinkClick("/services/laser-hair-removal")}
+										href={"/services/laser-hair-removal"}
+									>
 										{t.header.links.services.laserHairRemoval}
 									</Link>
 								</li>
 								<li>
-									<Link onClick={() => handleLinkClick("/services/skin-treatments")} href={"/services/skin-treatments"}>
+									<Link
+										onClick={() => handleLinkClick("/services/skin-treatments")}
+										href={"/services/skin-treatments"}
+									>
 										{t.header.links.services.skinTreatments}
 									</Link>
 								</li>

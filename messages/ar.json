@@ -1,848 +1,848 @@
 {
-	"Home": {
-		"HomeHeroSection": {
-			"Title": "خدمات رعاية كبار السن",
-			"Heading1": "اهلا بك في ",
-			"Heading2": "Bperfect",
-			"Heading3": "",
-			"Body": "شريكك الموثوق به في الحصول على بشرة صحية ومشرقة. يكرس فريقنا من أطباء الجلدية ذوي الخبرة أنفسهم لتقديم رعاية شخصية لمجموعة واسعة من مشاكل البشرة. من علاج حالات الجلد الشائعة إلى تعزيز جمالك الطبيعي، نقدم مجموعة شاملة من الخدمات الجلدية المصممة خصيصًا لاحتياجاتك الفردية. اكتشف القوة التحويلية للرعاية الجلدية المتخصصة في عيادة بي بيرفكت.",
-			"Image": "/heroImage.jpg",
-			"Button1": "استعرض الخطة",
-			"IconCaption": "شاهد مقاطع الفيديو الخاصة بنا"
-		},
-		"ContactInfo": {
-			"Cards": {
-				"card1": {
-					"Icon": "/phone-ixon.svg",
-					"Heading": "اتصل بنا",
-					"Title": "01028080800",
-					"Body": "لنتصل بك",
-					"href": "tel:01028080800"
-				},
-				"card2": {
-					"Icon": "/Message-icon.svg",
-					"Heading": "أرسل لنا بريد إلكتروني",
-					"Title": "info@bperfect.clinic",
-					"Body": "أرسل لنا بريدًا إلكترونيًا",
-					"href": "mailto:info@bperfect.clinic"
-				},
-				"card3": {
-					"Icon": "/location-icon.svg",
-					"Heading": "زرنا",
-					"Title": "احجز موعدًا",
-					"Body": "حدد موعدًا للزيارة",
-					"href": "/appointment"
-				}
-			}
-		},
-		"OurServices": {
-			"Title": "خدماتنا",
-			"Heading": {
-				"Heading1": "مجموعة واسعة",
-				"Heading2": "من الخدمات"
-			},
-			"Body": "نحن نقدم مجموعة شاملة من الخدمات الجلدية المصممة خصيصًا لتلبية احتياجاتك الفردية. اكتشف القوة التحويلية للرعاية الجلدية المتخصصة في عيادة Bperfect.",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "إزالة الشعر بالليزر",
-					"Body": "استمتعي ببشرة ناعمة وخالية من الشعر مع علاجات إزالة الشعر بالليزر المتقدمة لدينا. يستخدم فنيونا الخبراء أحدث التقنيات لتوفير نتائج فعالة وطويلة الأمد.",
-					"Link": "عرض الخدمة",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات البشرة",
-					"Body": "استعيدي صحة بشرتك وإشراقها من خلال علاجاتنا المخصصة للبشرة. من حب الشباب والأكزيما إلى مكافحة الشيخوخة والتصبغ، نقدم حلولاً لمختلف مشاكل البشرة.",
-					"Link": "عرض الخدمة",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "الفيلر والبوتوكس",
-					"Body": "عززي ملامح وجهك وقللي من ظهور التجاعيد باستخدام علاجاتنا الآمنة والفعالة للفيلر والبوتوكس. احصلي على مظهر أكثر شبابًا وانتعاشًا.",
-					"Link": "عرض الخدمة",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات الشعر",
-					"Body": "جددي شعرك باستخدام علاجاتنا المغذية للشعر. عالجي تساقط الشعر وقشرة الرأس وغيرها من مشاكل فروة الرأس مع تعزيز نمو الشعر الصحي.",
-					"Link": "عرض الخدمة",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "تشكيل الجسم",
-					"Body": "حدد شكل جسمك وحقق الشكل الذي تريده من خلال إجراءات إعادة تشكيل الجسم غير الجراحية لدينا. قلل من الدهون، وشد الجلد، وعزز ثقتك بنفسك.",
-					"Link": "عرض الخدمة",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"Links": {
-				"Link1": {
-					"Body": "استعرض الخدمات",
-					"Travers": "/services"
-				},
-				"Link2": {
-					"Body": "احجز موعدًا",
-					"Travers": "/appointment"
-				}
-			}
-		},
-		"WhyChooseUs": {
-			"Title": "لماذا تختارنا",
-			"Heading": {
-				"Heading1": "الرعاية المثالية",
-				"Heading2": "لك"
-			},
-			"Body": "عيادة Bperfect خبرة تزيد عن 10 سنوات في خدمتكم بكل حب لإرضائكم بأفضل الأجهزة في هذا المجال.",
-			"Images": {
-				"Image1": "/WhyChoseUsImage1.jpg",
-				"Image2": "/WhyChoseUsImage3.jpg",
-				"Image3": "/WhyChoseUsImage2.jpg"
-			},
-			"Cards": {
-				"Card1": {
-					"Icon": "/Nursing-staff-icon.svg",
-					"Body": "موقعين"
-				},
-				"Card2": {
-					"Icon": "/Resident-care-icon.svg",
-					"Body": "10 سنوات من الخبرة"
-				},
-				"Card3": {
-					"Icon": "/Quality-support-icon.svg",
-					"Body": "40 طبيب محترف"
-				},
-				"Card4": {
-					"Icon": "/HeartIcon.svg",
-					"Body": "15 أحدث الأجهزة في مجال الأمراض الجلدية"
-				}
-			},
-			"Buttons": {
-				"Button1": "المزيد عنا",
-				"Button2": "استعرض الخدمات"
-			}
-		},
-		"OurFacilities": {
-			"Title": "منشآتنا",
-			"Heading": {
-				"Heading1": "ألق نظرة على خدماتنا لمعرفة سبب",
-				"Heading2": "كونهاالأفضل"
-			},
-			"Videos": {
-				"Video1": "https://www.youtube.com/embed/seeaJi3tUt8",
-				"Video2": "https://www.youtube.com/embed/seeaJi3tUt8"
-			},
-			"Button": {
-				"Body": "استعرض الخدمات",
-				"Travers": "/services"
-			}
-		},
-		"OurTeamHome": {
-			"Title": "فريقنا",
-			"Heading": {
-				"Heading1": "تعرف على خبرائنا في مجال الأمراض الجلدية",
-				"Heading2": "بخبرة تزيد عن 20 عامًا"
-			},
-			"Body": "",
-			"Button": {
-				"Body": "تعرف على فريقنا",
-				"Travers": "/about"
-			},
-			"Image": "/ghada.jpg",
-			"Card": {
-				"Image": "/OurTeamIcon.svg",
-				"Body": "دكتور غادة",
-				"Title": {
-					"Title1": "",
-					"Title2": "مؤسسة مركز Bperfect"
-				}
-			}
-		},
-		"GetStartedToday": {
-			"Title": "ابدأ اليوم",
-			"Heading": "اختر الخدمة التي تناسب احتياجاتك",
-			"Body": "لقد حان الوقت للاستمتاع بخدماتنا المتميزة للحصول على مظهر أجمل",
-			"Image": "/GetStartedTodayImage.jpg",
-			"Buttons": {
-				"Button1": {
-					"Body": "احجز موعدًا",
-					"Travers": "/appointment"
-				},
-				"Button2": {
-					"Body": "استعرض الخدمات",
-					"Travers": "/services"
-				}
-			}
-		},
-		"Testimonial": {
-			"Title": "الشهادات",
-			"Heading": {
-				"Heading1": "لا تأخذ كلمتنا على محمل الجد،",
-				"Heading2": "استمع لهم"
-			},
-			"Button": {
-				"Body": "احجز موعدًا",
-				"Travers": "/appointment"
-			}
-		},
-		"OurBlog": {
-			"Title": "مدونتنا",
-			"Heading": "الأخبار والمقالات",
-			"Button": "استعرض جميع المقالات",
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				}
-			}
-		}
-	},
-	"Services": {
-		"HeroSection": {
-			"Title": "خدمات رعاية كبار السن",
-			"Heading": {
-				"Heading1": "نقدم خدمات رعاية",
-				"Heading2": "عالية الجودة"
-			},
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "إزالة الشعر بالليزر",
-					"Body": "تمتع بخدمة إزالة الشعر بالليزر باستخدام أحدث الأجهزة للحصول على أفضل النتائج في وقت أقل من المتوقع.",
-					"Link": "عرض الخدمة",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات البشرة",
-					"Body": "نوفر لك مجموعة متنوعة من علاجات البشرة التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي.",
-					"Link": "عرض الخدمة",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "الفيلرز والبوتوكس",
-					"Body": "احصل على مظهر شبابي وخالي من التجاعيد باستخدام أحدث تقنيات الفيلرز والبوتوكس.",
-					"Link": "عرض الخدمة",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات الشعر",
-					"Body": "تخلص من مشاكل الشعر واستمتع بشعر صحي وقوي.",
-					"Link": "عرض الخدمة",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "إعادة تشكيل الجسم",
-					"Body": "حقق الجسم الذي تحلم به باستخدام أحدث تقنيات إعادة تشكيل الجسم.",
-					"Link": "عرض الخدمة",
-					"travers": "services/body-reshaping"
-				}
-			}
-		},
-		"Community": {
-			"Heading": "انضم إلى مجتمعنا الرائع اليوم",
-			"Button1": "تصفح الخطط",
-			"Button2": "تصفح الخدمات"
-		}
-	},
-	"Team": {
-		"TeamHeroSection": {
-			"Title": "طبيب كبير",
-			"Button": "المزيد عني",
-			"TeamMembers": {
-				"TeamMember1": {
-					"Img": "/ghada.jpg",
-					"Name": "غادة نبيل",
-					"Body": "استشاري أول في عيادة بي بيرفكت، أخصائي حقن الفيلر والبوتوكس",
-					"Links": {
-						"Link1": "فيسبوك",
-						"Link2": "إنستغرام",
-						"Link3": "يوتيوب"
-					}
-				},
-				"TeamMember2": {
-					"Img": "/nancy.jpg",
-					"Name": "نانسي صالح",
-					"Body": "استشاري أول في عيادة بي بيرفكت، أخصائي حقن الفيلر والبوتوكس",
-					"Links": {
-						"Link1": "فيسبوك",
-						"Link2": "إنستغرام",
-						"Link3": "يوتيوب"
-					}
-				}
-			}
-		},
-		"AboutMe": {
-			"Heading": "",
-			"Paragraphs": {
-				"TeamMembers": {
-					"TeamMember1": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": ""
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": ""
-						}
-					},
-					"TeamMember2": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": ""
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": ""
-						}
-					}
-				}
-			}
-		}
-	},
-	"ContactUs": {
-		"ContactUsHeroSection": {
-			"Heading": {
-				"Heading1": "أرسل لنا",
-				"Heading2": "رسالة"
-			},
-			"Body": "سيتواصل فريقنا معك في أقرب وقت ممكن بشأن استفسارك.",
-			"data": {
-				"Card1": {
-					"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-					"Title": "البريد الإلكتروني:",
-					"Body": [
-						{
-							"name": "info@bperfect.clinic",
-							"href": "mailto:info@bperfect.clinic"
-						}
-					]
-				},
-				"Card2": {
-					"Card1": {
-						"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-						"Title": "الهاتف:",
-						"Body": [
-							{
-								"name": "01028080800",
-								"href": "tel:+201028080800"
-							},
-							{
-								"name": "28128025",
-								"href": "tel:+228128025"
-							},
-							{
-								"name": "01068882288",
-								"href": "tel:+201068882288"
-							}
-						]
-					}
-				}
-			},
-			"Form": {
-				"Inputs": {
-					"Input1": {
-						"Label": "الاسم الأول",
-						"PlaceHolder": "الاسم الأول"
-					},
-					"Input2": {
-						"Label": "الاسم الأخير",
-						"PlaceHolder": "الاسم الأخير"
-					},
-					"Input3": {
-						"Label": "البريد الإلكتروني",
-						"PlaceHolder": "البريد الإلكتروني"
-					},
-					"Input4": {
-						"Label": "الهاتف",
-						"PlaceHolder": "الهاتف"
-					},
-					"Input5": {
-						"Label": "الأسباب",
-						"Options": {
-							"Option1": "—يرجى اختيار خيار—",
-							"Option2": "استفسار",
-							"Option3": "شكوى"
-						}
-					},
-					"Input6": {
-						"Label": "الرسالة",
-						"PlaceHolder": "يرجى كتابة رسالتك هنا..."
-					}
-				}
-			},
-			"Button": "إرسال الرسالة"
-		},
-		"ComeAndVisitUs": {
-			"Heading": {
-				"Heading1": "تعال و",
-				"Heading2": "زرنا!"
-			},
-			"Body": "تقع عيادات bperfect في موقعين مختلفين لتلبية احتياجاتك",
-			"Caption1": {
-				"Image": "/2.jpg",
-				"Heading": "مركز القاهرة الطبي، خلف مستشفى الجوى، التجمع الخامس",
-				"Body": "",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "مركز القاهرة الطبي (CMC) شارع التسعين الشمالي، القاهرة الجديدة، القاهرة"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "info@bperfect.clinic"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01028080800",
-							"Number2": "28128025",
-							"Number3": "01068882288"
-						}
-					}
-				}
-			},
-			"Caption2": {
-				"Image": "/2.jpg",
-				"Heading": "‏Park St. Mall, Zayed City, Unit 2317",
-				"Body": "",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "مركز القاهرة الطبي (CMC) شارع التسعين الشمالي، القاهرة الجديدة، القاهرة"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "info@bperfect.clinic"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01028080800",
-							"Number2": "28128025",
-							"Number3": "01068882288"
-						}
-					}
-				}
-			}
-		}
-	},
-	"Appointment": {
-		"Heading": {
-			"Heading1": "أرسل لنا",
-			"Heading2": "رسالة"
-		},
-		"Body": "لوريم إيبسوم دولار سيت أميت كونسيكتيتور دولار أديبيسينغ إيليت نولا أديبيسينغ تينسيندنت إينتردوم.",
-		"data": {
-			"Card1": {
-				"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-				"Title": "البريد الإلكتروني:",
-				"Body": [
-					{
-						"name": "info@bperfect.clinic",
-						"href": "mailto:info@bperfect.clinic"
-					}
-				]
-			},
-			"Card2": {
-				"Card1": {
-					"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-					"Title": "الهاتف:",
-					"Body": [
-						{
-							"name": "01028080800",
-							"href": "tel:+201028080800"
-						},
-						{
-							"name": "28128025",
-							"href": "tel:+228128025"
-						},
-						{
-							"name": "01068882288",
-							"href": "tel:+201068882288"
-						}
-					]
-				}
-			}
-		},
-		"Form": {
-			"Inputs": {
-				"Input1": {
-					"Label": "الاسم الأول",
-					"PlaceHolder": "الاسم الأول"
-				},
-				"Input2": {
-					"Label": "الاسم الأخير",
-					"PlaceHolder": "الاسم الأخير"
-				},
-				"Input3": {
-					"Label": "البريد الإلكتروني",
-					"PlaceHolder": "البريد الإلكتروني"
-				},
-				"Input4": {
-					"Label": "الهاتف",
-					"PlaceHolder": "الهاتف"
-				},
-				"Input5": {
-					"Label": "نوع الخدمة",
-					"Options": {
-						"Option1": "—يرجى اختيار خيار—",
-						"Option2": "إعادة تشكيل الجسم",
-						"Option3": "الفيلر والبوتوكس",
-						"Option4": "علاج الشعر",
-						"Option5": "إزالة الشعر بالليزر",
-						"Option6": "علاج البشرة"
-					}
-				}
-			}
-		},
-		"Button": "إرسال الرسالة"
-	},
-	"ServicesDetails": {
-		"HeroSection": {
-			"Title": "الخدمات",
-			"BodyReshaping": {
-				"Heading": "إعادة تشكيل الجسم",
-				"Body": "اختبر أحدث الطرق في فقدان الوزن وإعادة تشكيل الجسم واستمتع بالجسم الذي تحلم به.",
-				"Icon": "/Home.svg",
-				"Image": "/Home-care-featured-image-elderlycare-x-webflow-template-p-1600.jpg"
-			},
-			"FillersBotox": {
-				"Heading": "الفيلر والبوتوكس",
-				"Body": "استمر في الضحك وتخلص من الخطوط، لا مزيد من تجاعيد الوجه.",
-				"Icon": "/Home.svg",
-				"Image": "/Home-care-featured-image-elderlycare-x-webflow-template-p-1600.jpg"
-			},
-			"HairTreatments": {
-				"Heading": "علاجات الشعر",
-				"Body": "لا تقلق بعد الآن بشأن مشاكل الشعر واستمتع بشعر خالٍ من العيوب.",
-				"Icon": "/Home.svg",
-				"Image": "/Home-care-featured-image-elderlycare-x-webflow-template-p-1600.jpg"
-			},
-			"LaserHairRemoval": {
-				"Heading": "إزالة الشعر بالليزر",
-				"Body": "مع أحدث أجهزة إزالة الشعر بالليزر (Candela Gentle Lase Pro 2020)، ستحصل على النتائج المرجوة في وقت أقصر من المتوقع. - يعمل على جميع أنواع البشرة والشعر. - يعالج تصبغات البشرة الناتجة عن تلف الشمس أو نقص الخلايا الميلانينية. - بفضل نظام التبريد الديناميكي، ستخضع للخدمة بدون ألم.",
-				"Icon": "/Home.svg",
-				"Image": "/Home-care-featured-image-elderlycare-x-webflow-template-p-1600.jpg"
-			},
-			"SkinTreatments": {
-				"Heading": "علاجات البشرة",
-				"Body": "اجلس، لا تقلق بشأن مشاكل البشرة، واستمتع بعلاجات فعالة لتحسين مظهر بشرتك.",
-				"Icon": "/Home.svg",
-				"Image": "/Home-care-featured-image-elderlycare-x-webflow-template-p-1600.jpg"
-			}
-		},
-		"AboutThisService": {
-			"Heading3": "تواصل معنا!",
-			"Button": "اتصل بنا",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "إزالة الشعر بالليزر",
-					"Body": "خدمات إزالة الشعر بالليزر بجودة عالية ونتائج مبهرة.",
-					"Link": "عرض الخدمة",
-					"travers": "/services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات البشرة",
-					"Body": "علاجات فعالة لجميع مشاكل البشرة باستخدام أحدث التقنيات.",
-					"Link": "عرض الخدمة",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "الفيلر والبوتوكس",
-					"Body": "تحسين ملامح الوجه بفضل تقنيات الفيلر والبوتوكس المتقدمة.",
-					"Link": "عرض الخدمة",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "علاجات الشعر",
-					"Body": "علاجات متخصصة لاستعادة حيوية وصحة شعرك.",
-					"Link": "عرض الخدمة",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "تشكيل الجسم",
-					"Body": "تقنيات متقدمة لتشكيل الجسم والوصول إلى القوام المثالي.",
-					"Link": "عرض الخدمة",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"BodyReshaping": {
-				"Articles": {
-					"Article1": {
-						"Heading": "نحت الجسم بالتبريد",
-						"Body": "استمتع بتجربة إعادة تشكيل الجسم بشكل غير جراحي باستخدام 4 علاجات مختلفة مقدمة في جهاز واحد: - التجميد الدهني: تحليل الدهون العنيدة وإنهائها باستخدام تقنية التجميد. - الليزر البارد: إنهاء الخلايا الدهنية، ولا مزيد من نمو الدهون في المناطق المعالجة. - التجويف: تحليل الخلايا الدهنية. - الترددات الراديوية (RF): شد البشرة وعلاج السيلوليت."
-					},
-					"Article2": {
-						"Heading": "فقدان الوزن",
-						"Body": "سيعمل معك أخصائي تغذية معتمد من خلفية طبية عن كثب لوضع أهداف، وإنشاء خطط، واتباع الخطوات الصحيحة للوصول إلى وزنك المستهدف بأفضل طريقة صحية."
-					},
-					"Article3": {
-						"Heading": "ميزوليبوليسيس",
-						"Body": "يعمل على تقليل الدهون عن طريق إذابة الدهون العنيدة."
-					},
-					"Article4": {
-						"Heading": "مكافحة السيلوليت",
-						"Body": "شد وعلاج ترهل البشرة الناجم عن فقدان الوزن المفرط."
-					}
-				},
-				"Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
-			},
-			"FillersBotox": {
-				"Articles": {
-					"Article1": {
-						"Heading": "الفيلر",
-						"Body": "استمر في الضحك وتخلص من الخطوط. يمكن استخدامه في: - إعادة تشكيل الجسم - إزالة التجاعيد - تصحيح الأنف - تحديد ملامح الوجه (الخطوط الفكية، عظام الخد، والذقن) مع الفيلر الجلدي عالي الجودة، ستحصل على أفضل النتائج."
-					},
-					"Article2": {
-						"Heading": "البوتوكس",
-						"Body": "لا مزيد من تجاعيد الوجه والرقبة مع البوتوكس عالي الجودة لدينا."
-					}
-				},
-				"Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
-			},
-			"HairTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "العلاج بالبلازما الغنية بالصفائح الدموية (PRP)",
-						"Body": "عالج فقدان الشعر الزائد باستخدام البلازما الغنية بالصفائح الدموية واستمتع بتقوية وإعادة نمو بصيلات الشعر."
-					},
-					"Article2": {
-						"Heading": "الخلايا الجذعية",
-						"Body": "استمتع بأحدث الحلول غير الجراحية للصلع في فروة الرأس."
-					},
-					"Article3": {
-						"Heading": "ميزوثيرابي",
-						"Body": "ضمان نمو شعرك عن طريق تغذية بصيلات الشعر بهرمون DHT والفيتامينات والمعادن ومزيج الأحماض الأمينية."
-					}
-				},
-				"Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
-			},
-			"LaserHairRemoval": {
-				"Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
-			},
-			"SkinTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "تقشير الليزر الكربوني",
-						"Body": "أحدث علاج سطحي يستخدم في التخلص من ندبات حب الشباب، المسام المتضخمة، البقع الداكنة والحمراء والزيوت الزائدة."
-					},
-					"Article2": {
-						"Heading": "البلازما الغنية بالصفائح الدموية (PRP)",
-						"Body": "عزز إنتاج الكولاجين وتجدد أنسجة بشرتك بجعلها أكثر نعومة وشبابًا، مثالي لعلاج التجاعيد."
-					},
-					"Article3": {
-						"Heading": "التقشير الكيميائي",
-						"Body": "يتم تطبيقه على البشرة لإزالة ندبات حب الشباب، الطبقات العليا، التجاعيد العميقة، وعلاج تغير لون البشرة. يُستخدم بشكل أساسي لأغراض الوجه لاستعادة نضارة البشرة."
-					},
-					"Article4": {
-						"Heading": "Hydrafacial (تنظيف عميق للوجه)",
-						"Body": "علاج للبشرة يستخدم لترطيب البشرة، شدها، وتنظيفها بعمق."
-					},
-					"Article5": {
-						"Heading": "ديرما بن",
-						"Body": "إبر دقيقة تستخدم لعلاج ندبات حب الشباب، المسام المفتوحة والتجاعيد."
-					},
-					"Article6": {
-						"Heading": "Gold Stamp",
-						"Body": "إبر دقيقة تستخدم لعلاج ندبات حب الشباب، التصبغات، بقع العمر، وتحسين جودة البشرة بشكل عام، مما يمنحك مظهرًا أكثر إشراقًا ونضارة."
-					},
-					"Article7": {
-						"Heading": "الليزر الجزئي",
-						"Body": "الحل الثوري لجميع مشاكل البشرة (التصبغات الداكنة والفاتحة، بقع العمر، الندوب الناتجة عن حب الشباب، الإصابات والجراحات، وكذلك علامات التمدد)."
-					}
-				},
-				"Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
-			}
-		}
-	},
-	"Blog": {
-		"HeroSection": {
-			"Heading": "المدونة",
-			"Body": "لديك مقالات رائعة للتعرف على أفكار جديدة ونصائح مفيدة. انضم إلى عالمنا من المعرفة والإلهام!"
-		},
-		"TeamArticlesSection": {
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card4": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card5": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				},
-				"Card6": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
-					"Date": "7 نوفمبر 2023",
-					"Link": "اقرأ المزيد",
-					"Icon": ""
-				}
-			},
-			"Button": {
-				"Body": "التالي"
-			}
-		}
-	},
-	"FAQ": {
-		"Title": "الأسئلة الشائعة",
-		"Heading": "هل لديك أسئلة؟",
-		"Image": "/QuestionImage.jpg",
-		"QuestionsAnswers": {
-			"QuestionAnswer1": {
-				"Question": "هل إزالة الشعر بالليزر مؤلمة؟",
-				"Answer": "قد تسبب إزالة الشعر بالليزر انزعاجًا خفيفًا، وغالبًا ما يوصف بأنه شعور بشريط مطاطي ينكسر على الجلد. ومع ذلك، يختلف مستوى الألم من شخص لآخر ويمكن تقليله باستخدام كريمات التخدير أو تقنيات التبريد."
-			},
-			"QuestionAnswer2": {
-				"Question": "كم تدوم تأثيرات البوتوكس والفيلر؟",
-				"Answer": "تستمر نتائج البوتوكس والفيلر عادةً لعدة أشهر. يمكن أن تستمر تأثيرات البوتوكس من 3 إلى 4 أشهر، بينما يمكن أن تستمر نتائج الفيلر من 6 إلى 12 شهرًا."
-			},
-			"QuestionAnswer3": {
-				"Question": "هل هناك أي مخاطر مرتبطة بإجراءات إعادة تشكيل الجسم؟",
-				"Answer": "على الرغم من أن أغلب عمليات إعادة تشكيل الجسم آمنة نسبيًا، إلا أن هناك مخاطر محتملة مثل الكدمات والتورم وعدم الراحة. من الضروري استشارة طبيب أمراض جلدية مؤهل لمناقشة المخاطر والفوائد الخاصة بالإجراء الذي ترغب فيه."
-			}
-		}
-	},
-	"About": {
-		"AboutUs": {
-			"Title": "حول BPERFECT",
-			"Heading": "إزالة الشعر بالليزر، وعلاجات البشرة والشعر، وكذلك التغذية السريرية",
-			"Body": "خبراء في إزالة الشعر بالليزر، ومستحضرات التجميل، وعلاجات البشرة والشعر التي يتم إجراؤها من قبل الدكتورة نانسي صالح (أخصائية جلدية ومستشارة ليزر) والدكتورة غادة نبيل (أخصائية تغذية ومتخصصة في الليزر) لتعزيز جمالك الطبيعي ومساعدتك على أن تبدو وتشعر بأفضل نسخة من نفسك. سلامتك ورضاك هما أولويتنا الأساسية.",
-			"Images": {
-				"Image1": "/AboutUsImage1.jpg",
-				"Image2": "/AboutUsImage2.jpg",
-				"Image3": "/AboutUsImage3.jpg"
-			},
-			"Statistics": {
-				"Statistic1": {
-					"Number": "2",
-					"Plus": "+",
-					"Body": "مواقع"
-				},
-				"Statistic2": {
-					"Number": "9",
-					"Plus": "+",
-					"Body": "سنوات من الخبرة"
-				},
-				"Statistic3": {
-					"Number": "25,000",
-					"Plus": "+",
-					"Body": "مريض سعيد"
-				},
-				"Statistic4": {
-					"Number": "10",
-					"Plus": "+",
-					"Body": "أفضل الأجهزة في مجال الأمراض الجلدية"
-				}
-			}
-		},
-		"OurValues": {
-			"Title": "قيمنا",
-			"Heading": "يتم توفير الرعاية لك",
-			"Body": " من قبل أفضل الأطباء في المجال مع أفضل الأجهزة وأعلى التقنيات في التعقيم لتلبية احتياجاتك.",
-			"Image": "/OurValuesImage.jpg",
-			"Cards": {
-				"Card1": {
-					"Heading": "مهمتنا",
-					"Body": "مكرسون لتعزيز جمالك الطبيعي وجعلك تبدو وتشعر بأفضل ما لديك من خلال العلاجات المختلفة التي نقدمها باستخدام أحدث المعدات والأدوات والمنتجات الفاخرة."
-				},
-				"Card2": {
-					"Heading": "رؤيتنا",
-					"Body": "تقديم أفضل القيم والعلاجات التجميلية الفعالة التي يمكن الوصول إليها والمناسبة للجميع، باستخدام أحدث الأجهزة الطبية في بيئة آمنة وودية."
-				}
-			}
-		},
-		"OurTeam": {
-			"Title": "فريقنا",
-			"Heading": "تعرف على محترفينا",
-			"TeamMembers": {
-				"Member1": {
-					"Image": "/nancy.jpg",
-					"Name": "نانسي صالح",
-					"Title": "طبيبة أولى",
-					"Travers": "/team/nancy-saleh"
-				},
-				"Member2": {
-					"Image": "/ghada.jpg",
-					"Name": "غادة نبيل",
-					"Title": "طبيبة أولى",
-					"Travers": "/team/ghada-nabil"
-				}
-			}
-		}
-	}
+  "Home": {
+    "HomeHeroSection": {
+      "Title": "خدمات عاليه الجودة",
+      "Heading1": "اهلا بك في ",
+      "Heading2": "Bperfect",
+      "Heading3": "",
+      "Body": "شريكك الموثوق به في الحصول على بشرة صحية ومشرقة. يكرس فريقنا من أطباء الجلدية ذوي الخبرة أنفسهم لتقديم رعاية شخصية لمجموعة واسعة من مشاكل البشرة. من علاج حالات الجلد الشائعة إلى تعزيز جمالك الطبيعي، نقدم مجموعة شاملة من الخدمات الجلدية المصممة خصيصًا لاحتياجاتك الفردية. اكتشف القوة التحويلية للرعاية الجلدية المتخصصة في عيادة بي بيرفكت.",
+      "Image": "/heroImage.jpg",
+      "Button1": "استعرض الخطة",
+      "IconCaption": "شاهد مقاطع الفيديو الخاصة بنا"
+    },
+    "ContactInfo": {
+      "Cards": {
+        "card1": {
+          "Icon": "/phone-ixon.svg",
+          "Heading": "اتصل بنا",
+          "Title": "01028080800",
+          "Body": "لنتصل بك",
+          "href": "tel:01028080800"
+        },
+        "card2": {
+          "Icon": "/Message-icon.svg",
+          "Heading": "أرسل لنا بريد إلكتروني",
+          "Title": "info@bperfect.clinic",
+          "Body": "أرسل لنا بريدًا إلكترونيًا",
+          "href": "mailto:info@bperfect.clinic"
+        },
+        "card3": {
+          "Icon": "/location-icon.svg",
+          "Heading": "زرنا",
+          "Title": "احجز موعدًا",
+          "Body": "حدد موعدًا للزيارة",
+          "href": "/appointment"
+        }
+      }
+    },
+    "OurServices": {
+      "Title": "خدماتنا",
+      "Heading": {
+        "Heading1": "مجموعة واسعة",
+        "Heading2": "من الخدمات"
+      },
+      "Body": "نحن نقدم مجموعة شاملة من الخدمات الجلدية المصممة خصيصًا لتلبية احتياجاتك الفردية. اكتشف القوة التحويلية للرعاية الجلدية المتخصصة في عيادة Bperfect.",
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "إزالة الشعر بالليزر",
+          "Body": "استمتعي ببشرة ناعمة وخالية من الشعر مع علاجات إزالة الشعر بالليزر المتقدمة لدينا. يستخدم فنيونا الخبراء أحدث التقنيات لتوفير نتائج فعالة وطويلة الأمد.",
+          "Link": "عرض الخدمة",
+          "travers": "services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات البشرة",
+          "Body": "استعيدي صحة بشرتك وإشراقها من خلال علاجاتنا المخصصة للبشرة. من حب الشباب والأكزيما إلى مكافحة الشيخوخة والتصبغ، نقدم حلولاً لمختلف مشاكل البشرة.",
+          "Link": "عرض الخدمة",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "الفيلر والبوتوكس",
+          "Body": "عززي ملامح وجهك وقللي من ظهور التجاعيد باستخدام علاجاتنا الآمنة والفعالة للفيلر والبوتوكس. احصلي على مظهر أكثر شبابًا وانتعاشًا.",
+          "Link": "عرض الخدمة",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات الشعر",
+          "Body": "جددي شعرك باستخدام علاجاتنا المغذية للشعر. عالجي تساقط الشعر وقشرة الرأس وغيرها من مشاكل فروة الرأس مع تعزيز نمو الشعر الصحي.",
+          "Link": "عرض الخدمة",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "تشكيل الجسم",
+          "Body": "حدد شكل جسمك وحقق الشكل الذي تريده من خلال إجراءات إعادة تشكيل الجسم غير الجراحية لدينا. قلل من الدهون، وشد الجلد، وعزز ثقتك بنفسك.",
+          "Link": "عرض الخدمة",
+          "travers": "services/body-reshaping"
+        }
+      },
+      "Links": {
+        "Link1": {
+          "Body": "استعرض الخدمات",
+          "Travers": "/services"
+        },
+        "Link2": {
+          "Body": "احجز موعدًا",
+          "Travers": "/appointment"
+        }
+      }
+    },
+    "WhyChooseUs": {
+      "Title": "لماذا تختارنا",
+      "Heading": {
+        "Heading1": "الرعاية المثالية",
+        "Heading2": "لك"
+      },
+      "Body": "عيادة Bperfect خبرة تزيد عن 10 سنوات في خدمتكم بكل حب لإرضائكم بأفضل الأجهزة في هذا المجال.",
+      "Images": {
+        "Image1": "/WhyChoseUsImage1.jpg",
+        "Image2": "/WhyChoseUsImage3.jpg",
+        "Image3": "/WhyChoseUsImage2.jpg"
+      },
+      "Cards": {
+        "Card1": {
+          "Icon": "/Nursing-staff-icon.svg",
+          "Body": "موقعين"
+        },
+        "Card2": {
+          "Icon": "/Resident-care-icon.svg",
+          "Body": "10 سنوات من الخبرة"
+        },
+        "Card3": {
+          "Icon": "/Quality-support-icon.svg",
+          "Body": "40 طبيب محترف"
+        },
+        "Card4": {
+          "Icon": "/HeartIcon.svg",
+          "Body": "15 أحدث الأجهزة في مجال الأمراض الجلدية"
+        }
+      },
+      "Buttons": {
+        "Button1": "المزيد عنا",
+        "Button2": "استعرض الخدمات"
+      }
+    },
+    "OurFacilities": {
+      "Title": "منشآتنا",
+      "Heading": {
+        "Heading1": "ألق نظرة على خدماتنا لمعرفة سبب",
+        "Heading2": "كونهاالأفضل"
+      },
+      "Videos": {
+        "Video1": "https://www.youtube.com/embed/seeaJi3tUt8",
+        "Video2": "https://www.youtube.com/embed/seeaJi3tUt8"
+      },
+      "Button": {
+        "Body": "استعرض الخدمات",
+        "Travers": "/services"
+      }
+    },
+    "OurTeamHome": {
+      "Title": "فريقنا",
+      "Heading": {
+        "Heading1": "تعرف على خبرائنا في مجال الأمراض الجلدية",
+        "Heading2": "بخبرة تزيد عن 20 عامًا"
+      },
+      "Body": "",
+      "Button": {
+        "Body": "تعرف على فريقنا",
+        "Travers": "/about"
+      },
+      "Image": "/ghada.jpg",
+      "Card": {
+        "Image": "/OurTeamIcon.svg",
+        "Body": "دكتور غادة",
+        "Title": {
+          "Title1": "",
+          "Title2": "مؤسسة مركز Bperfect"
+        }
+      }
+    },
+    "GetStartedToday": {
+      "Title": "ابدأ اليوم",
+      "Heading": "اختر الخدمة التي تناسب احتياجاتك",
+      "Body": "لقد حان الوقت للاستمتاع بخدماتنا المتميزة للحصول على مظهر أجمل",
+      "Image": "/GetStartedTodayImage.jpg",
+      "Buttons": {
+        "Button1": {
+          "Body": "احجز موعدًا",
+          "Travers": "/appointment"
+        },
+        "Button2": {
+          "Body": "استعرض الخدمات",
+          "Travers": "/services"
+        }
+      }
+    },
+    "Testimonial": {
+      "Title": "الشهادات",
+      "Heading": {
+        "Heading1": "لا تأخذ كلمتنا على محمل الجد،",
+        "Heading2": "استمع لهم"
+      },
+      "Button": {
+        "Body": "احجز موعدًا",
+        "Travers": "/appointment"
+      }
+    },
+    "OurBlog": {
+      "Title": "مدونتنا",
+      "Heading": "الأخبار والمقالات",
+      "Button": "استعرض جميع المقالات",
+      "Cards": {
+        "Card1": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card2": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card3": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة للقيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        }
+      }
+    }
+  },
+  "Services": {
+    "HeroSection": {
+      "Title": "خدمات عاليه الجودة",
+      "Heading": {
+        "Heading1": "نقدم خدمات رعاية",
+        "Heading2": "عالية الجودة"
+      },
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "إزالة الشعر بالليزر",
+          "Body": "تمتع بخدمة إزالة الشعر بالليزر باستخدام أحدث الأجهزة للحصول على أفضل النتائج في وقت أقل من المتوقع.",
+          "Link": "عرض الخدمة",
+          "travers": "services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات البشرة",
+          "Body": "نوفر لك مجموعة متنوعة من علاجات البشرة التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي.",
+          "Link": "عرض الخدمة",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "الفيلرز والبوتوكس",
+          "Body": "احصل على مظهر شبابي وخالي من التجاعيد باستخدام أحدث تقنيات الفيلرز والبوتوكس.",
+          "Link": "عرض الخدمة",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات الشعر",
+          "Body": "تخلص من مشاكل الشعر واستمتع بشعر صحي وقوي.",
+          "Link": "عرض الخدمة",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "إعادة تشكيل الجسم",
+          "Body": "حقق الجسم الذي تحلم به باستخدام أحدث تقنيات إعادة تشكيل الجسم.",
+          "Link": "عرض الخدمة",
+          "travers": "services/body-reshaping"
+        }
+      }
+    },
+    "Community": {
+      "Heading": "انضم إلى مجتمعنا الرائع اليوم",
+      "Button1": "تصفح الخطط",
+      "Button2": "تصفح الخدمات"
+    }
+  },
+  "Team": {
+    "TeamHeroSection": {
+      "Title": "طبيب كبير",
+      "Button": "المزيد عني",
+      "TeamMembers": {
+        "TeamMember1": {
+          "Img": "/ghada.jpg",
+          "Name": "غادة نبيل",
+          "Body": "استشاري أول في عيادة بي بيرفكت، أخصائي حقن الفيلر والبوتوكس",
+          "Links": {
+            "Link1": "فيسبوك",
+            "Link2": "إنستغرام",
+            "Link3": "يوتيوب"
+          }
+        },
+        "TeamMember2": {
+          "Img": "/nancy.jpg",
+          "Name": "نانسي صالح",
+          "Body": "استشاري أول في عيادة بي بيرفكت، أخصائي حقن الفيلر والبوتوكس",
+          "Links": {
+            "Link1": "فيسبوك",
+            "Link2": "إنستغرام",
+            "Link3": "يوتيوب"
+          }
+        }
+      }
+    },
+    "AboutMe": {
+      "Heading": "",
+      "Paragraphs": {
+        "TeamMembers": {
+          "TeamMember1": {
+            "Paragraph1": {
+              "Text1": "",
+              "StrongText": "",
+              "Text2": ""
+            },
+            "Paragraph2": {
+              "Text-1": "",
+              "StrongText": "",
+              "Text2": ""
+            }
+          },
+          "TeamMember2": {
+            "Paragraph1": {
+              "Text1": "",
+              "StrongText": "",
+              "Text2": ""
+            },
+            "Paragraph2": {
+              "Text-1": "",
+              "StrongText": "",
+              "Text2": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "ContactUs": {
+    "ContactUsHeroSection": {
+      "Heading": {
+        "Heading1": "أرسل لنا",
+        "Heading2": "رسالة"
+      },
+      "Body": "سيتواصل فريقنا معك في أقرب وقت ممكن بشأن استفسارك.",
+      "data": {
+        "Card1": {
+          "Img": "/Email-icon-elderlycare-x-webflow-template.svg",
+          "Title": "البريد الإلكتروني:",
+          "Body": [
+            {
+              "name": "info@bperfect.clinic",
+              "href": "mailto:info@bperfect.clinic"
+            }
+          ]
+        },
+        "Card2": {
+          "Card1": {
+            "Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
+            "Title": "الهاتف:",
+            "Body": [
+              {
+                "name": "01028080800",
+                "href": "tel:+201028080800"
+              },
+              {
+                "name": "28128025",
+                "href": "tel:+228128025"
+              },
+              {
+                "name": "01068882288",
+                "href": "tel:+201068882288"
+              }
+            ]
+          }
+        }
+      },
+      "Form": {
+        "Inputs": {
+          "Input1": {
+            "Label": "الاسم الأول",
+            "PlaceHolder": "الاسم الأول"
+          },
+          "Input2": {
+            "Label": "الاسم الأخير",
+            "PlaceHolder": "الاسم الأخير"
+          },
+          "Input3": {
+            "Label": "البريد الإلكتروني",
+            "PlaceHolder": "البريد الإلكتروني"
+          },
+          "Input4": {
+            "Label": "الهاتف",
+            "PlaceHolder": "الهاتف"
+          },
+          "Input5": {
+            "Label": "الأسباب",
+            "Options": {
+              "Option1": "—يرجى اختيار خيار—",
+              "Option2": "استفسار",
+              "Option3": "شكوى"
+            }
+          },
+          "Input6": {
+            "Label": "الرسالة",
+            "PlaceHolder": "يرجى كتابة رسالتك هنا..."
+          }
+        }
+      },
+      "Button": "إرسال الرسالة"
+    },
+    "ComeAndVisitUs": {
+      "Heading": {
+        "Heading1": "تعال و",
+        "Heading2": "زرنا!"
+      },
+      "Body": "تقع عيادات bperfect في موقعين مختلفين لتلبية احتياجاتك",
+      "Caption1": {
+        "Image": "/2.jpg",
+        "Heading": "مركز القاهرة الطبي، خلف مستشفى الجوى، التجمع الخامس ",
+        "Body": "",
+        "Links": {
+          "Link1": {
+            "Icon": "",
+            "Link": "مركز القاهرة الطبي (CMC) شارع التسعين الشمالي، القاهرة الجديدة، القاهرة"
+          },
+          "Link2": {
+            "Icon": "",
+            "Link": "info@bperfect.clinic"
+          },
+          "Link3": {
+            "Icon": "",
+            "Numbers": {
+              "Number1": "01028080800",
+              "Number2": "28128025",
+              "Number3": "01068882288"
+            }
+          }
+        }
+      },
+      "Caption2": {
+        "Image": "/2.jpg",
+        "Heading": "بارك ستريت مول، مدينة زايد",
+        "Body": "",
+        "Links": {
+          "Link1": {
+            "Icon": "",
+            "Link": "بارك ستريت مول، مدينة زايد، الوحدة 2317"
+          },
+          "Link2": {
+            "Icon": "",
+            "Link": "info@bperfect.clinic"
+          },
+          "Link3": {
+            "Icon": "",
+            "Numbers": {
+              "Number1": "01028080800",
+              "Number2": "28128025",
+              "Number3": "01068882288"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Appointment": {
+    "Heading": {
+      "Heading1": "أرسل لنا",
+      "Heading2": "رسالة"
+    },
+    "Body": "لوريم إيبسوم دولار سيت أميت كونسيكتيتور دولار أديبيسينغ إيليت نولا أديبيسينغ تينسيندنت إينتردوم.",
+    "data": {
+      "Card1": {
+        "Img": "/Email-icon-elderlycare-x-webflow-template.svg",
+        "Title": "البريد الإلكتروني:",
+        "Body": [
+          {
+            "name": "info@bperfect.clinic",
+            "href": "mailto:info@bperfect.clinic"
+          }
+        ]
+      },
+      "Card2": {
+        "Card1": {
+          "Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
+          "Title": "الهاتف:",
+          "Body": [
+            {
+              "name": "01028080800",
+              "href": "tel:+201028080800"
+            },
+            {
+              "name": "28128025",
+              "href": "tel:+228128025"
+            },
+            {
+              "name": "01068882288",
+              "href": "tel:+201068882288"
+            }
+          ]
+        }
+      }
+    },
+    "Form": {
+      "Inputs": {
+        "Input1": {
+          "Label": "الاسم الأول",
+          "PlaceHolder": "الاسم الأول"
+        },
+        "Input2": {
+          "Label": "الاسم الأخير",
+          "PlaceHolder": "الاسم الأخير"
+        },
+        "Input3": {
+          "Label": "البريد الإلكتروني",
+          "PlaceHolder": "البريد الإلكتروني"
+        },
+        "Input4": {
+          "Label": "الهاتف",
+          "PlaceHolder": "الهاتف"
+        },
+        "Input5": {
+          "Label": "نوع الخدمة",
+          "Options": {
+            "Option1": "—يرجى اختيار خيار—",
+            "Option2": "إعادة تشكيل الجسم",
+            "Option3": "الفيلر والبوتوكس",
+            "Option4": "علاج الشعر",
+            "Option5": "إزالة الشعر بالليزر",
+            "Option6": "علاج البشرة"
+          }
+        }
+      }
+    },
+    "Button": "إرسال الرسالة"
+  },
+  "ServicesDetails": {
+    "HeroSection": {
+      "Title": "الخدمات",
+      "BodyReshaping": {
+        "Heading": "إعادة تشكيل الجسم",
+        "Body": "اختبر أحدث الطرق في فقدان الوزن وإعادة تشكيل الجسم واستمتع بالجسم الذي تحلم به.",
+        "Icon": "/body.svg",
+        "Image": "/body.jpg"
+      },
+      "FillersBotox": {
+        "Heading": "الفيلر والبوتوكس",
+        "Body": "استمر في الضحك وتخلص من الخطوط، لا مزيد من تجاعيد الوجه.",
+        "Icon": "/filler-icon.png",
+        "Image": "/filler.jpg"
+      },
+      "HairTreatments": {
+        "Heading": "علاجات الشعر",
+        "Body": "لا تقلق بعد الآن بشأن مشاكل الشعر واستمتع بشعر خالٍ من العيوب.",
+        "Icon": "/hair.svg",
+        "Image": "/hair.jpg"
+      },
+      "LaserHairRemoval": {
+        "Heading": "إزالة الشعر بالليزر",
+        "Body": "مع أحدث أجهزة إزالة الشعر بالليزر (Candela Gentle Lase Pro 2020)، ستحصل على النتائج المرجوة في وقت أقصر من المتوقع. - يعمل على جميع أنواع البشرة والشعر. - يعالج تصبغات البشرة الناتجة عن تلف الشمس أو نقص الخلايا الميلانينية. - بفضل نظام التبريد الديناميكي، ستخضع للخدمة بدون ألم.",
+        "Icon": "/skin.svg",
+        "Image": "/skin.jpg"
+      },
+      "SkinTreatments": {
+        "Heading": "علاجات البشرة",
+        "Body": "اجلس، لا تقلق بشأن مشاكل البشرة، واستمتع بعلاجات فعالة لتحسين مظهر بشرتك.",
+        "Icon": "/skin.svg",
+        "Image": "/hair.jpg"
+      }
+    },
+    "AboutThisService": {
+      "Heading3": "تواصل معنا!",
+      "Button": "اتصل بنا",
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "إزالة الشعر بالليزر",
+          "Body": "خدمات إزالة الشعر بالليزر بجودة عالية ونتائج مبهرة.",
+          "Link": "عرض الخدمة",
+          "travers": "/services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات البشرة",
+          "Body": "علاجات فعالة لجميع مشاكل البشرة باستخدام أحدث التقنيات.",
+          "Link": "عرض الخدمة",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "الفيلر والبوتوكس",
+          "Body": "تحسين ملامح الوجه بفضل تقنيات الفيلر والبوتوكس المتقدمة.",
+          "Link": "عرض الخدمة",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "علاجات الشعر",
+          "Body": "علاجات متخصصة لاستعادة حيوية وصحة شعرك.",
+          "Link": "عرض الخدمة",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "تشكيل الجسم",
+          "Body": "تقنيات متقدمة لتشكيل الجسم والوصول إلى القوام المثالي.",
+          "Link": "عرض الخدمة",
+          "travers": "services/body-reshaping"
+        }
+      },
+      "BodyReshaping": {
+        "Articles": {
+          "Article1": {
+            "Heading": "نحت الجسم بالتبريد",
+            "Body": "استمتع بتجربة إعادة تشكيل الجسم بشكل غير جراحي باستخدام 4 علاجات مختلفة مقدمة في جهاز واحد: - التجميد الدهني: تحليل الدهون العنيدة وإنهائها باستخدام تقنية التجميد. - الليزر البارد: إنهاء الخلايا الدهنية، ولا مزيد من نمو الدهون في المناطق المعالجة. - التجويف: تحليل الخلايا الدهنية. - الترددات الراديوية (RF): شد البشرة وعلاج السيلوليت."
+          },
+          "Article2": {
+            "Heading": "فقدان الوزن",
+            "Body": "سيعمل معك أخصائي تغذية معتمد من خلفية طبية عن كثب لوضع أهداف، وإنشاء خطط، واتباع الخطوات الصحيحة للوصول إلى وزنك المستهدف بأفضل طريقة صحية."
+          },
+          "Article3": {
+            "Heading": "ميزوليبوليسيس",
+            "Body": "يعمل على تقليل الدهون عن طريق إذابة الدهون العنيدة."
+          },
+          "Article4": {
+            "Heading": "مكافحة السيلوليت",
+            "Body": "شد وعلاج ترهل البشرة الناجم عن فقدان الوزن المفرط."
+          }
+        },
+        "Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
+      },
+      "FillersBotox": {
+        "Articles": {
+          "Article1": {
+            "Heading": "الفيلر",
+            "Body": "استمر في الضحك وتخلص من الخطوط. يمكن استخدامه في: - إعادة تشكيل الجسم - إزالة التجاعيد - تصحيح الأنف - تحديد ملامح الوجه (الخطوط الفكية، عظام الخد، والذقن) مع الفيلر الجلدي عالي الجودة، ستحصل على أفضل النتائج."
+          },
+          "Article2": {
+            "Heading": "البوتوكس",
+            "Body": "لا مزيد من تجاعيد الوجه والرقبة مع البوتوكس عالي الجودة لدينا."
+          }
+        },
+        "Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
+      },
+      "HairTreatments": {
+        "Articles": {
+          "Article1": {
+            "Heading": "العلاج بالبلازما الغنية بالصفائح الدموية (PRP)",
+            "Body": "عالج فقدان الشعر الزائد باستخدام البلازما الغنية بالصفائح الدموية واستمتع بتقوية وإعادة نمو بصيلات الشعر."
+          },
+          "Article2": {
+            "Heading": "الخلايا الجذعية",
+            "Body": "استمتع بأحدث الحلول غير الجراحية للصلع في فروة الرأس."
+          },
+          "Article3": {
+            "Heading": "ميزوثيرابي",
+            "Body": "ضمان نمو شعرك عن طريق تغذية بصيلات الشعر بهرمون DHT والفيتامينات والمعادن ومزيج الأحماض الأمينية."
+          }
+        },
+        "Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
+      },
+      "LaserHairRemoval": {
+        "Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
+      },
+      "SkinTreatments": {
+        "Articles": {
+          "Article1": {
+            "Heading": "تقشير الليزر الكربوني",
+            "Body": "أحدث علاج سطحي يستخدم في التخلص من ندبات حب الشباب، المسام المتضخمة، البقع الداكنة والحمراء والزيوت الزائدة."
+          },
+          "Article2": {
+            "Heading": "البلازما الغنية بالصفائح الدموية (PRP)",
+            "Body": "عزز إنتاج الكولاجين وتجدد أنسجة بشرتك بجعلها أكثر نعومة وشبابًا، مثالي لعلاج التجاعيد."
+          },
+          "Article3": {
+            "Heading": "التقشير الكيميائي",
+            "Body": "يتم تطبيقه على البشرة لإزالة ندبات حب الشباب، الطبقات العليا، التجاعيد العميقة، وعلاج تغير لون البشرة. يُستخدم بشكل أساسي لأغراض الوجه لاستعادة نضارة البشرة."
+          },
+          "Article4": {
+            "Heading": "Hydrafacial (تنظيف عميق للوجه)",
+            "Body": "علاج للبشرة يستخدم لترطيب البشرة، شدها، وتنظيفها بعمق."
+          },
+          "Article5": {
+            "Heading": "ديرما بن",
+            "Body": "إبر دقيقة تستخدم لعلاج ندبات حب الشباب، المسام المفتوحة والتجاعيد."
+          },
+          "Article6": {
+            "Heading": "Gold Stamp",
+            "Body": "إبر دقيقة تستخدم لعلاج ندبات حب الشباب، التصبغات، بقع العمر، وتحسين جودة البشرة بشكل عام، مما يمنحك مظهرًا أكثر إشراقًا ونضارة."
+          },
+          "Article7": {
+            "Heading": "الليزر الجزئي",
+            "Body": "الحل الثوري لجميع مشاكل البشرة (التصبغات الداكنة والفاتحة، بقع العمر، الندوب الناتجة عن حب الشباب، الإصابات والجراحات، وكذلك علامات التمدد)."
+          }
+        },
+        "Img": "/Couple-exercise-elderlycare-x-webflow-template.jpg"
+      }
+    }
+  },
+  "Blog": {
+    "HeroSection": {
+      "Heading": "المدونة",
+      "Body": "لديك مقالات رائعة للتعرف على أفكار جديدة ونصائح مفيدة. انضم إلى عالمنا من المعرفة والإلهام!"
+    },
+    "TeamArticlesSection": {
+      "Cards": {
+        "Card1": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card2": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card3": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card4": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card5": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        },
+        "Card6": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 أنشطة رائعة يمكنك القيام بها مع أحفادك",
+          "Date": "7 نوفمبر 2023",
+          "Link": "اقرأ المزيد",
+          "Icon": ""
+        }
+      },
+      "Button": {
+        "Body": "التالي"
+      }
+    }
+  },
+  "FAQ": {
+    "Title": "الأسئلة الشائعة",
+    "Heading": "هل لديك أسئلة؟",
+    "Image": "/QuestionImage.jpg",
+    "QuestionsAnswers": {
+      "QuestionAnswer1": {
+        "Question": "هل إزالة الشعر بالليزر مؤلمة؟",
+        "Answer": "قد تسبب إزالة الشعر بالليزر انزعاجًا خفيفًا، وغالبًا ما يوصف بأنه شعور بشريط مطاطي ينكسر على الجلد. ومع ذلك، يختلف مستوى الألم من شخص لآخر ويمكن تقليله باستخدام كريمات التخدير أو تقنيات التبريد."
+      },
+      "QuestionAnswer2": {
+        "Question": "كم تدوم تأثيرات البوتوكس والفيلر؟",
+        "Answer": "تستمر نتائج البوتوكس والفيلر عادةً لعدة أشهر. يمكن أن تستمر تأثيرات البوتوكس من 3 إلى 4 أشهر، بينما يمكن أن تستمر نتائج الفيلر من 6 إلى 12 شهرًا."
+      },
+      "QuestionAnswer3": {
+        "Question": "هل هناك أي مخاطر مرتبطة بإجراءات إعادة تشكيل الجسم؟",
+        "Answer": "على الرغم من أن أغلب عمليات إعادة تشكيل الجسم آمنة نسبيًا، إلا أن هناك مخاطر محتملة مثل الكدمات والتورم وعدم الراحة. من الضروري استشارة طبيب أمراض جلدية مؤهل لمناقشة المخاطر والفوائد الخاصة بالإجراء الذي ترغب فيه."
+      }
+    }
+  },
+  "About": {
+    "AboutUs": {
+      "Title": "حول BPERFECT",
+      "Heading": "إزالة الشعر بالليزر، وعلاجات البشرة والشعر، وكذلك التغذية السريرية",
+      "Body": "خبراء في إزالة الشعر بالليزر، ومستحضرات التجميل، وعلاجات البشرة والشعر التي يتم إجراؤها من قبل الدكتورة نانسي صالح (أخصائية جلدية ومستشارة ليزر) والدكتورة غادة نبيل (أخصائية تغذية ومتخصصة في الليزر) لتعزيز جمالك الطبيعي ومساعدتك على أن تبدو وتشعر بأفضل نسخة من نفسك. سلامتك ورضاك هما أولويتنا الأساسية.",
+      "Images": {
+        "Image1": "/AboutUsImage1.jpg",
+        "Image2": "/AboutUsImage2.jpg",
+        "Image3": "/AboutUsImage3.jpg"
+      },
+      "Statistics": {
+        "Statistic1": {
+          "Number": "2",
+          "Plus": "+",
+          "Body": "مواقع"
+        },
+        "Statistic2": {
+          "Number": "9",
+          "Plus": "+",
+          "Body": "سنوات من الخبرة"
+        },
+        "Statistic3": {
+          "Number": "25,000",
+          "Plus": "+",
+          "Body": "مريض سعيد"
+        },
+        "Statistic4": {
+          "Number": "10",
+          "Plus": "+",
+          "Body": "أفضل الأجهزة في مجال الأمراض الجلدية"
+        }
+      }
+    },
+    "OurValues": {
+      "Title": "قيمنا",
+      "Heading": "يتم توفير الرعاية لك",
+      "Body": " من قبل أفضل الأطباء في المجال مع أفضل الأجهزة وأعلى التقنيات في التعقيم لتلبية احتياجاتك.",
+      "Image": "/OurValuesImage.jpg",
+      "Cards": {
+        "Card1": {
+          "Heading": "مهمتنا",
+          "Body": "مكرسون لتعزيز جمالك الطبيعي وجعلك تبدو وتشعر بأفضل ما لديك من خلال العلاجات المختلفة التي نقدمها باستخدام أحدث المعدات والأدوات والمنتجات الفاخرة."
+        },
+        "Card2": {
+          "Heading": "رؤيتنا",
+          "Body": "تقديم أفضل القيم والعلاجات التجميلية الفعالة التي يمكن الوصول إليها والمناسبة للجميع، باستخدام أحدث الأجهزة الطبية في بيئة آمنة وودية."
+        }
+      }
+    },
+    "OurTeam": {
+      "Title": "فريقنا",
+      "Heading": "تعرف على محترفينا",
+      "TeamMembers": {
+        "Member1": {
+          "Image": "/nancy.jpg",
+          "Name": "نانسي صالح",
+          "Title": "طبيبة أولى",
+          "Travers": "/team/nancy-saleh"
+        },
+        "Member2": {
+          "Image": "/ghada.jpg",
+          "Name": "غادة نبيل",
+          "Title": "طبيبة أولى",
+          "Travers": "/team/ghada-nabil"
+        }
+      }
+    }
+  }
 }

@@ -5,18 +5,18 @@ const Button = ({
 	Body,
 	size,
 	variant,
-	type
+	type,
 }: {
 	Body: string;
 	size?: "Small" | "Default" | "Large" | "fullWidth";
 	variant?: "primary1" | "primary2" | "secondary1" | "secondary2";
-	type?: 'button' | 'submit' | 'reset';
+	type?: "button" | "submit" | "reset";
 }) => {
 	return (
 		<MainButton variant={variant} type={type} size={size}>
-			{Body}  		</MainButton>
+			{Body}{" "}
+		</MainButton>
 	);
 };
-
 
 export default Button;

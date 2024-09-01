@@ -5,13 +5,16 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import("next").NextConfig} */
 
 const nextConfig = {
-    reactStrictMode: true,
-    poweredByHeader: false,
-    trailingSlash: false,
-    compiler: {
-        styledComponents: true,
-    },
-    output: "standalone",
+	reactStrictMode: true,
+	poweredByHeader: false,
+	trailingSlash: false,
+	compiler: {
+		styledComponents: true,
+	},
+	output: "standalone",
+	images: {
+		domains: ["res.cloudinary.com"],
+	},
 };
 
 module.exports = withNextIntl(nextConfig);

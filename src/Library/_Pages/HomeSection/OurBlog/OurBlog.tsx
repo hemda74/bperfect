@@ -31,7 +31,7 @@ const OurBlog = ({ locale }: Locale) => {
 									<TeamArticlesCard
 										CardLink={t(`Cards.Card${index + 1}.Link`)}
 										Heading={t(`Cards.Card${index + 1}.Heading`)}
-										Date={t(`Cards.Card${index + 1}.Date`)}
+										// Date={t(`Cards.Card${index + 1}.Date`)}
 										Img={t(`Cards.Card${index + 1}.Img`)}
 										locale={locale}
 									/>
