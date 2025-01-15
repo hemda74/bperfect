@@ -28,6 +28,8 @@ export async function POST(req: NextRequest) {
 		// Respond with the created contact
 		return NextResponse.json({ message: "contact saved successfully", contact }, { status: 201 });
 	} catch (error) {
+		// eslint-disable-next-line
+		console.log(error);
 		return NextResponse.json({ message: "Internal Server Error" }, { status: 500 });
 	}
 }

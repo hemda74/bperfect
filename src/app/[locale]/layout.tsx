@@ -3,7 +3,6 @@ import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 import { Poppins } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import React from "react";
-import { Toaster } from "react-hot-toast";
 import { getLangDir } from "rtl-detect";
 import MainLayout from "@/Library/Layouts/MainLayout";
 
@@ -16,9 +15,9 @@ const poppins: NextFontWithVariable = Poppins({
 });
 
 export const metadata: Metadata = {
-	title: "Bperfect website",
+	title: "Bperfect",
 	description:
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto dolore doloremque et, exercitationem tmolestias natus quis sapiente. Asperiores blanditiis deleniti dolores minima modi molestiae nam perferendis possimus tempora unde!",
+		"A wide range of services · Hair Treatments · Body Reshaping · Laser Hair Removal · Skin Treatments · Fillers & Botox · Hair Treatments · Body Reshaping · Laser Hair Removal",
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -29,7 +28,6 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 	return (
 		<html className={poppins.variable} lang={locale} dir={direction}>
 			<MainLayout locale={locale}>{children}</MainLayout>
-			<Toaster />
 		</html>
 	);
 }

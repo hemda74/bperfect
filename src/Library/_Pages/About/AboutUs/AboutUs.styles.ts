@@ -69,18 +69,17 @@ export const InsightHeader = styled(Display1)`
 
 export const InsightSymbol = styled.span`
 	color: var(--accent--primary-1);
-
 	font-weight: 500;
 	line-height: 1.167em;
-	font-size: 50px;
+	font-size: 2.5rem;
 	@media screen and (max-width: ${Breakpoints.lg}) {
-		font-size: 60px;
+		font-size: 2rem;
 	}
 	@media screen and (max-width: ${Breakpoints.md}) {
-		font-size: 50px;
+		font-size: 2rem;
 	}
 	@media screen and (max-width: ${Breakpoints.sm}) {
-		font-size: 42px;
+		font-size: 2rem;
 	}
 `;
 

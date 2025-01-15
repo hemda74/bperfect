@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -15,7 +16,10 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
-
+export const metadata: Metadata = {
+	title: "Body Reshaping - Bperfect",
+	description: "Transform your body with our specialized body reshaping services at Bperfect.",
+};
 const Page = ({ params }: { params: Locale }) => {
 	const { locale } = params;
 	const t = useTranslations("ServicesDetails");
@@ -52,12 +56,12 @@ const Page = ({ params }: { params: Locale }) => {
 								{/*	})}*/}
 								{/*</ul>*/}
 
-								<Link href={videoLinks[2].link} passHref>
+								<Link href={"https://www.youtube.com/embed/1LWyYQl78gI"} passHref>
 									<VideoContainer className={styles.marginTop40}>
 										<iframe
 											width="900"
 											height="506"
-											src={videoLinks[2].link}
+											src={"https://youtube.com/embed/1LWyYQl78gI"}
 											title={videoLinks[2].title}
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 											referrerPolicy="strict-origin-when-cross-origin"

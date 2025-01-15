@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
-import { Col, Row, Section } from "@/Library/Grids/Grids";
+import OurVideos from "../OurVideos/OurVideos";
+import { Section } from "@/Library/Grids/Grids";
 import { Display2 } from "@/Library/Typography/Typography";
 import Button from "@/Library/UI/Button/Button";
 import { TagLine } from "@/Library/_Pages/About/AboutUs/AboutUs.styles";
@@ -12,7 +13,6 @@ import {
 	OurFacilitiesContainer,
 	OurFacilitiesSection,
 	OurFacilitiesShell,
-	VideoContainer,
 } from "@/Library/_Pages/HomeSection/OurFacilites/OurFacilities.styles";
 
 const OurFacilities = () => {
@@ -31,7 +31,7 @@ const OurFacilities = () => {
 							</Display2>
 						</OurFacilitiesContainer>
 
-						<Row>
+						{/* <Row>
 							<Col lg={6}>
 								<VideoContainer>
 									<iframe
@@ -60,11 +60,11 @@ const OurFacilities = () => {
 									></iframe>
 								</VideoContainer>
 							</Col>
-						</Row>
-
+						</Row> */}
+						<OurVideos />
 						<OurFacilitiesButton>
 							<Link href={t("Button.Travers")}>
-								<Button Body={t("Button.Body")} />
+								<Button size={"Small"} Body={t("Button.Body")} />
 							</Link>
 						</OurFacilitiesButton>
 					</OurFacilitiesShell>

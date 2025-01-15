@@ -3,8 +3,7 @@ import React from "react";
 import { VideoContainer } from "../OurFacilites/OurFacilities.styles";
 import CarousalServices from "@/Library/Carousal/CarousalServices/CarousalServices";
 import { Section } from "@/Library/Grids/Grids";
-import ContactInfo from "@/Library/_Pages/HomeSection/ContactInfo/ContactInfo";
-import { OurServicesShell } from "@/Library/_Pages/HomeSection/OurServices/OurServices.styles";
+import { OurVideosShell } from "@/Library/_Pages/HomeSection/OurServices/OurServices.styles";
 
 export const videoLinks = [
 	{
@@ -50,8 +49,8 @@ const OurVideos = () => {
 
 	return (
 		<>
-			<ContactInfo />
-			<OurServicesShell contactInfo={false}>
+			{/* <ContactInfo /> */}
+			<OurVideosShell contactInfo={false}>
 				<Section as="div">
 					<CarousalServices>
 						{videoLinks.map((video, index) => (
@@ -72,7 +71,7 @@ const OurVideos = () => {
 						))}
 					</CarousalServices>
 				</Section>
-			</OurServicesShell>
+			</OurVideosShell>
 		</>
 	);
 };

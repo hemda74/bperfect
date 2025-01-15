@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -15,7 +16,11 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
-
+export const metadata: Metadata = {
+	title: "Skin Treatment - Bperfect",
+	description:
+		"Discover expert skin treatments at Bperfect to rejuvenate, refresh, and enhance your natural glow.",
+};
 const Page = ({ params }: { params: Locale }) => {
 	const t = useTranslations("ServicesDetails");
 	const { locale } = params;
@@ -46,12 +51,12 @@ const Page = ({ params }: { params: Locale }) => {
 									);
 								})}
 
-								<Link href={videoLinks[2].link} passHref>
+								<Link href={"https://www.youtube.com/embed/libgLEqb0JY"} passHref>
 									<VideoContainer className={styles.marginTop40}>
 										<iframe
 											width="900"
 											height="506"
-											src={videoLinks[2].link}
+											src={"https://www.youtube.com/embed/libgLEqb0JY"}
 											title={videoLinks[2].title}
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 											referrerPolicy="strict-origin-when-cross-origin"

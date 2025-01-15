@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import { Toaster } from "react-hot-toast";
+import Links from "../_Pages/Links/Links";
 import { Locale } from "@/Library/Globals";
 import { GlobalStyle } from "@/Library/Globals/Globals";
 import StyledComponentsRegistry from "@/Library/Globals/Registery";
@@ -19,8 +21,11 @@ const MainLayout = ({
 			<GlobalStyle />
 			<body>
 				<Header locale={locale} />
-				<main style={{ width: "", margin: "auto" }}>{children}</main>
+				<main>{children}</main>
 				<Footer locale={locale} />
+				{/* eslint-disable-next-line @typescript-eslint/no-use-before-define */}
+				<Links />
+				<Toaster />
 			</body>
 		</StyledComponentsRegistry>
 	);

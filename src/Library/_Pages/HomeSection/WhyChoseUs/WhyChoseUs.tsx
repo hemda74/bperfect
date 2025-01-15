@@ -74,10 +74,10 @@ const WhyChoseUs = () => {
 
 							<WhyChooseButtonContainer gap={24}>
 								<Link href={"/about"}>
-									<Button Body={t(`Buttons.Button1`)} />
+									<Button size={"Small"} Body={t(`Buttons.Button1`)} />
 								</Link>
 								<Link href={"/services"}>
-									<Button Body={t(`Buttons.Button2`)} variant={"secondary1"} />
+									<Button size={"Small"} Body={t(`Buttons.Button2`)} variant={"secondary1"} />
 								</Link>
 							</WhyChooseButtonContainer>
 						</WhyChooseUsCaption>

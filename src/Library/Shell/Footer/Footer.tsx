@@ -207,11 +207,6 @@ const Footer = ({ locale }: Locale) => {
 								{getYear} {t.copyright1} &copy; {t.copyright2}
 							</p>
 						</div>
-
-						<Flexbox gap={5}>
-							<Link href={"/privacy-policy"}>{t.policy}</Link>
-							<Link href={"/terms"}>{t.terms}</Link>
-						</Flexbox>
 					</Flexbox>
 				</CopyRightsSection>
 			</FooterStyles>

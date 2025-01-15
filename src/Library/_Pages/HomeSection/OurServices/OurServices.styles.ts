@@ -5,13 +5,17 @@ import { Breakpoints, Flexbox } from "@/Library/Grids/Grids";
 
 export const OurServicesShell = styled.section<{ contactInfo: boolean }>`
 	background-color: ${({ contactInfo }) => (contactInfo ? "var(--neutral--200)" : "transparent")};
-	padding-block: 240px;
+	padding-top: 140px;
+	padding-bottom: 40px;
 
 	@media screen and (max-width: ${Breakpoints.lg}) {
 		padding-top: 790px;
 	}
 `;
-
+export const OurVideosShell = styled.section<{ contactInfo: boolean }>`
+	background-color: ${({ contactInfo }) => (contactInfo ? "var(--neutral--200)" : "transparent")};
+	padding-bottom: 40px;
+`;
 export const OurServicesHeading = styled.div`
 	text-align: center;
 	max-width: 640px;

@@ -30,12 +30,12 @@ const ContactInfo = () => {
 									<Image width={70} height={70} src={t(`Cards.card1.Icon`)} alt={""} />
 								</CardICon>
 								<CardCaptionContent>
-									<div>
+									<div style={{ textAlign: "center" }}>
 										<Display4>{t(`Cards.card1.Heading`)}</Display4>
 										<CardCaption>{t(`Cards.card1.Title`)}</CardCaption>
 									</div>
 
-									<Flexbox gap={6}>
+									<Flexbox gap={6} justify="center">
 										<ContactInfoLinkStyles href={t(`Cards.card1.href`)}>
 											{t(`Cards.card1.Body`)}
 										</ContactInfoLinkStyles>
@@ -48,18 +48,17 @@ const ContactInfo = () => {
 						<Col lg={4}>
 							<CardInfoShell
 								justify={"center"}
-								className={`  ${styles.paddingTop32} ${styles.paddingBottom32}`}
+								className={`${styles.paddingTop32} ${styles.paddingBottom32}`}
 							>
 								<CardICon>
 									<Image width={70} height={70} src={t(`Cards.card2.Icon`)} alt={""} />
 								</CardICon>
 								<CardCaptionContent>
-									<div>
+									<div style={{ textAlign: "center" }}>
 										<Display4>{t(`Cards.card2.Heading`)}</Display4>
 										<CardCaption>{t(`Cards.card2.Title`)}</CardCaption>
 									</div>
-
-									<Flexbox gap={6}>
+									<Flexbox gap={6} justify="center">
 										<ContactInfoLinkStyles href={t(`Cards.card2.href`)}>
 											{t(`Cards.card2.Body`)}
 										</ContactInfoLinkStyles>
@@ -78,12 +77,12 @@ const ContactInfo = () => {
 									<Image width={70} height={70} src={t(`Cards.card3.Icon`)} alt={""} />
 								</CardICon>
 								<CardCaptionContent>
-									<div>
+									<div style={{ textAlign: "center" }}>
 										<Display4>{t(`Cards.card3.Heading`)}</Display4>
 										<CardCaption>{t(`Cards.card3.Title`)}</CardCaption>
 									</div>
 
-									<Flexbox gap={6}>
+									<Flexbox gap={6} justify="center">
 										<ContactInfoLinkStyles href={t(`Cards.card3.href`)}>
 											{t(`Cards.card3.Body`)}
 										</ContactInfoLinkStyles>

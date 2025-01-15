@@ -1,7 +1,8 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
-import { Locale } from "@/Library/Globals";
+import type { Locale } from "@/Library/Globals";
 import { Col, Row, Section } from "@/Library/Grids/Grids";
 import styles from "@/Library/Grids/Spaces.module.css";
 import { Display4, MutedText } from "@/Library/Typography/Typography";
@@ -15,10 +16,15 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
+export const metadata: Metadata = {
+	title: "Laser Hair Removal - Bperfect",
+	description:
+		"Get smooth, hair-free skin with our advanced laser hair removal treatments at Bperfect.",
+};
 
 const Page = ({ params }: { params: Locale }) => {
-	const t = useTranslations("ServicesDetails");
 	const { locale } = params;
+	const t = useTranslations("ServicesDetails");
 
 	return (
 		<>
@@ -34,7 +40,7 @@ const Page = ({ params }: { params: Locale }) => {
 					<Col lg={8}>
 						<AboutThisServiceCaption>
 							<div>
-								{[...Array(3)].map((_, i) => {
+								{[...Array(2)].map((_, i) => {
 									return (
 										<>
 											<AboutHeaders>
@@ -53,13 +59,13 @@ const Page = ({ params }: { params: Locale }) => {
 								{/*	})}*/}
 								{/*</ul>*/}
 
-								<Link href={videoLinks[5].link} passHref>
+								<Link href={"https://www.youtube.com/embed/mvpv6pWXAM4"} passHref>
 									<VideoContainer className={styles.marginTop40}>
 										<iframe
 											width="900"
 											height="506"
-											src={videoLinks[5].link}
-											title={videoLinks[5].title}
+											src={"https://www.youtube.com/embed/mvpv6pWXAM4"}
+											title={videoLinks[1].title}
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 											referrerPolicy="strict-origin-when-cross-origin"
 											allowFullScreen

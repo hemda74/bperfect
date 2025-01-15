@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
+import { OurTeamHomeImage } from "../OurFacilites/OurFacilities.styles";
 import { Col, Flexbox, Row, Section } from "@/Library/Grids/Grids";
 import Button from "@/Library/UI/Button/Button";
 import {
 	GetStartCaption,
 	GetStartContainer,
 	GetStartHeading,
-	GetStartImage,
 	GetStartImageContainer,
 	GetStartShell,
 	GetStartSubTitle,
@@ -20,9 +20,9 @@ const GetStartedToday = () => {
 			<Section>
 				<GetStartShell>
 					<Row justify={"space-between"}>
-						<Col md={6}>
+						<Col md={6} style={{ display: "flex", justifyContent: "center", marginBlock: "auto" }}>
 							<GetStartImageContainer>
-								<GetStartImage width={570} height={772} src={t("Image")} alt={""} />
+								<OurTeamHomeImage src={t("Image")} alt={""} width={570} height={450} />
 							</GetStartImageContainer>
 						</Col>
 						<Col md={6}>
@@ -33,10 +33,14 @@ const GetStartedToday = () => {
 
 								<Flexbox justify={"center"} gap={12}>
 									<Link href={t("Buttons.Button1.Travers")}>
-										<Button Body={t("Buttons.Button1.Body")} variant={"primary2"} />
+										<Button size={"Small"} Body={t("Buttons.Button1.Body")} variant={"primary2"} />
 									</Link>
 									<Link href={t("Buttons.Button2.Travers")}>
-										<Button Body={t("Buttons.Button2.Body")} variant={"secondary2"} />
+										<Button
+											size={"Small"}
+											Body={t("Buttons.Button2.Body")}
+											variant={"secondary2"}
+										/>
 									</Link>
 								</Flexbox>
 							</GetStartContainer>

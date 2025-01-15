@@ -24,7 +24,7 @@ const OurTeamHome = () => {
 	const t = useTranslations("Home.OurTeamHome");
 	return (
 		<>
-			<Section className={`${styles.paddingTop240} ${styles.paddingBottom240}`}>
+			<Section className={`${styles.paddingTop64} ${styles.paddingBottom64}`}>
 				<Row justify={"space-between"} aligncenter={"center"} ColumnGab={1.75}>
 					<Col className={`${styles.marginBottom48}`} md={5}>
 						<OurTeamHeading>
@@ -37,7 +37,7 @@ const OurTeamHome = () => {
 
 						<OurTeamParagraph>{t("Body")}</OurTeamParagraph>
 						<Link href={t("Button.Travers")}>
-							<Button Body={t("Button.Body")} />
+							<Button size={"Small"} Body={t("Button.Body")} />
 						</Link>
 					</Col>
 					<Col md={6}>

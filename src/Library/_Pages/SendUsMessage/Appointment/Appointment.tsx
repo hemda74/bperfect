@@ -1,12 +1,14 @@
 "use client";
 import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
 import React, { useState } from "react";
 import { FieldError, SubmitHandler, useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { z } from "zod";
 import { ContactDataAR, ContactDataEN } from "../../../../../messages/data/ContactData";
+import { SpanStyles } from "../../HomeSection/HeroSection/HomeHeroSection.styles";
 import styles from "./../../../Grids/Spaces.module.css";
-import { ContactShell, SendUsCaption } from "./Appointment.styles";
+import { ContactShell } from "./Appointment.styles";
 import { Locale } from "@/Library/Globals";
 import { Col, Row, Section } from "@/Library/Grids/Grids";
 import { Display1 } from "@/Library/Typography/Typography";
@@ -20,10 +22,12 @@ import {
 	BrownContainer,
 	FormContainer,
 	PurpleContainer,
+	SendUsParagraph,
 } from "@/Library/_Pages/SendUsMessage/SendUsMessageForm/SendUsMessage.styles";
 
 interface AppointmentProps {
 	locale: Locale;
+
 	t: {
 		FirstName: string;
 		LastName: string;
@@ -36,6 +40,9 @@ interface AppointmentProps {
 		Option_app_4: string;
 		Option_app_5: string;
 		Option_app_6: string;
+		Title: string;
+		SubTitle: string;
+		bottom: string;
 	};
 }
 
@@ -44,7 +51,6 @@ const schema = z.object({
 	lastName: z.string().min(1, "Last name is required"),
 	email: z.string().email("Invalid email address"),
 	phone: z.string().min(11, "Phone number must be at least 11 digits"),
-	subject: z.string().min(1, "Subject is required"),
 });
 
 const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
@@ -52,7 +58,6 @@ const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
 
 	type FormData = z.infer<typeof schema>;
 
-	// eslint-disable-next-line
 	const [subject, setSubject] = useState<string | undefined>(undefined);
 
 	const {
@@ -63,26 +68,46 @@ const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
 		resolver: zodResolver(schema),
 	});
 
-	const onSubmit: SubmitHandler<FormData> = async () => {
+	const onSubmit: SubmitHandler<FormData> = async formData => {
 		const toastId = toast.loading("Sending message...");
 
-		// const finalData = { ...formData, subject };
+		const finalData = { ...formData, subject };
 
 		try {
 			// Send email
-			// const emailResponse = await axios.post("/api/appointment-send", finalData, {
-			// 	headers: {
-			// 		"Content-Type": "application/json",
-			// 	},
-			// });
-			// const saveResponse = await axios.post("/api/appointment-save", finalData, {
-			// 	headers: {
-			// 		"Content-Type": "application/json",
-			// 	},
-			// });
+			// eslint-disable-next-line
+			const emailResponse = await axios.post(
+				"https://www.bperfect.clinic/api/appointment-send",
+				finalData,
+				{
+					headers: {
+						"Content-Type": "application/json",
+					},
+				},
+			);
+
+			// eslint-disable-next-line
+			console.log(emailResponse, "emailResponse");
+
+			// eslint-disable-next-line
+			const saveResponse = await axios.post(
+				"https://www.bperfect.clinic/api/appointment-save",
+				finalData,
+				{
+					headers: {
+						"Content-Type": "application/json",
+					},
+				},
+			);
+			// eslint-disable-next-line
+			console.log("Email sent:", emailResponse.data.message);
+			// eslint-disable-next-line
+			console.log("Data saved:", saveResponse.data.message);
 
 			toast.success("Message sent successfully!");
 		} catch (error) {
+			// eslint-disable-next-line
+			console.error("Appointment page Error:", error);
 			toast.error("Error sending message!");
 		} finally {
 			toast.dismiss(toastId);
@@ -92,7 +117,6 @@ const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
 	const getErrorMessage = (error: FieldError | undefined): string | undefined => {
 		return error?.message;
 	};
-
 	return (
 		<section className={"positionRelative"}>
 			<AppointmentShell />
@@ -103,13 +127,9 @@ const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
 				<Row justify="center">
 					<ContactShell>
 						<Display1>
-							Best elder care for <span>your loved</span>
+							<SpanStyles>{t.Title}</SpanStyles>
 						</Display1>
-						<SendUsCaption>
-							Elit amet enim, pretium consequat lectus odio ut sed enim at leo, vel, adipiscing
-							orci, sed aliquam cras et, gravida elementum non egestas suspendisse felis morbi
-							tempus morbi magna ultrices
-						</SendUsCaption>
+						<SendUsParagraph>{t.SubTitle}</SendUsParagraph>
 					</ContactShell>
 					<Col lg={8}>
 						<FormContainer>
@@ -166,7 +186,7 @@ const Appointment: React.FC<AppointmentProps> = ({ locale, t }) => {
 										</SelectComponent>
 									</Col>
 									<Col md={12}>
-										<Button Body={"Submit"} variant={"primary1"} size={"Default"} />
+										<Button Body={t.bottom} variant={"primary1"} size={"Default"} />
 									</Col>
 								</Row>
 							</form>

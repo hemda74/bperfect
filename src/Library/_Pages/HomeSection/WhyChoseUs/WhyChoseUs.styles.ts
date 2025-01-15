@@ -7,7 +7,6 @@ import { Breakpoints, Col, Flexbox, Row, Section } from "@/Library/Grids/Grids";
 
 export const WhyChoseUsShell = styled(Section)`
 	position: relative;
-	padding-top: 240px;
 `;
 
 export const ImageContainer = styled(Flexbox)`

@@ -169,7 +169,7 @@ const Header = ({ locale }: Locale) => {
 										<NavLinks href={"/about"}>{t.header.links.about}</NavLinks>
 									</li>
 									<li>
-										<NavLinks href={"/blog"}>{t.header.links.blog}</NavLinks>
+										<NavLinks href={"/blogs"}>{t.header.links.blog}</NavLinks>
 									</li>
 
 									<li>
@@ -200,14 +200,14 @@ const Header = ({ locale }: Locale) => {
 												{locale === "en" ? (
 													<p>English</p>
 												) : (
-													<button onClick={() => changeLang("en")}>🇺🇸 English</button>
+													<button onClick={() => changeLang("en")}>English</button>
 												)}
 											</li>
 											<li>
 												{locale === "ar" ? (
 													<p>عربي</p>
 												) : (
-													<button onClick={() => changeLang("ar")}>عربي 🇪🇬</button>
+													<button onClick={() => changeLang("ar")}>عربي</button>
 												)}
 											</li>
 										</ul>
@@ -303,7 +303,7 @@ const Header = ({ locale }: Locale) => {
 						</li>
 
 						<li>
-							<NavLinks onClick={() => handleLinkClick("/blog")} href={"/blog"}>
+							<NavLinks onClick={() => handleLinkClick("/blogs")} href={"/blog"}>
 								{t.header.links.blog}
 							</NavLinks>
 						</li>

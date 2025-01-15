@@ -1,5 +1,6 @@
 "use client";
 import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
 import React, { useState } from "react";
 import { FieldError, SubmitHandler, useForm } from "react-hook-form";
 import toast from "react-hot-toast";
@@ -52,9 +53,6 @@ const schema = z.object({
 
 const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 	const body = locale.locale === "en" ? ContactDataEN : ContactDataAR;
-	const getErrorMessage = (error: FieldError | undefined): string | undefined => {
-		return error?.message;
-	};
 	type FormData = z.infer<typeof schema>;
 	// eslint-disable-next-line
 	const [subject, setSubject] = useState<string | undefined>(undefined);
@@ -67,32 +65,54 @@ const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 		resolver: zodResolver(schema),
 	});
 
-	const onSubmit: SubmitHandler<FormData> = async () => {
+	const onSubmit: SubmitHandler<FormData> = async formData => {
 		const toastId = toast.loading("Sending message...");
 
-		// const finalData = { ...formData, subject };
+		const finalData = { ...formData, subject };
 
 		try {
 			// Send email
-			// const emailResponse = await axios.post("/api/contact-send", finalData, {
-			// 	headers: {
-			// 		"Content-Type": "application/json",
-			// 	},
-			// });
+			// eslint-disable-next-line
+			const emailResponse = await axios.post(
+				"https://www.bperfect.clinic/api/contact-send",
+				finalData,
+				{
+					headers: {
+						"Content-Type": "application/json",
+					},
+				},
+			);
 
-			// Save to database
-			// const saveResponse = await axios.post("/api/contact-save", finalData, {
-			// 	headers: {
-			// 		"Content-Type": "application/json",
-			// 	},
-			// });
+			// eslint-disable-next-line
+			console.log(emailResponse, "emailResponse");
+
+			// eslint-disable-next-line
+			const saveResponse = await axios.post(
+				"https://www.bperfect.clinic/api/contact-save",
+				finalData,
+				{
+					headers: {
+						"Content-Type": "application/json",
+					},
+				},
+			);
+			// eslint-disable-next-line
+			console.log("Email sent:", emailResponse.data.message);
+			// eslint-disable-next-line
+			console.log("Data saved:", saveResponse.data.message);
 
 			toast.success("Message sent successfully!");
 		} catch (error) {
+			// eslint-disable-next-line
+			console.error("Appointment page Error:", error);
 			toast.error("Error sending message!");
 		} finally {
 			toast.dismiss(toastId);
 		}
+	};
+
+	const getErrorMessage = (error: FieldError | undefined): string | undefined => {
+		return error?.message;
 	};
 	return (
 		<SendUsContainer>

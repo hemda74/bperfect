@@ -2,7 +2,7 @@ export const ContactDataEN = [
 	{
 		img: "/Email-icon-elderlycare-x-webflow-template.svg",
 		title: "Email:",
-		body: [{ name: "info@bperfect.clinic", href: "mailto:info@bperfect.clinic" }],
+		body: [{ name: "bperfectclinic3@gmail.com", href: "mailto:bperfectclinic3@gmail.com" }],
 	},
 	{
 		img: "/Phone-icon-elderlycare-x-webflow-template.svg",
@@ -35,11 +35,14 @@ export const ContactUsFormEN = {
 	Option_cont_3: "Complain",
 };
 export const AppFormEN = {
+	Title: "come and visit us!",
+	SubTitle: "bperfect clinics are located in two diffiernt locations to serve your needs",
 	FirstName: "First name",
 	LastName: "Last name",
 	Email: "Email",
 	Phone: "Phone",
 	Subject: "Subject",
+	bottom: "Submit",
 	// eslint-disable-next-line
 	Option_app_1: "—Please choose an option—",
 	// eslint-disable-next-line
@@ -70,12 +73,15 @@ export const ContactUsFormAr = {
 	Option_cont_3: "شكوى",
 };
 export const AppFormAr = {
+	Title: "تعال وزرنا!",
+	SubTitle: " تقع عيادات bperfect في موقعين مختلفين لتلبية احتياجاتك",
 	FirstName: "الاسم الاول",
 	LastName: "الاسم الاخير",
 	Email: "الايميل",
 	Phone: "الهاتف",
 	Message: "الرسالة",
 	Subject: "الموضوع",
+	bottom: "تسجيل",
 	// eslint-disable-next-line
 	Option_app_1: "—يرجى الاختيار —",
 	// eslint-disable-next-line
@@ -93,7 +99,7 @@ export const ContactDataAR = [
 	{
 		img: "/Email-icon-elderlycare-x-webflow-template.svg",
 		title: "ايميل",
-		body: [{ name: "info@bperfect.clinic", href: "mailto:info@bperfect.clinic" }],
+		body: [{ name: "bperfectclinic3@gmail.com", href: "mailto:bperfectclinic3@gmail.com" }],
 	},
 	{
 		img: "/Phone-icon-elderlycare-x-webflow-template.svg",

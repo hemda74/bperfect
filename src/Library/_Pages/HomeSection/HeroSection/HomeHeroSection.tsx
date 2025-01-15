@@ -5,12 +5,10 @@ import { Col, Flexbox, Row, Section } from "@/Library/Grids/Grids";
 import styles from "@/Library/Grids/Spaces.module.css";
 import { Display1 } from "@/Library/Typography/Typography";
 import Button from "@/Library/UI/Button/Button";
-import PlayIcon from "@/Library/UI/IconGraphy/PlayIcon/PlayIcon";
 import { HeroImage } from "@/Library/_Pages/About/AboutUs/AboutUs.styles";
 import {
 	HeroParagraph,
 	IconCaption,
-	PlayIconContainer,
 	SpanStyles,
 } from "@/Library/_Pages/HomeSection/HeroSection/HomeHeroSection.styles";
 
@@ -30,13 +28,15 @@ const HomeHeroSection = () => {
 							<HeroParagraph>{t("Body")}</HeroParagraph>
 							<Flexbox gap={24}>
 								<Link href={"/services"}>
-									<Button Body={t("Button1")} size={"Large"} variant={"primary1"} />
+									<Button Body={t("Button1")} size={"Small"} variant={"primary1"} />
 								</Link>
 								<Flexbox aligncenter={"center"}>
-									<PlayIconContainer>
-										<PlayIcon />
-									</PlayIconContainer>
-									<IconCaption> {t("IconCaption")}</IconCaption>
+									<IconCaption>
+										<Link href={"/contact"}>
+											{" "}
+											<Button Body={t("IconCaption")} size={"Small"} variant={"primary2"} />{" "}
+										</Link>
+									</IconCaption>
 								</Flexbox>
 							</Flexbox>
 						</Col>

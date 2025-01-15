@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -15,7 +16,10 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
-
+export const metadata: Metadata = {
+	title: "Skin Treatments - Bperfect",
+	description: "Rejuvenate your skin with Bperfect's range of specialized skin treatments.",
+};
 const Page = ({ params }: { params: Locale }) => {
 	const { locale } = params;
 	const t = useTranslations("ServicesDetails");
@@ -28,7 +32,6 @@ const Page = ({ params }: { params: Locale }) => {
 				Body={t("HeroSection.HairTreatments.Body")}
 				Img={t("HeroSection.HairTreatments.Image")}
 			/>
-
 			<Section className={`${styles.marginBottom200}`}>
 				<Row>
 					<Col lg={8}>

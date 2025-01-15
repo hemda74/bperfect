@@ -1,5 +1,6 @@
 "use client";
 import axios from "axios";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { Locale } from "@/Library/Globals";
 import { Col, Row, Section } from "@/Library/Grids/Grids";
@@ -39,8 +40,9 @@ const TeamArticles = ({ locale }: Locale) => {
 			<Section>
 				<Row as={"ul"} justify={"space-around"}>
 					{blogs.map(blog => (
-						<Col md={6} as={"a"} key={blog.id} href={`/blogs/${blog.title}`}>
+						<Col md={6} as={"a"} key={blog.id} href={`/blogs/${blog.id}`}>
 							<TeamArticlesCard
+								id={blog.id}
 								CardLink={`Read more`}
 								Heading={locale === "en" ? blog.title : blog.title_ar}
 								Img={blog.imageUrl}
@@ -51,7 +53,9 @@ const TeamArticles = ({ locale }: Locale) => {
 				</Row>
 
 				<NextButton>
-					<Button Body={"See more articles"} size={"Large"} />
+					<Link href={"/blogs"}>
+						<Button Body={"See more articles"} size={"Small"} />
+					</Link>
 				</NextButton>
 			</Section>
 		</TeamArticlesSection>

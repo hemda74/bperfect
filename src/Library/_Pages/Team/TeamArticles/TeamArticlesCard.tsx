@@ -14,16 +14,16 @@ import {
 interface TeamArticlesCardProps extends Locale {
 	Img: string;
 	Heading: string;
-
 	CardLink: string;
+	id?: string;
 }
 
 const TeamArticlesCard: React.FC<TeamArticlesCardProps> = ({
 	Img,
 	Heading,
-
 	CardLink,
 	locale,
+	id,
 }) => {
 	return (
 		<TeamArticlesCardInner>
@@ -36,7 +36,7 @@ const TeamArticlesCard: React.FC<TeamArticlesCardProps> = ({
 				<TeamArticlesCardDivider />
 
 				<CardFooter justify={"space-between"} aligncenter={"center"}>
-					<Link locale={locale} Body={CardLink} href={`/blogs/${Heading}`} />
+					<Link locale={locale} Body={CardLink} href={`/blogs/${id}`} />
 				</CardFooter>
 			</TeamArticlesCardCaption>
 		</TeamArticlesCardInner>

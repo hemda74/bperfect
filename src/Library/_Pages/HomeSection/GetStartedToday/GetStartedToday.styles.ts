@@ -8,7 +8,7 @@ export const GetStartShell = styled.div`
 	color: var(--neutral--100);
 	background-color: var(--accent--primary-1);
 	overflow: hidden;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	margin-block: 62px 240px;
 `;
 
@@ -18,7 +18,7 @@ export const GetStartImageContainer = styled.div`
 
 export const GetStartImage = styled(Image)`
 	position: absolute;
-	top: 0;
+	top: 50%;
 	left: 0;
 	bottom: 0;
 	right: 0;

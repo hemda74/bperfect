@@ -28,7 +28,7 @@ const Testimonial = ({ locale }: Locale) => {
 	const t = useTranslations("Home.Testimonial");
 	return (
 		<TestimonialShell>
-			<Section as={"div"} className={`${styles.paddingTop240} ${styles.paddingBottom240}`}>
+			<Section as={"div"} className={`${styles.paddingTop64} ${styles.paddingBottom64}`}>
 				<TestimonialHeading>
 					<TagLine>{t("Title")}</TagLine>
 

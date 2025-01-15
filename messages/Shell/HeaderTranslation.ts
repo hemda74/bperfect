@@ -1,6 +1,6 @@
 export const HeaderTranslationEN = {
 	subHeading: {
-		email: "info@bperfect.clinic",
+		email: "bperfectclinic3@gmail.com",
 		phone: "+201028080800",
 	},
 	header: {
@@ -26,7 +26,7 @@ export const HeaderTranslationEN = {
 
 export const HeaderTranslationAR = {
 	subHeading: {
-		email: "البريد الإلكتروني: info@bperfect.clinic",
+		email: "البريد الإلكتروني: bperfectclinic3@gmail.com",
 		phone: "رقم الهاتف: 201028080800+",
 	},
 	header: {

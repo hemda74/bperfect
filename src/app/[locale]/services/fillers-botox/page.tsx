@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -15,7 +16,10 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
-
+export const metadata: Metadata = {
+	title: "Fillers & Botox - Bperfect",
+	description: "Look younger with our professional Fillers & Botox treatments at Bperfect.",
+};
 const Page = ({ params }: { params: Locale }) => {
 	const t = useTranslations("ServicesDetails");
 	const { locale } = params;
@@ -34,7 +38,7 @@ const Page = ({ params }: { params: Locale }) => {
 					<Col lg={8}>
 						<AboutThisServiceCaption>
 							<div>
-								{[...Array(2)].map((_, i) => {
+								{[...Array(5)].map((_, i) => {
 									return (
 										<>
 											<AboutHeaders>

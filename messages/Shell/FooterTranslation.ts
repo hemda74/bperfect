@@ -38,7 +38,7 @@ export const FooterTranslationEN = {
 		email: {
 			icon: "",
 			email: "Email",
-			emailBody: "info@bperfect.clinic",
+			emailBody: "bperfectclinic3@gmail.com",
 		},
 		phone: {
 			icon: "",
@@ -96,7 +96,7 @@ export const FooterTranslationAR = {
 		email: {
 			icon: "",
 			email: "البريد الإلكتروني",
-			emailBody: "info@bperfect.clinic",
+			emailBody: "bperfectclinic3@gmail.com",
 		},
 		phone: {
 			icon: "",

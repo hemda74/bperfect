@@ -36,7 +36,6 @@ const OurServices = ({ locale, contactInfo = true }: Locale & { contactInfo?: bo
 							{t("Body")}
 						</OurServicesParagraph>
 					</OurServicesHeading>
-
 					<CarousalServices>
 						{[...Array(5)].map((_, index) => {
 							return (
@@ -55,10 +54,10 @@ const OurServices = ({ locale, contactInfo = true }: Locale & { contactInfo?: bo
 
 					<ButtonContainer>
 						<Link href={t("Links.Link1.Travers")}>
-							<Button Body={t("Links.Link1.Body")} />
+							<Button size={"Small"} Body={t("Links.Link1.Body")} />
 						</Link>
 						<Link href={t("Links.Link2.Travers")}>
-							<Button Body={t("Links.Link2.Body")} variant={"secondary1"} />
+							<Button size={"Small"} Body={t("Links.Link2.Body")} variant={"secondary1"} />
 						</Link>
 					</ButtonContainer>
 				</Section>

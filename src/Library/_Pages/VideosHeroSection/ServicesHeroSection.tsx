@@ -5,7 +5,6 @@ import styles from "./../../../Grids/Spaces.module.css";
 import { Locale } from "@/Library/Globals";
 import { Col, Row, Section } from "@/Library/Grids/Grids";
 import { Display1 } from "@/Library/Typography/Typography";
-import uuid from "@/Library/UUID";
 import { SpanStyles } from "@/Library/_Pages/HomeSection/HeroSection/HomeHeroSection.styles";
 import CareServices from "@/Library/_Pages/Services/ServicesHeroSection/CareServices";
 import {
@@ -27,8 +26,8 @@ const ServicesHeroSection = ({ locale }: Locale) => {
 				<Row as={"ul"} justify={"center"}>
 					{[...Array(5)].map((_, index) => {
 						return (
-							<Col as={"li"} className={styles.marginBottom40} md={6} lg={5} key={uuid()}>
-								<Link key={uuid()} href={t(`Cards.Card${index + 1}.travers`)}>
+							<Col as={"li"} className={styles.marginBottom40} md={6} lg={5} key={index}>
+								<Link key={index} href={t(`Cards.Card${index + 1}.travers`)}>
 									<CareServices
 										locale={locale}
 										Heading={t(`Cards.Card${index + 1}.Heading`)}

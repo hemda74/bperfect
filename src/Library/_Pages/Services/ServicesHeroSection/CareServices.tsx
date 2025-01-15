@@ -29,9 +29,9 @@ const CareServices = ({
 				<Image
 					src={Img}
 					alt={""}
-					width={530}
+					width={500}
 					height={386}
-					style={{ width: "95%", objectFit: "cover", background: "#fff2e6" }}
+					style={{ width: "100%", objectFit: "cover", background: "#fff2e6" }}
 				/>
 			</CareServicesImageContainer>
 

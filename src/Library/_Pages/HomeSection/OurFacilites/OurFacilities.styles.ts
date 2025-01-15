@@ -10,7 +10,6 @@ export const OurFacilitiesSection = styled.section`
 
 export const OurFacilitiesShell = styled.div`
 	text-align: center;
-	padding-block: 224px 240px;
 `;
 
 export const OurFacilitiesContainer = styled.div`
@@ -22,6 +21,7 @@ export const OurFacilitiesContainer = styled.div`
 export const OurFacilitiesButton = styled.div`
 	text-align: center;
 	margin-top: 64px;
+	padding-bottom: 40px;
 `;
 
 export const OurTeamHomeImageContainer = styled.div`
@@ -32,6 +32,7 @@ export const OurTeamHomeImageContainer = styled.div`
 
 export const OurTeamHomeImage = styled(Image)`
 	border-radius: 32px;
+	size: cover;
 `;
 
 export const OurTeamInfo = styled.div`
