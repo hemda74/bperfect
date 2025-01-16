@@ -43,21 +43,22 @@ const CraftProjects: React.FC<BlogInterface> = ({ blog }) => {
 							)}
 							<MutedText className={`${styles.marginTop16}`}>{blog.desc}</MutedText>
 
-							{blog.BlogDetailes && blog.BlogDetailes.length > 0 && blog.BlogDetailes.map(detail => (
-								<div key={detail.title}>
-									<Heading4>{detail.title}</Heading4>
-									{detail.BlogDetailesPoint && detail.BlogDetailesPoint.length > 0 && (
-										<ul>
-											{detail.BlogDetailesPoint.map(point => (
-												<li key={uuid()}>
-													<MutedText>{point.text}</MutedText>
-												</li>
-											))}
-										</ul>
-									)}
-								</div>
-							))}
-
+							{blog.BlogDetailes &&
+								blog.BlogDetailes.length > 0 &&
+								blog.BlogDetailes.map(detail => (
+									<div key={detail.title}>
+										<Heading4>{detail.title}</Heading4>
+										{detail.BlogDetailesPoint && detail.BlogDetailesPoint.length > 0 && (
+											<ul>
+												{detail.BlogDetailesPoint.map(point => (
+													<li key={uuid()}>
+														<MutedText>{point.text}</MutedText>
+													</li>
+												))}
+											</ul>
+										)}
+									</div>
+								))}
 						</div>
 					</Col>
 				</Row>

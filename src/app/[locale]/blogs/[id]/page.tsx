@@ -28,7 +28,7 @@ const Page = async ({ params }: PageProps) => {
 	const blogs: Blog[] = JSON.parse(fileData);
 
 	// Find the blog with the matching ID
-	const blog = blogs.find((blog) => blog.id === id);
+	const blog = blogs.find(blog => blog.id === id);
 
 	if (!blog) {
 		// Handle error (e.g., blog not found)

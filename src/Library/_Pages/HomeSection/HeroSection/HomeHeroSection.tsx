@@ -17,7 +17,19 @@ const HomeHeroSection = () => {
 	return (
 		<>
 			<section className={"positionRelative"}>
-				<HeroImage src={t("Image")} alt={""} width={400} height={400} />
+				<HeroImage
+					src={t("Image")}
+					alt={""}
+					width={660}
+					height={448}
+					style={{
+						width: "100%",
+						height: "100%",
+						objectFit: "cover",
+						marginBlock: "1rem",
+						borderRadius: "20px",
+					}}
+				/>
 				<Section as={"div"} className={`${styles.paddingTop140} ${styles.paddingBottom134} `}>
 					<Row>
 						<Col lg={6}>
