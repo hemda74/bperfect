@@ -15,8 +15,7 @@ const Page = ({ params }: { params: Locale }) => {
 
 	return (
 		<>
-			<BlogHeroSection />
-			<TeamArticles locale={locale} />
+			<h1>hello</h1>
 		</>
 	);
 };
