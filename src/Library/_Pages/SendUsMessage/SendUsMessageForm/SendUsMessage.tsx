@@ -87,19 +87,19 @@ const SendUsMessage: React.FC<SendUsMessageProps> = ({ locale, t }) => {
 			console.log(emailResponse, "emailResponse");
 
 			// eslint-disable-next-line
-			const saveResponse = await axios.post(
-				"https://www.bperfect.clinic/api/contact-save",
-				finalData,
-				{
-					headers: {
-						"Content-Type": "application/json",
-					},
-				},
-			);
+			// const saveResponse = await axios.post(
+			// 	"https://www.bperfect.clinic/api/contact-save",
+			// 	finalData,
+			// 	{
+			// 		headers: {
+			// 			"Content-Type": "application/json",
+			// 		},
+			// 	},
+			// );
 			// eslint-disable-next-line
 			console.log("Email sent:", emailResponse.data.message);
 			// eslint-disable-next-line
-			console.log("Data saved:", saveResponse.data.message);
+			// console.log("Data saved:", saveResponse.data.message);
 
 			toast.success("Message sent successfully!");
 		} catch (error) {
