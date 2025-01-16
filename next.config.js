@@ -7,6 +7,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
 	reactStrictMode: true,
 	poweredByHeader: false,
+	trailingSlash: false, // Disable trailing slashes in URLs
 	trailingSlash: false,
 	compiler: {
 		styledComponents: true,
