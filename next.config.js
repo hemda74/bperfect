@@ -1,6 +1,6 @@
 const createNextIntlPlugin = require("next-intl/plugin");
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts"); // Specify custom path for i18n configuration
 
 /** @type {import("next").NextConfig} */
 const nextConfig = {

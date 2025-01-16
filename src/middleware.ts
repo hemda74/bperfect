@@ -35,13 +35,9 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
 	requestHeaders.set("Content-Security-Policy", contentSecurityPolicyHeaderValue);
 
 	// Initialize response with updated headers
-	const response = NextResponse.next({
-		request: {
-			headers: requestHeaders,
-		},
-	});
+	const response = intlMiddleware(request);
 
-	// Set additional security headers in the response
+	// Add custom security headers
 	response.headers.set("x-nonce", nonce);
 	response.headers.set("Content-Security-Policy", contentSecurityPolicyHeaderValue);
 	response.headers.set("Access-Control-Allow-Credentials", "true");
@@ -61,8 +57,7 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
 	response.headers.set("Cross-Origin-Resource-Policy", "same-origin");
 	response.headers.set("X-Permitted-Cross-Domain-Policies", "none");
 
-	// Return the intl middleware with the processed request
-	return intlMiddleware(request);
+	return response;
 }
 
 // Configuration for Next.js middleware matching
@@ -70,6 +65,6 @@ export const config = {
 	matcher: [
 		"/", // Root route
 		"/(ar|en)/:path*", // Locale-specific routes
-		"/((?!api|_next|_vercel|.*\\..*).*)", // Exclude specific paths like API and assets
+		"/((?!api|_next|_vercel|.*\\..*).*)", // Exclude API, assets, and internal files
 	],
 };
