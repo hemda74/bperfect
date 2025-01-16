@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
 	try {
-		const { firstName, lastName, email, phone, subject, message } = await req.json();
+		const { firstName, lastName, email, subject, message } = await req.json();
 
 		if (!firstName || !lastName || !email || !message) {
 			return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 			subject: `New contact message from ${firstName} ${lastName}`,
 			html: `<!DOCTYPE html>
 
-<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<html lang="en" o="urn:schemas-microsoft-com:office:office" v="urn:schemas-microsoft-com:vml">
 <head>
     <title></title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
@@ -48,17 +48,17 @@ export async function POST(req: NextRequest) {
         }
 
         body {
-            margin: 0;
-            padding: 0;
+            0;
+            0;
         }
 
         a[x-apple-data-detectors] {
-            color: inherit !important;
+            inherit !important;
             text-decoration: inherit !important;
         }
 
         #MessageViewBody a {
-            color: inherit;
+            inherit;
             text-decoration: none;
         }
 
@@ -69,18 +69,18 @@ export async function POST(req: NextRequest) {
         .desktop_hide,
         .desktop_hide table {
             mso-hide: all;
-            display: none;
+            none;
             max-height: 0px;
-            overflow: hidden;
+            hidden;
         }
 
         .image_block img + div {
-            display: none;
+            none;
         }
 
         @media (max-width: 768px) {
             .desktop_hide table.icons-inner {
-                display: inline-block !important;
+                inline-block !important;
             }
 
             .icons-inner {
@@ -88,33 +88,33 @@ export async function POST(req: NextRequest) {
             }
 
             .icons-inner td {
-                margin: 0 auto;
+                0 auto;
             }
 
             .mobile_hide {
-                display: none;
+                none;
             }
 
             .row-content {
-                width: 100% !important;
+                100% !important;
             }
 
             .stack .column {
-                width: 100%;
-                display: block;
+                100%;
+                block;
             }
 
             .mobile_hide {
                 min-height: 0;
                 max-height: 0;
                 max-width: 0;
-                overflow: hidden;
+                hidden;
                 font-size: 0px;
             }
 
             .desktop_hide,
             .desktop_hide table {
-                display: table !important;
+                table !important;
                 max-height: none !important;
             }
         }
@@ -170,7 +170,7 @@ export async function POST(req: NextRequest) {
                                                                    style="text-decoration:none;display:block;color:#18223b;background-color:#fffff;border-radius:3px;width:95%;border-top:0px solid #8a3b8f;font-weight:400;border-right:0px solid #8a3b8f;border-bottom:0px solid #8a3b8f;border-left:0px solid #8a3b8f;padding-top:5px;padding-bottom:5px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"
                                                                    target="_blank"><span
                                                             style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span
-                                                            style="word-break: break-word; line-height: 32px;">Email  ${email}</span></span></a>
+                                                            style="word-break: break-word; line-height: 32px;">Email ${email}</span></span></a>
                                                     <!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
                                             </td>
                                         </tr>
@@ -194,7 +194,7 @@ export async function POST(req: NextRequest) {
                                                                    style="text-decoration:none;display:block;color:#18223b;background-color:#fffff;border-radius:3px;width:95%;border-top:0px solid #8a3b8f;font-weight:400;border-right:0px solid #8a3b8f;border-bottom:0px solid #8a3b8f;border-left:0px solid #8a3b8f;padding-top:5px;padding-bottom:5px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"
                                                                    target="_blank"><span
                                                             style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span
-                                                            style="word-break: break-word; line-height: 32px;">Name  ${firstName} ${lastName}</span></span></a>
+                                                            style="word-break: break-word; line-height: 32px;">Name${firstName} ${lastName}</span></span></a>
                                                     <!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
                                             </td>
                                         </tr>
@@ -218,12 +218,13 @@ export async function POST(req: NextRequest) {
                                                                    style="text-decoration:none;display:block;color:#18223b;background-color:#fffff;border-radius:3px;width:95%;border-top:0px solid #8a3b8f;font-weight:400;border-right:0px solid #8a3b8f;border-bottom:0px solid #8a3b8f;border-left:0px solid #8a3b8f;padding-top:5px;padding-bottom:5px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"
                                                                    target="_blank"><span
                                                             style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span
-                                                            style="word-break: break-word; line-height: 32px;">Requsted Service  ${subject}rs</span></span></a>
+                                                            style="word-break: break-word; line-height: 32px;">Requsted Service ${subject}rs</span></span></a>
                                                     <!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
                                             </td>
                                         </tr>
                                     </table>
 									   <table border="0" cellpadding="0" cellspacing="0" class="button_block block-4"
+                                           // eslint-disable-next-line no-irregular-whitespace
                                            role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"
                                            width="100%">
                                         <tr>
@@ -242,7 +243,7 @@ export async function POST(req: NextRequest) {
                                                                    style="text-decoration:none;display:block;color:#18223b;background-color:#fffff;border-radius:3px;width:95%;border-top:0px solid #8a3b8f;font-weight:400;border-right:0px solid #8a3b8f;border-bottom:0px solid #8a3b8f;border-left:0px solid #8a3b8f;padding-top:5px;padding-bottom:5px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"
                                                                    target="_blank"><span
                                                             style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span
-                                                            style="word-break: break-word; line-height: 32px;">Message  ${message}</span></span></a>
+                                                            style="word-break: break-word; line-height: 32px;">Message${message}</span></span></a>
                                                     <!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
                                             </td>
                                         </tr>
@@ -461,7 +462,7 @@ export async function POST(req: NextRequest) {
   </table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="713179b4-c60e-442b-bdf0-63b5bc7f9fe4" data-mc-module-version="2019-10-22">
     <tbody>
       <tr>
-        <td style="padding:5px 5px 5px 5px; line-height:22px; text-align:inherit; background-color:#FFFFF;" height="100%" valign="top" bgcolor="#FFFFFF" role="module-content"><div><div style="font-family: inherit; text-align: right"><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: #ffffff"><a href="{{weblink}}"><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; outline-color: initial; outline-style: none; outline-width: initial; text-decoration-line: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0s; transition-property: color; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; color: #0061ff"></span><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: #0061ff"></span></a></div><div></div></div></td>
+        <td style="padding:5px 5px 5px 5px; line-height:22px; text-align:inherit; background-color:#FFFF;" height="100%" valign="top" bgcolor="#FFFFFF" role="module-content"><div><div style="font-family: inherit; text-align: right"><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: #ffffff"><a href="{{weblink}}"><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; outline-color: initial; outline-style: none; outline-width: initial; text-decoration-line: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; transition-duration: 0.3s; transition-timing-function: ease; transition-delay: 0s; transition-property: color; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; color: #0061ff"></span><span style="box-sizing: border-box; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 10px; vertical-align: baseline; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; letter-spacing: normal; orphans: 2; text-align: right; text-indent: 0px; text-transform: none; white-space-collapse: preserve; text-wrap: wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: #0061ff"></span></a></div><div></div></div></td>
       </tr>
     </tbody>
   </table><table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" role="module" data-type="columns" style="padding:25px 0px 25px 0px;" bgcolor="#f3eefb" data-distribution="1">
@@ -504,22 +505,22 @@ export async function POST(req: NextRequest) {
           <table align="center" style="-webkit-margin-start:auto;-webkit-margin-end:auto;">
             <tbody>
 			<tr align="center"><td style="padding: 0px 5px;" class="social-icon-column">
-      <a  href="https://www.facebook.com/BPerfectClinic" target="_blank" alt="Facebook" title="Facebook" style="display:inline-block; background-color:#fffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
+      <a  href="https://www.facebook.com/BPerfectClinic" target="_blank" alt="Facebook" title="Facebook" style="display:inline-block; background-color:#ffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
         <img role="social-icon" alt="Facebook" title="Facebook" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" style="height:48px; width:48px;" height="48" width="48">
       </a>
     </td>
 	<td style="padding: 0px 5px;" class="social-icon-column">
-      <a  href="https://www.instagram.com/bperfect.clinic/" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#fffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
+      <a  href="https://www.instagram.com/bperfect.clinic/" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#ffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
         <img role="social-icon" alt="Instagram" title="Instagram" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" style="height:48px; width:48px;" height="48" width="48">
       </a>
     </td>
 	<td style="padding: 0px 5px;" class="social-icon-column">
-      <a  href="https://www.tiktok.com/@bperfect.clinic" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#fffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
+      <a  href="https://www.tiktok.com/@bperfect.clinic" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#ffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
         <img role="social-icon" alt="WhatsApp" title="WhatsApp" src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" style="height:48px; width:48px;" height="48" width="48">
      </a>
     </td>
 	<td style="padding: 0px 5px;" class="social-icon-column">
-      <a  href="https://wa.me/+201028080800" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#fffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
+      <a  href="https://wa.me/+201028080800" target="_blank" alt="Instagram" title="Instagram" style="display:inline-block; background-color:#ffff; height:48px; width:48px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px;">
         <img role="social-icon" alt="WhatsApp" title="WhatsApp" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-512.png" style="height:48px; width:48px;" height="48" width="48">
      </a>
     </td>

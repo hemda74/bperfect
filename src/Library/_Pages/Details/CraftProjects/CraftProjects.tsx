@@ -31,9 +31,10 @@ const CraftProjects: React.FC<BlogInterface> = ({ blog }) => {
 									src={blog.imageUrl}
 									alt={blog.title}
 									width={660}
-									height={348}
+									height={248}
 									style={{
 										width: "100%",
+										height: "100%",
 										objectFit: "cover",
 										marginBlock: "1rem",
 										borderRadius: "20px",
@@ -42,10 +43,10 @@ const CraftProjects: React.FC<BlogInterface> = ({ blog }) => {
 							)}
 							<MutedText className={`${styles.marginTop16}`}>{blog.desc}</MutedText>
 
-							{blog.BlogDetailes.map(detail => (
-								<div key={detail.id}>
+							{blog.BlogDetailes && blog.BlogDetailes.length > 0 && blog.BlogDetailes.map(detail => (
+								<div key={detail.title}>
 									<Heading4>{detail.title}</Heading4>
-									{detail.BlogDetailesPoint.length > 0 && (
+									{detail.BlogDetailesPoint && detail.BlogDetailesPoint.length > 0 && (
 										<ul>
 											{detail.BlogDetailesPoint.map(point => (
 												<li key={uuid()}>
@@ -56,6 +57,7 @@ const CraftProjects: React.FC<BlogInterface> = ({ blog }) => {
 									)}
 								</div>
 							))}
+
 						</div>
 					</Col>
 				</Row>
