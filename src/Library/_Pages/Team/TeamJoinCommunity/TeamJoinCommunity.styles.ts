@@ -9,8 +9,8 @@ export const TeamJoinCommunityTitle = styled.div`
 export const TeamJoinCommunityContainer = styled(Flexbox)`
 	background-color: var(--accent--primary-1);
 	background-image: linear-gradient(86deg, rgba(143, 92, 219, 0.81), var(--transparent) 41%),
-		linear-gradient(to bottom, var(--accent--primary-1), var(--transparent) 52%), url("/Flower.svg"),
-		url("/Flower.svg");
+		linear-gradient(to bottom, var(--accent--primary-1), var(--transparent) 52%),
+		url("/Flower.svg"), url("/Flower.svg");
 	background-position:
 		0 0,
 		0 0,

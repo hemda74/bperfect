@@ -38,7 +38,7 @@ const Page = ({ params }: { params: Locale }) => {
 					<Col lg={8}>
 						<AboutThisServiceCaption>
 							<div>
-								{[...Array(7)].map((_, i) => {
+								{[...Array(5)].map((_, i) => {
 									return (
 										<>
 											<AboutHeaders>

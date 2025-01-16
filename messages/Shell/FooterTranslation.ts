@@ -12,8 +12,8 @@ export const FooterTranslationEN = {
 		bodyReshaping: "Body Reshaping",
 		fillersBotox: "Fillers & Botox",
 		hairTreatment: "Hair Treatment",
-		laserHairRemoval: "Laser Hair Removal",
-		skinTreatments: "Skin Treatments",
+		laserHairRemoval: "Laser skin services",
+		skinTreatments: "Facial treatment",
 	},
 	ourSocialMedia: {
 		ourSocialMedia: "Our Social Media",

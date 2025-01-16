@@ -111,4 +111,5 @@ export const HeroImage = styled(Image)`
 	height: 100%;
 	z-index: -5555;
 	top: 0;
+	object-fit: cover;
 `;

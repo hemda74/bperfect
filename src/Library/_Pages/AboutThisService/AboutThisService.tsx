@@ -86,7 +86,7 @@ const AboutThisService = ({
 							<Col as={"li"} md={6} xl={4} key={uuid()}>
 								<CareServices
 									locale={locale}
-									Heading={"Laser Hair Removal"}
+									Heading={"Laser skin services"}
 									LinkBody={"View service"}
 									Img={"/4.jpg"}
 									Icon={"/Home.svg"}

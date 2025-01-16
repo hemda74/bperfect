@@ -40,7 +40,7 @@ const CarousalServices = ({ children }: { children: ReactNode }) => {
 				responsive={{
 					desktop: {
 						breakpoint: {
-							max: 2000,
+							max: 20000,
 							min: 991,
 						},
 						items: 2,

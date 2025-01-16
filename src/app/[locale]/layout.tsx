@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 import { Poppins } from "next/font/google";
-import { getLocale } from "next-intl/server";
+import { cookies } from "next/headers";
 import React from "react";
 import { getLangDir } from "rtl-detect";
 import MainLayout from "@/Library/Layouts/MainLayout";
@@ -21,12 +21,14 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-	// eslint-disable-next-line
-	const locale: any = await getLocale();
+	const cookiesJar = cookies();
+	// @ts-ignore
+	const locale = cookiesJar.get("NEXT_LOCALE")?.value ?? "en";
 	const direction: "ltr" | "rtl" = getLangDir(locale);
 
 	return (
 		<html className={poppins.variable} lang={locale} dir={direction}>
+			{/*@ts-ignore*/}
 			<MainLayout locale={locale}>{children}</MainLayout>
 		</html>
 	);

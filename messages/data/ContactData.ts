@@ -52,9 +52,9 @@ export const AppFormEN = {
 	// eslint-disable-next-line
 	Option_app_4: "Hair Treatment",
 	// eslint-disable-next-line
-	Option_app_5: "Laser Hair Removal",
+	Option_app_5: "Laser skin services",
 	// eslint-disable-next-line
-	Option_app_6: "Skin Treatment",
+	Option_app_6: "Facial treatment",
 };
 export const ContactUsFormAr = {
 	Title: "تعال وزرنا!",

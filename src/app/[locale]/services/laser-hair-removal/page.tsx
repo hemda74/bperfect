@@ -16,6 +16,7 @@ import { VideoContainer } from "@/Library/_Pages/HomeSection/OurFacilites/OurFac
 import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
+
 export const metadata: Metadata = {
 	title: "Laser Hair Removal - Bperfect",
 	description:
@@ -40,7 +41,7 @@ const Page = ({ params }: { params: Locale }) => {
 					<Col lg={8}>
 						<AboutThisServiceCaption>
 							<div>
-								{[...Array(2)].map((_, i) => {
+								{[...Array(3)].map((_, i) => {
 									return (
 										<>
 											<AboutHeaders>

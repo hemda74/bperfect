@@ -31,7 +31,7 @@ export const Section = styled.section`
 type FLex = {
 	aligncenter?: "center" | "start" | "end" | "flex-end";
 	justify?: "space-between" | "center" | "space-around" | "end";
-	gap?: number;
+	gap?: number | null;
 	direction?: "column" | "row" | "column-reverse" | "row-reverse";
 	ColumnGab?: number;
 };
@@ -40,7 +40,7 @@ const getFlexStyles = (props: FLex) => css`
 	display: flex;
 	align-items: ${props.aligncenter ?? ""};
 	justify-content: ${props.justify ?? ""};
-	gap: ${`${props.gap}px` ?? ""};
+	gap: ${`${props.gap ?? ""}px`};
 	flex-direction: ${props.direction};
 
 	& > * {

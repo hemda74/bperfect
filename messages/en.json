@@ -1,1860 +1,942 @@
 {
-	"ServicesDetails": {
-		"HeroSection": {
-			"Title": "SERVICES",
-			"BodyReshaping": {
-				"Heading": "Body Reshaping",
-				"Body": "Experience the latest modalities in Weight Loss & Body Reshaping and Enjoy a Body of your Dreams.",
-				"Icon": "/body.svg",
-				"Image": "/body.jpg"
-			},
-			"FillersBotox": {
-				"Heading": "Fillers & Botox",
-				"Body": "Keep the laughter and loosen up the lines, No more frown lines.",
-				"Icon": "/filler-icon.png",
-				"Image": "/filler.jpg"
-			},
-			"HairTreatments": {
-				"Heading": "Hair Treatments",
-				"Body": "Worry no more about Hair Problems & Enjoy a Flawless Hair",
-				"Icon": "/skin-icon.png",
-				"Image": "/hair.jpg"
-			},
-			"LaserHairRemoval": {
-				"Heading": "Laser Hair Removal",
-				"Body": "",
-				"Icon": "/laser-icon.png",
-				"Image": "/laser.jpg"
-			},
-			"SkinTreatments": {
-				"Heading": "Skin Treatments",
-				"Body": "",
-				"Icon": "/skin-icon.png",
-				"Image": "/skin.jpg"
-			}
-		},
-		"AboutThisService": {
-			"Heading3": "Get in contact with us!",
-			"Button": "Contact us",
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
-					"Link": "View service",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/skin-icon.png",
-					"Heading": "Skin Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"BodyReshaping": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Cool Sculpture",
-						"Body": "Experience the non-surgical instant body reshaping with the 4 different treatments offered in 1 Machine:- Cryolipolysis: Stubborn fats breakdown and termination, using the freezing technique.- Cold Laser: Fat cells termination, no more fats regrowth in treated areas.- Cavitation: Fat cells breakdown.- Radio Frequency (RF): Skin tightening and cellulite treatment."
-					},
-					"Article2": {
-						"Heading": "Weight Loss",
-						"Body": "Certified Nutritionist with medical background will be working with you closely to set goals, create plans, and follow the right steps to reach your targeted weight in the best healthy approach."
-					},
-					"Article3": {
-						"Heading": "Mesolipolysis",
-						"Body": "Works on fats reduction by administering and dissolving Stubborn Fats."
-					},
-					"Article4": {
-						"Heading": "Anti-Cellulite",
-						"Body": "Toning and Treatment of Skin Sagginess caused by excessive weight loss."
-					}
-				},
-				"Img": "/body.jpg"
-			},
-			"FillersBotox": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Composition",
-						"Body1": "Botox: Botox, derived from the bacterium Clostridium botulinum, is a purified neurotoxin known as Botulinum Toxin. It is a protein that temporarily blocks nerve signals in muscles, resulting in muscle relaxation.",
-						"Body2": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity.",
-						"Body3": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity."
-					},
-					"Article2": {
-						"Heading": "Mechanism of Action",
-						"Body1": "Botox: Botox functions by blocking the release of acetylcholine, a neurotransmitter responsible for muscle contractions. By inhibiting muscle activity, Botox temporarily diminishes the appearance of dynamic wrinkles, such as crow's feet, forehead lines, and frown lines.",
-						"Body2": "Dermal Fillers: Dermal fillers work by physically filling in wrinkles, lines, and areas where volume has been lost. They restore volume and provide structure to the face, plumping up areas that have experienced a loss of elasticity and firmness due to aging. Dermal fillers are commonly used to address static wrinkles, including nasolabial folds (smile lines), marionette lines, and areas with hollowed features."
-					},
-					"Article3": {
-						"Heading": "Areas of Treatment",
-						"Body1": "Botox: Botox is primarily used to treat dynamic wrinkles caused by repetitive muscle movements. It is commonly applied to target wrinkles in the upper face, including forehead lines, glabellar lines (between the eyebrows), and crow's feet around the eyes. Botox can also serve non-cosmetic purposes, such as treating medical conditions like hyperhidrosis (excessive sweating) and chronic migraines.",
-						"Body2": "Dermal Fillers: Dermal fillers are versatile and can be employed to address various concerns across different areas of the face. They are commonly used to add volume and shape to the cheeks, lips, and temples. Dermal fillers can also smooth out nasolabial folds, marionette lines, and other facial wrinkles, in addition to enhancing facial contours and improving the appearance of recessed scars."
-					},
-					"Article4": {
-						"Heading": "Duration of Results",
-						"Body1": "Botox: The effects of Botox typically last around 3 to 4 months, although individual factors, dosage, and the treated area can influence this timeframe. Follow-up treatments are necessary to maintain the desired results.",
-						"Body2": "Dermal Fillers: The longevity of dermal fillers varies based on the type of filler used and the treated area. Hyaluronic acid fillers generally provide results that last between 6 months to 2 years. Over time, the filler gradually breaks down and is naturally absorbed by the body. Follow-up treatments are essential to sustain the results. It's crucial to note that both Botox and dermal fillers should be administered by qualified healthcare professionals with expertise in cosmetic procedures.",
-						"Body3": "In summary, Botox and dermal fillers are distinct treatments with different compositions, mechanisms of action, and areas of application. Botox temporarily relaxes muscles to reduce the appearance of dynamic wrinkles, while dermal fillers add volume and structure to areas affected by static wrinkles and volume loss. Consulting with a healthcare professional will help determine the most suitable treatment for specific concerns and desired results."
-					},
-					"Article5": {
-						"Heading": "What is Botox?",
-						"Body1": "Botox, derived from the bacterium Clostridium botulinum, is a neurotoxic protein widely utilized in the fields of cosmetic dermatology and medical aesthetics. Its primary function lies in temporarily blocking nerve signals in the muscles where it is injected, resulting in a temporary paralysis or relaxation of those muscles. ",
-						"Body2": "In cosmetic dermatology, Botox is highly valued for its ability to diminish the appearance of wrinkles and fine lines, particularly in areas such as the forehead, glabellar lines (between the eyebrows), and crow's feet (around the eyes). ",
-						"Body3": "By relaxing the underlying muscles responsible for wrinkle formation, Botox effectively smoothes the skin, imparting a more youthful and rejuvenated appearance.",
-						"Body4": "Botox injections are minimally invasive and typically administered through a series of small injections directly into the targeted muscles. The procedure is generally well-tolerated and often does not require anesthesia, although a topical numbing cream may be applied to enhance comfort. Beyond its cosmetic applications, Botox serves various medical purposes. It has proven effective in treating conditions like chronic migraines, hyperhidrosis (excessive sweating), muscle spasms, overactive bladder, and specific types of facial asymmetry or twitching.",
-						"Body5": "It is crucial to emphasize that Botox should always be administered by a qualified healthcare professional, such as a dermatologist or plastic surgeon, who has received proper training in the procedure. This ensures both safety and optimal results. The effects of Botox typically last for several months, after which additional treatments may be necessary to maintain the desired outcome."
-					},
-					"Article6": {
-						"Heading": "What can Botox correct?",
-						"Body1": "",
-						"Body2": "",
-						"Body3": ""
-					},
-					"Article7": {
-						"Heading": "",
-						"Body1": "",
-						"Body2": "",
-						"Body3": ""
-					}
-				},
-				"Img": "/filler.jpg"
-			},
-			"HairTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "PRP (Platelet-Rich Plasma)",
-						"Body": "Treat Excessive hair loss by PRP and enjoy strengthening and regrowth of your hair follicles."
-					},
-					"Article2": {
-						"Heading": "Stem Cells",
-						"Body": "Enjoy the latest revolutionary non-surgical solution for scalp baldness."
-					},
-					"Article3": {
-						"Heading": "Mesotherapy",
-						"Body": "Ensure your hair regrowth by nourishing the hair follicles with DHT hormone, vitamins, minerals and amino acid mixtures"
-					}
-				},
-				"Img": "/hair.jpg"
-			},
-			"LaserHairRemoval": {
-				"Articles": {
-					"Article1": {
-						"Heading": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free",
-						"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free."
-					},
-					"Article2": {
-						"Heading": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free",
-						"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free."
-					}
-				},
-				"Img": "/laser.jpg"
-			},
-			"SkinTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Carbon Laser Peeling",
-						"Body": "Latest superficial treatment used in eliminating acne scars, enlarged pores, dark and red spots and excess oils"
-					},
-					"Article2": {
-						"Heading": "PRP",
-						"Body": "Boost your collagen and regenerate your skin tissues by making your skin softer and looking younger, perfect for wrinkles treatments."
-					},
-					"Article3": {
-						"Heading": "Chemical Peeling",
-						"Body": "Applied to the skin to remove acne scars, top layers, deeper wrinkles, and treat discoloration. Mainly used for facial purposes to restore the freshness of the skin."
-					},
-					"Article4": {
-						"Heading": "Hydrafacial (Deep facial Nettoyage)",
-						"Body": "A patent skin treatment used to hydrate face skin, toning the skin, and deep-cleansing of skin."
-					},
-					"Article5": {
-						"Heading": "DermaPen",
-						"Body": "Micro needles, used to treat Acne Scars, Open Pores and Wrinkles."
-					},
-					"Article6": {
-						"Heading": "Gold Stamp",
-						"Body": "Micro needles, used to treat Acne Scars, Pigmentations, Age spots and Improve overall skin quality, that will give you the brighter fresh and soft looks."
-					},
-					"Article7": {
-						"Heading": "Fractional Laser",
-						"Body": "The revolutionary solution for all your skin problems (Dark & Light Skin pigmentation, Age Spots, Scars caused Acne, Injuries & Surgeries, as well as Stretch Marks)."
-					}
-				},
-				"Img": "/skin.jpg"
-			}
-		}
-	},
-	"Home": {
-		"HomeHeroSection": {
-			"Title": "SENIOR CARE SERVICES",
-			"Heading1": "Welcome to",
-			"Heading2": "Bperfect",
-			"Heading3": " Clinic,",
-			"Body": "your trusted partner in achieving healthy and radiant skin. Our team of experienced dermatologists is dedicated to providing personalized care for a wide range of skin concerns. From treating common skin conditions to enhancing your natural beauty, we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Image": "/heroImage.jpg",
-			"Button1": "Brows Services",
-			"IconCaption": "Send a message"
-		},
-		"ContactInfo": {
-			"Cards": {
-				"card1": {
-					"Icon": "/phone-ixon.svg",
-					"Heading": "Call us",
-					"Title": "01028080800",
-					"Body": "make us call",
-					"href": "tel:01028080800"
-				},
-				"card2": {
-					"Icon": "/Message-icon.svg",
-					"Heading": "Email us",
-					"Title": "bperfectclinic3@gmail.com",
-					"Body": "Send us a email",
-					"href": "mailto:bperfectclinic3@gmail.com"
-				},
-				"card3": {
-					"Icon": "/location-icon.svg",
-					"Heading": "Visit us",
-					"Title": "Book an appointment",
-					"Body": "Schedule a visit",
-					"href": "/appointment"
-				}
-			}
-		},
-		"OurServices": {
-			"Title": "OUR SERVICES",
-			"Heading": {
-				"Heading1": "A wide rang",
-				"Heading2": "e of services"
-			},
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "Experience smooth, hair-free skin with our advanced laser hair removal treatments. Our expert technicians use the latest technology to provide effective and long-lasting results.",
-					"Link": "View service",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/skin-icon.png",
-					"Heading": "Skin Treatments",
-					"Body": "Restore your skin's health and radiance with our customized skin treatments. From acne and eczema to anti-aging and pigmentation, we offer solutions for various skin concerns.",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "Enhance your facial features and reduce the appearance of wrinkles with our safe and effective filler and Botox treatments. Achieve a more youthful and refreshed look.",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "Revitalize your hair with our nourishing hair treatments. Address hair loss, dandruff, and other scalp issues while promoting healthy hair growth.",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "Contour your body and achieve your desired shape with our non-invasive body reshaping procedures. Reduce fat, tighten skin, and enhance your confidence",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"Links": {
-				"Link1": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				},
-				"Link2": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				}
-			}
-		},
-		"OurVideos": {
-			"Title": "OUR Videos",
-			"Heading": {
-				"Heading1": "A wide rang",
-				"Heading2": "e of services"
-			},
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Cards": {
-				"Card1": {
-					"Link": "https://youtu.be/mvpv6pWXAM4"
-				},
-				"Card2": {
-					"Link": "https://youtube.com/shorts/1LWyYQl78gI?feature=share"
-				},
-				"Card3": {
-					"Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
-				},
-				"Card4": {
-					"Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
-				},
-				"Card5": {
-					"Link": "https://youtube.com/shorts/Eo2GNdKG3iE?feature=share"
-				},
-				"Card6": {
-					"Link": "https://youtube.com/shorts/VDKjCncL89o?feature=share"
-				},
-				"Card7": {
-					"Link": "https://youtube.com/shorts/LREvIYaEo-Y?feature=share"
-				},
-				"Card8": {
-					"Link": "https://youtube.com/shorts/Mm7ViFKsGdo?feature=share"
-				},
-				"Card9": {
-					"Link": "https://youtube.com/shorts/libgLEqb0JY?feature=share"
-				},
-				"Card10": {
-					"Link": "https://youtube.com/shorts/LAIV1jyrtl8?feature=share"
-				}
-			},
-			"Links": {
-				"Link1": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				},
-				"Link2": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				}
-			}
-		},
-		"WhyChooseUs": {
-			"Title": "WHY CHOOSE US",
-			"Heading": {
-				"Heading1": "the right care ",
-				"Heading2": "for you"
-			},
-			"Body": "bperfect clinic over 10 years of experience serving you with all love to satisfy you with best machines in the field.",
-			"Images": {
-				"Image1": "/WhyChoseUsImage1.jpg",
-				"Image2": "/WhyChoseUsImage3.jpg",
-				"Image3": "/WhyChoseUsImage2.jpg"
-			},
-			"Cards": {
-				"Card1": {
-					"Icon": "/Nursing-staff-icon.svg",
-					"Body": "2 locations"
-				},
-				"Card2": {
-					"Icon": "/Resident-care-icon.svg",
-					"Body": "10 years of experience"
-				},
-				"Card3": {
-					"Icon": "/Quality-support-icon.svg",
-					"Body": "40 professional physician"
-				},
-				"Card4": {
-					"Icon": "/HeartIcon.svg",
-					"Body": "15 latest machines in dermatology field"
-				}
-			},
-			"Buttons": {
-				"Button1": "More about us",
-				"Button2": "Browse services"
-			}
-		},
-		"OurFacilities": {
-			"Title": "Our Services",
-			"Heading": {
-				"Heading1": "take a look at our services to find out why",
-				"Heading2": "they are the best"
-			},
-			"Videos": {
-				"Video1": "https://www.youtube.com/embed/seeaJi3tUt8",
-				"Video2": "https://www.youtube.com/embed/seeaJi3tUt8"
-			},
-			"Button": {
-				"Body": "Browse Services",
-				"Travers": "/services"
-			}
-		},
-		"OurTeamHome": {
-			"Title": "OUR TEAM",
-			"Heading": {
-				"Heading1": "meet our experts in dermatology field with experince more than 20 years of experience",
-				"Heading2": "Our Consultant in Injection"
-			},
-			"Body": "",
-			"Button": {
-				"Body": "Meet Our Team",
-				"Travers": "/about"
-			},
-			"Image": "/OurTeamHomeImage.jpg",
-			"Card": {
-				"Image": "/OurTeamIcon.svg",
-				"Body": "",
-				"Title": {
-					"Title1": "Dr Ghada ,",
-					"Title2": "Founder of Bpefect Clinic"
-				}
-			}
-		},
-		"GetStartedToday": {
-			"Title": "GET STARTED TODAY",
-			"Heading": "choose a service that fits your needs",
-			"Body": "it is time to enjoy our premium services to have prettier look",
-			"Image": "/GetStartedTodayImage.jpg",
-			"Buttons": {
-				"Button1": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				},
-				"Button2": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				}
-			}
-		},
-		"Testimonial": {
-			"Title": "TESTIMONIALS",
-			"Heading": {
-				"Heading1": "Don’t take our word for",
-				"Heading2": "it take theirs"
-			},
-			"Button": {
-				"Body": "Book an appointment",
-				"Travers": "/appointment"
-			}
-		},
-		"OurBlog": {
-			"Title": "OUR BLOG",
-			"Heading": "News & articles",
-			"Button": "Browse all article",
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				}
-			}
-		}
-	},
-	"Services": {
-		"HeroSection": {
-			"Title": "SENIOR CARE SERVICES",
-			"Heading": {
-				"Heading1": "We provide high quality",
-				"Heading2": "care services"
-			},
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
-					"Link": "",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/skin-icon.png",
-					"Heading": "Skin Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			}
-		},
-		"Community": {
-			"Heading": "Join our wonderful community today",
-			"Button1": "Browse services",
-			"Button2": "Browse services"
-		}
-	},
-	"Team": {
-		"TeamHeroSection": {
-			"Title": "Senior Doctor",
-			"Button": "More about me",
-			"TeamMembers": {
-				"TeamMember1": {
-					"Img": "/ghada.jpg",
-					"Name": "Ghada Nabil",
-					"Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
-					"Links": {
-						"Link1": "Facebook",
-						"Link2": "Instagram",
-						"Link3": "Youtube"
-					}
-				},
-				"TeamMember2": {
-					"Img": "/nancy.jpg",
-					"Name": "Nancy Saleh",
-					"Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
-					"Links": {
-						"Link1": "Facebook",
-						"Link2": "Instagram",
-						"Link3": "Youtube"
-					}
-				}
-			}
-		},
-		"AboutMe": {
-			"Heading": "",
-			"Paragraphs": {
-				"TeamMembers": {
-					"TeamMember1": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": " "
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": " "
-						}
-					},
-					"TeamMember2": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": " "
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": " "
-						}
-					}
-				}
-			}
-		}
-	},
-	"ContactUs": {
-		"ContactUsHeroSection": {
-			"Heading": {
-				"Heading1": "Send us a",
-				"Heading2": "message"
-			},
-			"Body": "our team will contact you back as soon as possible with your inquiry",
-			"data": {
-				"Card1": {
-					"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-					"Title": "Email:",
-					"Body": [
-						{
-							"name": "bperfectclinic3@gmail.com",
-							"href": "mailto:bperfectclinic3@gmail.com"
-						}
-					]
-				},
-				"Card2": {
-					"Card1": {
-						"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-						"Title": "Phone:",
-						"Body": [
-							{
-								"name": "01028080800",
-								"href": "tel:+201028080800"
-							},
-							{
-								"name": "28128025",
-								"href": "tel:+228128025"
-							},
-							{
-								"name": "01068882288",
-								"href": "tel:+201068882288"
-							}
-						]
-					}
-				}
-			},
-			"Form": {
-				"Inputs": {
-					"Input1": {
-						"Label": "First Name",
-						"PlaceHolder": "First Name"
-					},
-					"Input2": {
-						"Label": "Last Name",
-						"PlaceHolder": "Last Name"
-					},
-					"Input3": {
-						"Label": "Email",
-						"PlaceHolder": "Email"
-					},
-					"Input4": {
-						"Label": "Phone",
-						"PlaceHolder": "Phone"
-					},
-					"Input5": {
-						"Label": "Reasons",
-						"Options": {
-							"Option1": "—Please choose an option—",
-							"Option2": "Inquiry",
-							"Option3": "Complain"
-						}
-					},
-					"Input6": {
-						"Label": "Message",
-						"PlaceHolder": "Please type your message here..."
-					}
-				}
-			},
-			"Button": "Send Message"
-		},
-		"ComeAndVisitUs": {
-			"Heading": {
-				"Heading1": "Come and",
-				"Heading2": "visit us!"
-			},
-			"Body": "bperfect clinics are located in two diffiernt locations to serve your needs",
-			"Caption1": {
-				"Image": "/2.jpg",
-				"Heading": "Cairo Medical Center, behind Elgawy Hospital, 5th Settlement",
-				"Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "Cairo Medical Center (CMC) N Teseen St,First New Cairo, Cairo"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "bperfectclinic3@gmail.com"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01028080800",
-							"Number2": "28128025",
-							"Number3": "01068882288"
-						}
-					}
-				}
-			},
-			"Caption2": {
-				"Image": "/ComeAndVisitUsImage.jpg",
-				"Heading": "Park St. Mall, Zayed City",
-				"Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "Park St. Mall, Zayed City, Unit 2317"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "bperfectclinic3@gmail.com"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01000888580",
-							"Number2": "01000119611"
-						}
-					}
-				}
-			}
-		}
-	},
-	"Appointment": {
-		"Heading": {
-			"Heading1": "Send us a",
-			"Heading2": "message"
-		},
-		"Body": "Lorem ipsum dolor sit amet consectetur dolor adipiscing elit nulla adipiscing tincidunt interdum.",
-		"data": {
-			"Card1": {
-				"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-				"Title": "Email:",
-				"Body": [
-					{
-						"name": "bperfectclinic3@gmail.com",
-						"href": "mailto:bperfectclinic3@gmail.com"
-					}
-				]
-			},
-			"Card2": {
-				"Card1": {
-					"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-					"Title": "Phone:",
-					"Body": [
-						{
-							"name": "01028080800",
-							"href": "tel:+201028080800"
-						},
-						{
-							"name": "28128025",
-							"href": "tel:+228128025"
-						},
-						{
-							"name": "01068882288",
-							"href": "tel:+201068882288"
-						}
-					]
-				}
-			}
-		},
-		"Form": {
-			"Inputs": {
-				"Input1": {
-					"Label": "First Name",
-					"PlaceHolder": "First Name"
-				},
-				"Input2": {
-					"Label": "Last Name",
-					"PlaceHolder": "Last Name"
-				},
-				"Input3": {
-					"Label": "Email",
-					"PlaceHolder": "Email"
-				},
-				"Input4": {
-					"Label": "Phone",
-					"PlaceHolder": "Phone"
-				},
-				"Input5": {
-					"Label": "Service Type",
-					"Options": {
-						"Option1": "—Please choose an option—",
-						"Option2": "Body Reshaping",
-						"Option3": "Fillers and Botox",
-						"Option4": "Hair Treatment",
-						"Option5": "Laser Hair Removal",
-						"Option6": "Skin Treatment"
-					}
-				}
-			}
-		},
-		"Button": "Send Message"
-	},
-	"Blog": {
-		"HeroSection": {
-			"Heading": "Blog",
-			"Body": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit in voluptate velit."
-		},
-		"TeamArticlesSection": {
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card4": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card5": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card6": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				}
-			},
-			"Button": {
-				"Body": "التالي"
-			}
-		}
-	},
-	"FAQ": {
-		"Title": "FAQS",
-		"Heading": "Do you have questions?",
-		"Image": "/TeamImgCard1.jpg",
-		"QuestionsAnswers": {
-			"QuestionAnswer1": {
-				"Question": "Is laser hair removal painful?",
-				"Answer": "Laser hair removal can cause mild discomfort, often described as a rubber band snapping against the skin. However, the pain level varies from person to person and can be minimized with numbing creams or cooling techniques."
-			},
-			"QuestionAnswer2": {
-				"Question": "How long do the effects of Botox and fillers last?",
-				"Answer": "The results of Botox and fillers typically last for several months. Botox effects can last anywhere from 3 to 4 months, while filler results can last from 6 to 12 months."
-			},
-			"QuestionAnswer3": {
-				"Question": "Are there any risks associated with body reshaping procedures?",
-				"Answer": "While most body reshaping procedures are relatively safe, there are potential risks such as bruising, swelling, and discomfort. It's essential to consult with a qualified dermatologist to discuss the risks and benefits specific to your desired procedure."
-			}
-		}
-	},
-	"About": {
-		"AboutUs": {
-			"Title": "ABOUT BPERFECT",
-			"Heading": "Laser Hair Removal, Skin and Hair treatments as well as Clinical Nutrition ",
-			"Body": "Experts in laser hair removal, cosmetics, skin and hair treatments that are performed by Dr. Nancy Saleh (Dermatologist & Laser Consultant) and Dr. Ghada Nabil (Nutritionist & Laser Specialist), to best enhance your natural beauty and help you look and feel the best version of yourself.Your safety and satisfaction are our main priority.",
-			"Images": {
-				"Image1": "/AboutUsImage1.jpg",
-				"Image2": "/AboutUsImage2.jpg",
-				"Image3": "/AboutUsImage3.jpg"
-			},
-			"Statistics": {
-				"Statistic1": {
-					"Number": "2",
-					"Plus": "+",
-					"Body": "locations"
-				},
-				"Statistic2": {
-					"Number": "9",
-					"Plus": "+",
-					"Body": "Years of experience"
-				},
-				"Statistic3": {
-					"Number": "25,000",
-					"Plus": "+",
-					"Body": "Happy patient"
-				},
-				"Statistic4": {
-					"Number": "10",
-					"Plus": "+",
-					"Body": "Best machines in dermatology field"
-				}
-			}
-		},
-		"OurValues": {
-			"Title": "OUR VALUES",
-			"Heading": "care and compassion are provided to you",
-			"Body": "best doctors in field with best machines and highest techniques in sterilization to satisfy your needs",
-			"Image": "/OurValuesImage.jpg",
-			"Cards": {
-				"Card1": {
-					"Heading": "Our Mission",
-					"Body": "Dedicated to enhancing your natural beauty and make you look and feel best about yourself, throughout our various treatments delivered by the latest equipment, tools and premium products."
-				},
-				"Card2": {
-					"Heading": "Our Vision",
-					"Body": "Is to provide best values, affordable, accessible yet effective cosmetic treatments and solutions, using the latest medical grade equipment, in a friendly safe environment."
-				}
-			}
-		},
-		"OurTeam": {
-			"Title": "OUT TEAM",
-			"Heading": "Meet our professionals",
-			"TeamMembers": {
-				"Member1": {
-					"Image": "/nancy.jpg",
-					"Name": "Nancy Saleh",
-					"Title": "senior doctor",
-					"Travers": "/team/nancy-saleh"
-				},
-				"Member2": {
-					"Image": "/ghada.jpg",
-					"Name": "Ghada Nabil",
-					"Title": "senior doctor",
-					"Travers": "/team/ghada-nabil"
-				}
-			}
-		}
-	},
-	"ServicesDetails": {
-		"HeroSection": {
-			"Title": "SERVICES",
-			"BodyReshaping": {
-				"Heading": "Body Reshaping",
-				"Body": "Experience the latest modalities in Weight Loss & Body Reshaping and Enjoy a Body of your Dreams.",
-				"Icon": "/body.svg",
-				"Image": "/body.jpg"
-			},
-			"FillersBotox": {
-				"Heading": "Fillers & Botox",
-				"Body": "Keep the laughter and loosen up the lines, No more frown lines.",
-				"Icon": "/filler-icon.png",
-				"Image": "/filler.jpg"
-			},
-			"HairTreatments": {
-				"Heading": "Hair Treatments",
-				"Body": "Worry no more about Hair Problems & Enjoy a Flawless Hair",
-				"Icon": "/hair.svg",
-				"Image": "/hair.jpg"
-			},
-			"LaserHairRemoval": {
-				"Heading": "Laser Hair Removal",
-				"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
-				"Icon": "/laser-icon.png",
-				"Image": "/laser.jpg"
-			},
-			"SkinTreatments": {
-				"Heading": "Skin Treatments",
-				"Body": "",
-				"Icon": "/skin-icon.png",
-				"Image": "/skin.jpg"
-			}
-		},
-		"AboutThisService": {
-			"Heading3": "Get in contact with us!",
-			"Button": "Contact us",
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
-					"Link": "View service",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/Skin-treat.png",
-					"Heading": "Skin Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"BodyReshaping": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Cool Sculpture",
-						"Body": "Experience the non-surgical instant body reshaping with the 4 different treatments offered in 1 Machine:- Cryolipolysis: Stubborn fats breakdown and termination, using the freezing technique.- Cold Laser: Fat cells termination, no more fats regrowth in treated areas.- Cavitation: Fat cells breakdown.- Radio Frequency (RF): Skin tightening and cellulite treatment."
-					},
-					"Article2": {
-						"Heading": "Weight Loss",
-						"Body": "Certified Nutritionist with medical background will be working with you closely to set goals, create plans, and follow the right steps to reach your targeted weight in the best healthy approach."
-					},
-					"Article3": {
-						"Heading": "Mesolipolysis",
-						"Body": "Works on fats reduction by administering and dissolving Stubborn Fats."
-					},
-					"Article4": {
-						"Heading": "Anti-Cellulite",
-						"Body": "Toning and Treatment of Skin Sagginess caused by excessive weight loss."
-					}
-				},
-				"Img": "/body.jpg"
-			},
-			"FillersBotox": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Composition",
-						"Body": "Botox: Botox, derived from the bacterium Clostridium botulinum, is a purified neurotoxin known as Botulinum Toxin. It is a protein that temporarily blocks nerve signals in muscles, resulting in muscle relaxation. Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity. Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity."
-					},
-					"Article2": {
-						"Heading": "Mechanism of Action",
-						"Body": "Botox: Botox functions by blocking the release of acetylcholine, a neurotransmitter responsible for muscle contractions. By inhibiting muscle activity, Botox temporarily diminishes the appearance of dynamic wrinkles, such as crow's feet, forehead lines, and frown lines.Dermal Fillers: Dermal fillers work by physically filling in wrinkles, lines, and areas where volume has been lost. They restore volume and provide structure to the face, plumping up areas that have experienced a loss of elasticity and firmness due to aging. Dermal fillers are commonly used to address static wrinkles, including nasolabial folds (smile lines), marionette lines, and areas with hollowed features."
-					},
-					"Article3": {
-						"Heading": "Areas of Treatment",
-						"Body": "Botox: Botox is primarily used to treat dynamic wrinkles caused by repetitive muscle movements. It is commonly applied to target wrinkles in the upper face, including forehead lines, glabellar lines (between the eyebrows), and crow's feet around the eyes. Botox can also serve non-cosmetic purposes, such as treating medical conditions like hyperhidrosis (excessive sweating) and chronic migraines.Dermal Fillers: Dermal fillers are versatile and can be employed to address various concerns across different areas of the face. They are commonly used to add volume and shape to the cheeks, lips, and temples. Dermal fillers can also smooth out nasolabial folds, marionette lines, and other facial wrinkles, in addition to enhancing facial contours and improving the appearance of recessed scars."
-					},
-					"Article4": {
-						"Heading": "Duration of Results",
-						"Body": "Botox: The effects of Botox typically last around 3 to 4 months, although individual factors, dosage, and the treated area can influence this timeframe. Follow-up treatments are necessary to maintain the desired results. Dermal Fillers: The longevity of dermal fillers varies based on the type of filler used and the treated area. Hyaluronic acid fillers generally provide results that last between 6 months to 2 years. Over time, the filler gradually breaks down and is naturally absorbed by the body. Follow-up treatments are essential to sustain the results. It's crucial to note that both Botox and dermal fillers should be administered by qualified healthcare professionals with expertise in cosmetic procedures. In summary, Botox and dermal fillers are distinct treatments with different compositions, mechanisms of action, and areas of application. Botox temporarily relaxes muscles to reduce the appearance of dynamic wrinkles, while dermal fillers add volume and structure to areas affected by static wrinkles and volume loss. Consulting with a healthcare professional will help determine the most suitable treatment for specific concerns and desired results."
-					},
-					"Article5": {
-						"Heading": "What is Botox?",
-						"Body": "Botox, derived from the bacterium Clostridium botulinum, is a neurotoxic protein widely utilized in the fields of cosmetic dermatology and medical aesthetics. Its primary function lies in temporarily blocking nerve signals in the muscles where it is injected, resulting in a temporary paralysis or relaxation of those muscles. In cosmetic dermatology, Botox is highly valued for its ability to diminish the appearance of wrinkles and fine lines, particularly in areas such as the forehead, glabellar lines (between the eyebrows), and crow's feet (around the eyes). By relaxing the underlying muscles responsible for wrinkle formation, Botox effectively smoothes the skin, imparting a more youthful and rejuvenated appearance. Botox injections are minimally invasive and typically administered through a series of small injections directly into the targeted muscles. The procedure is generally well-tolerated and often does not require anesthesia, although a topical numbing cream may be applied to enhance comfort. Beyond its cosmetic applications, Botox serves various medical purposes. It has proven effective in treating conditions like chronic migraines, hyperhidrosis (excessive sweating), muscle spasms, overactive bladder, and specific types of facial asymmetry or twitching.It is crucial to emphasize that Botox should always be administered by a qualified healthcare professional, such as a dermatologist or plastic surgeon, who has received proper training in the procedure. This ensures both safety and optimal results. The effects of Botox typically last for several months, after which additional treatments may be necessary to maintain the desired outcome."
-					}
-				},
-				"Img": "/filler.jpg"
-			},
-			"HairTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "PRP (Platelet-Rich Plasma)",
-						"Body": "Treat Excessive hair loss by PRP and enjoy strengthening and regrowth of your hair follicles."
-					},
-					"Article2": {
-						"Heading": "Stem Cells",
-						"Body": "Enjoy the latest revolutionary non-surgical solution for scalp baldness."
-					},
-					"Article3": {
-						"Heading": "Mesotherapy",
-						"Body": "Ensure your hair regrowth by nourishing the hair follicles with DHT hormone, vitamins, minerals and amino acid mixtures"
-					}
-				},
-				"Img": "/hair.jpg"
-			},
-			"LaserHairRemoval": {
-				"Articles": {
-					"Article1": {
-						"Heading": "",
-						"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free."
-					},
-					"Article2": {
-						"Heading": "",
-						"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free."
-					}
-				},
-				"Img": "/laser.jpg"
-			},
-			"SkinTreatments": {
-				"Articles": {
-					"Article1": {
-						"Heading": "Carbon Laser Peeling",
-						"Body": "Latest superficial treatment used in eliminating acne scars, enlarged pores, dark and red spots and excess oils"
-					},
-					"Article2": {
-						"Heading": "PRP",
-						"Body": "Boost your collagen and regenerate your skin tissues by making your skin softer and looking younger, perfect for wrinkles treatments."
-					},
-					"Article3": {
-						"Heading": "Chemical Peeling",
-						"Body": "Applied to the skin to remove acne scars, top layers, deeper wrinkles, and treat discoloration. Mainly used for facial purposes to restore the freshness of the skin."
-					},
-					"Article4": {
-						"Heading": "Hydrafacial (Deep facial Nettoyage)",
-						"Body": "A patent skin treatment used to hydrate face skin, toning the skin, and deep-cleansing of skin."
-					},
-					"Article5": {
-						"Heading": "DermaPen",
-						"Body": "Micro needles, used to treat Acne Scars, Open Pores and Wrinkles."
-					},
-					"Article6": {
-						"Heading": "Gold Stamp",
-						"Body": "Micro needles, used to treat Acne Scars, Pigmentations, Age spots and Improve overall skin quality, that will give you the brighter fresh and soft looks."
-					},
-					"Article7": {
-						"Heading": "Fractional Laser",
-						"Body": "The revolutionary solution for all your skin problems (Dark & Light Skin pigmentation, Age Spots, Scars caused Acne, Injuries & Surgeries, as well as Stretch Marks)."
-					}
-				},
-				"Img": "/skin.jpg"
-			}
-		}
-	},
-	"Home": {
-		"HomeHeroSection": {
-			"Title": "SENIOR CARE SERVICES",
-			"Heading1": "Welcome to",
-			"Heading2": "Bperfect",
-			"Heading3": " Clinic,",
-			"Body": "your trusted partner in achieving healthy and radiant skin. Our team of experienced dermatologists is dedicated to providing personalized care for a wide range of skin concerns. From treating common skin conditions to enhancing your natural beauty, we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Image": "/heroImage.jpg",
-			"Button1": "Browse services",
-			"IconCaption": "Send a message"
-		},
-		"ContactInfo": {
-			"Cards": {
-				"card1": {
-					"Icon": "/phone-ixon.svg",
-					"Heading": "Call us",
-					"Title": "01028080800",
-					"Body": "make us call",
-					"href": "tel:01028080800"
-				},
-				"card2": {
-					"Icon": "/Message-icon.svg",
-					"Heading": "Email us",
-					"Title": "bperfectclinic3@gmail.com",
-					"Body": "Send us a email",
-					"href": "mailto:bperfectclinic3@gmail.com"
-				},
-				"card3": {
-					"Icon": "/location-icon.svg",
-					"Heading": "Visit us",
-					"Title": "Book an appointment",
-					"Body": "Schedule a visit",
-					"href": "/appointment"
-				}
-			}
-		},
-		"OurServices": {
-			"Title": "OUR SERVICES",
-			"Heading": {
-				"Heading1": "A wide rang",
-				"Heading2": "e of services"
-			},
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "Experience smooth, hair-free skin with our advanced laser hair removal treatments. Our expert technicians use the latest technology to provide effective and long-lasting results.",
-					"Link": "View service",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/skin-icon.png",
-					"Heading": "Skin Treatments",
-					"Body": "Restore your skin's health and radiance with our customized skin treatments. From acne and eczema to anti-aging and pigmentation, we offer solutions for various skin concerns.",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "Enhance your facial features and reduce the appearance of wrinkles with our safe and effective filler and Botox treatments. Achieve a more youthful and refreshed look.",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "Revitalize your hair with our nourishing hair treatments. Address hair loss, dandruff, and other scalp issues while promoting healthy hair growth.",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "Contour your body and achieve your desired shape with our non-invasive body reshaping procedures. Reduce fat, tighten skin, and enhance your confidence",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			},
-			"Links": {
-				"Link1": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				},
-				"Link2": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				}
-			}
-		},
-		"OurVideos": {
-			"Title": "OUR Videos",
-			"Heading": {
-				"Heading1": "A wide rang",
-				"Heading2": "e of services"
-			},
-			"Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
-			"Cards": {
-				"Card1": {
-					"Link": "https://youtu.be/mvpv6pWXAM4"
-				},
-				"Card2": {
-					"Link": "https://youtube.com/shorts/1LWyYQl78gI?feature=share"
-				},
-				"Card3": {
-					"Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
-				},
-				"Card4": {
-					"Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
-				},
-				"Card5": {
-					"Link": "https://youtube.com/shorts/Eo2GNdKG3iE?feature=share"
-				},
-				"Card6": {
-					"Link": "https://youtube.com/shorts/VDKjCncL89o?feature=share"
-				},
-				"Card7": {
-					"Link": "https://youtube.com/shorts/LREvIYaEo-Y?feature=share"
-				},
-				"Card8": {
-					"Link": "https://youtube.com/shorts/Mm7ViFKsGdo?feature=share"
-				},
-				"Card9": {
-					"Link": "https://youtube.com/shorts/libgLEqb0JY?feature=share"
-				},
-				"Card10": {
-					"Link": "https://youtube.com/shorts/LAIV1jyrtl8?feature=share"
-				}
-			},
-			"Links": {
-				"Link1": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				},
-				"Link2": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				}
-			}
-		},
-		"WhyChooseUs": {
-			"Title": "WHY CHOOSE US",
-			"Heading": {
-				"Heading1": "the right care ",
-				"Heading2": "for you"
-			},
-			"Body": "bperfect clinic over 10 years of experience serving you with all love to satisfy you with best machines in the field.",
-			"Images": {
-				"Image1": "/WhyChoseUsImage1.jpg",
-				"Image2": "/WhyChoseUsImage3.jpg",
-				"Image3": "/WhyChoseUsImage2.jpg"
-			},
-			"Cards": {
-				"Card1": {
-					"Icon": "/Nursing-staff-icon.svg",
-					"Body": "2 locations"
-				},
-				"Card2": {
-					"Icon": "/Resident-care-icon.svg",
-					"Body": "10 years of experience"
-				},
-				"Card3": {
-					"Icon": "/Quality-support-icon.svg",
-					"Body": "40 professional physician"
-				},
-				"Card4": {
-					"Icon": "/HeartIcon.svg",
-					"Body": "15 latest machines in dermatology field"
-				}
-			},
-			"Buttons": {
-				"Button1": "More about us",
-				"Button2": "Browse services"
-			}
-		},
-		"OurFacilities": {
-			"Title": "OUR FACILITIES",
-			"Heading": {
-				"Heading1": "take a look at our services to find out why",
-				"Heading2": "they are the best"
-			},
-			"Videos": {
-				"Video1": "https://www.youtube.com/embed/seeaJi3tUt8",
-				"Video2": "https://www.youtube.com/embed/seeaJi3tUt8"
-			},
-			"Button": {
-				"Body": "Browse Services",
-				"Travers": "/services"
-			}
-		},
-		"OurTeamHome": {
-			"Title": "OUR TEAM",
-			"Heading": {
-				"Heading1": "meet our experts in dermatology field with experince more than 20 years of experience",
-				"Heading2": "Our Consultant in Injection"
-			},
-			"Body": "",
-			"Button": {
-				"Body": "Meet Our Team",
-				"Travers": "/about"
-			},
-			"Image": "/OurTeamHomeImage.jpg",
-			"Card": {
-				"Image": "/OurTeamIcon.svg",
-				"Body": "",
-				"Title": {
-					"Title1": "Dr Ghada ,",
-					"Title2": "Founder of Bpefect Clinic"
-				}
-			}
-		},
-		"GetStartedToday": {
-			"Title": "GET STARTED TODAY",
-			"Heading": "choose a service that fits your needs",
-			"Body": "it is time to enjoy our premium services to have prettier look",
-			"Image": "/GetStartedTodayImage.jpg",
-			"Buttons": {
-				"Button1": {
-					"Body": "Book appointment",
-					"Travers": "/appointment"
-				},
-				"Button2": {
-					"Body": "Browse Services",
-					"Travers": "/services"
-				}
-			}
-		},
-		"Testimonial": {
-			"Title": "TESTIMONIALS",
-			"Heading": {
-				"Heading1": "Don’t take our word for",
-				"Heading2": "it take theirs"
-			},
-			"Button": {
-				"Body": "Book an appointment",
-				"Travers": "/appointment"
-			}
-		},
-		"OurBlog": {
-			"Title": "OUR BLOG",
-			"Heading": "News & articles",
-			"Button": "Browse all article",
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				}
-			}
-		}
-	},
-	"Services": {
-		"HeroSection": {
-			"Title": "SENIOR CARE SERVICES",
-			"Heading": {
-				"Heading1": "We provide high quality",
-				"Heading2": "care services"
-			},
-			"Cards": {
-				"Card1": {
-					"Image": "/laser.jpg",
-					"Icon": "/laser-icon.png",
-					"Heading": "Laser Hair Removal",
-					"Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
-					"Link": "",
-					"travers": "services/laser-hair-removal"
-				},
-				"Card2": {
-					"Image": "/skin.jpg",
-					"Icon": "/Skin-treat.png",
-					"Heading": "Skin Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/skin-treatments"
-				},
-				"Card3": {
-					"Image": "/filler.jpg",
-					"Icon": "/filler-icon.png",
-					"Heading": "Fillers & Botox",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/fillers-botox"
-				},
-				"Card4": {
-					"Image": "/hair.jpg",
-					"Icon": "/hair.svg",
-					"Heading": "Hair Treatments",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/hair-treatments"
-				},
-				"Card5": {
-					"Image": "/body.jpg",
-					"Icon": "/body.svg",
-					"Heading": "Body Reshaping",
-					"Body": "",
-					"Link": "View service",
-					"travers": "services/body-reshaping"
-				}
-			}
-		},
-		"Community": {
-			"Heading": "Join our wonderful community today",
-			"Button1": "Browse plans",
-			"Button2": "Browse services"
-		}
-	},
-	"Team": {
-		"TeamHeroSection": {
-			"Title": "Senior Doctor",
-			"Button": "More about me",
-			"TeamMembers": {
-				"TeamMember1": {
-					"Img": "/ghada.jpg",
-					"Name": "Ghada Nabil",
-					"Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
-					"Links": {
-						"Link1": "Facebook",
-						"Link2": "Instagram",
-						"Link3": "Youtube"
-					}
-				},
-				"TeamMember2": {
-					"Img": "/nancy.jpg",
-					"Name": "Nancy Saleh",
-					"Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
-					"Links": {
-						"Link1": "Facebook",
-						"Link2": "Instagram",
-						"Link3": "Youtube"
-					}
-				}
-			}
-		},
-		"AboutMe": {
-			"Heading": "",
-			"Paragraphs": {
-				"TeamMembers": {
-					"TeamMember1": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": " "
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": " "
-						}
-					},
-					"TeamMember2": {
-						"Paragraph1": {
-							"Text1": "",
-							"StrongText": "",
-							"Text2": " "
-						},
-						"Paragraph2": {
-							"Text-1": "",
-							"StrongText": "",
-							"Text2": " "
-						}
-					}
-				}
-			}
-		}
-	},
-	"ContactUs": {
-		"ContactUsHeroSection": {
-			"Heading": {
-				"Heading1": "Send us a",
-				"Heading2": "message"
-			},
-			"Body": "our team will contact you back as soon as possible with your inquiry",
-			"data": {
-				"Card1": {
-					"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-					"Title": "Email:",
-					"Body": [
-						{
-							"name": "bperfectclinic3@gmail.com",
-							"href": "mailto:bperfectclinic3@gmail.com"
-						}
-					]
-				},
-				"Card2": {
-					"Card1": {
-						"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-						"Title": "Phone:",
-						"Body": [
-							{
-								"name": "01028080800",
-								"href": "tel:+201028080800"
-							},
-							{
-								"name": "28128025",
-								"href": "tel:+228128025"
-							},
-							{
-								"name": "01068882288",
-								"href": "tel:+201068882288"
-							}
-						]
-					}
-				}
-			},
-			"Form": {
-				"Inputs": {
-					"Input1": {
-						"Label": "First Name",
-						"PlaceHolder": "First Name"
-					},
-					"Input2": {
-						"Label": "Last Name",
-						"PlaceHolder": "Last Name"
-					},
-					"Input3": {
-						"Label": "Email",
-						"PlaceHolder": "Email"
-					},
-					"Input4": {
-						"Label": "Phone",
-						"PlaceHolder": "Phone"
-					},
-					"Input5": {
-						"Label": "Reasons",
-						"Options": {
-							"Option1": "—Please choose an option—",
-							"Option2": "Inquiry",
-							"Option3": "Complain"
-						}
-					},
-					"Input6": {
-						"Label": "Message",
-						"PlaceHolder": "Please type your message here..."
-					}
-				}
-			},
-			"Button": "Send Message"
-		},
-		"ComeAndVisitUs": {
-			"Heading": {
-				"Heading1": "Come and",
-				"Heading2": "visit us!"
-			},
-			"Body": "bperfect clinics are located in two diffiernt locations to serve your needs",
-			"Caption1": {
-				"Image": "/2.jpg",
-				"Heading": "Cairo Medical Center, behind Elgawy Hospital, 5th Settlement",
-				"Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "Cairo Medical Center (CMC) N Teseen St,First New Cairo, Cairo"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "bperfectclinic3@gmail.com"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01028080800",
-							"Number2": "28128025",
-							"Number3": "01068882288"
-						}
-					}
-				}
-			},
-			"Caption2": {
-				"Image": "/ComeAndVisitUsImage.jpg",
-				"Heading": "Park St. Mall, Zayed City",
-				"Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
-				"Links": {
-					"Link1": {
-						"Icon": "",
-						"Link": "Park St. Mall, Zayed City, Unit 2317"
-					},
-					"Link2": {
-						"Icon": "",
-						"Link": "bperfectclinic3@gmail.com"
-					},
-					"Link3": {
-						"Icon": "",
-						"Numbers": {
-							"Number1": "01000888580",
-							"Number2": "01000119611"
-						}
-					}
-				}
-			}
-		}
-	},
-	"Appointment": {
-		"Heading": {
-			"Heading1": "Send us a",
-			"Heading2": "message"
-		},
-		"Body": "Lorem ipsum dolor sit amet consectetur dolor adipiscing elit nulla adipiscing tincidunt interdum.",
-		"data": {
-			"Card1": {
-				"Img": "/Email-icon-elderlycare-x-webflow-template.svg",
-				"Title": "Email:",
-				"Body": [
-					{
-						"name": "bperfectclinic3@gmail.com",
-						"href": "mailto:bperfectclinic3@gmail.com"
-					}
-				]
-			},
-			"Card2": {
-				"Card1": {
-					"Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
-					"Title": "Phone:",
-					"Body": [
-						{
-							"name": "01028080800",
-							"href": "tel:+201028080800"
-						},
-						{
-							"name": "28128025",
-							"href": "tel:+228128025"
-						},
-						{
-							"name": "01068882288",
-							"href": "tel:+201068882288"
-						}
-					]
-				}
-			}
-		},
-		"Form": {
-			"Inputs": {
-				"Input1": {
-					"Label": "First Name",
-					"PlaceHolder": "First Name"
-				},
-				"Input2": {
-					"Label": "Last Name",
-					"PlaceHolder": "Last Name"
-				},
-				"Input3": {
-					"Label": "Email",
-					"PlaceHolder": "Email"
-				},
-				"Input4": {
-					"Label": "Phone",
-					"PlaceHolder": "Phone"
-				},
-				"Input5": {
-					"Label": "Service Type",
-					"Options": {
-						"Option1": "—Please choose an option—",
-						"Option2": "Body Reshaping",
-						"Option3": "Fillers and Botox",
-						"Option4": "Hair Treatment",
-						"Option5": "Laser Hair Removal",
-						"Option6": "Skin Treatment"
-					}
-				}
-			}
-		},
-		"Button": "Send Message"
-	},
-	"Blog": {
-		"HeroSection": {
-			"Heading": "Blog",
-			"Body": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit in voluptate velit."
-		},
-		"TeamArticlesSection": {
-			"Cards": {
-				"Card1": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card2": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card3": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card4": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card5": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				},
-				"Card6": {
-					"Img": "/TeamImgCard1.jpg",
-					"Heading": "10 Great activities to do with you grandchildren",
-					"Date": "Nov 7, 2023",
-					"Link": "Read more",
-					"Icon": ""
-				}
-			},
-			"Button": {
-				"Body": "التالي"
-			}
-		}
-	},
-	"FAQ": {
-		"Title": "FAQS",
-		"Heading": "Do you have questions?",
-		"Image": "/TeamImgCard1.jpg",
-		"QuestionsAnswers": {
-			"QuestionAnswer1": {
-				"Question": "Is laser hair removal painful?",
-				"Answer": "Laser hair removal can cause mild discomfort, often described as a rubber band snapping against the skin. However, the pain level varies from person to person and can be minimized with numbing creams or cooling techniques."
-			},
-			"QuestionAnswer2": {
-				"Question": "How long do the effects of Botox and fillers last?",
-				"Answer": "The results of Botox and fillers typically last for several months. Botox effects can last anywhere from 3 to 4 months, while filler results can last from 6 to 12 months."
-			},
-			"QuestionAnswer3": {
-				"Question": "Are there any risks associated with body reshaping procedures?",
-				"Answer": "While most body reshaping procedures are relatively safe, there are potential risks such as bruising, swelling, and discomfort. It's essential to consult with a qualified dermatologist to discuss the risks and benefits specific to your desired procedure."
-			}
-		}
-	},
-	"About": {
-		"AboutUs": {
-			"Title": "ABOUT BPERFECT",
-			"Heading": "Laser Hair Removal, Skin and Hair treatments as well as Clinical Nutrition ",
-			"Body": "Experts in laser hair removal, cosmetics, skin and hair treatments that are performed by Dr. Nancy Saleh (Dermatologist & Laser Consultant) and Dr. Ghada Nabil (Nutritionist & Laser Specialist), to best enhance your natural beauty and help you look and feel the best version of yourself.Your safety and satisfaction are our main priority.",
-			"Images": {
-				"Image1": "/AboutUsImage1.jpg",
-				"Image2": "/AboutUsImage2.jpg",
-				"Image3": "/AboutUsImage3.jpg"
-			},
-			"Statistics": {
-				"Statistic1": {
-					"Number": "2",
-					"Plus": "+",
-					"Body": "locations"
-				},
-				"Statistic2": {
-					"Number": "9",
-					"Plus": "+",
-					"Body": "Years of experience"
-				},
-				"Statistic3": {
-					"Number": "25,000",
-					"Plus": "+",
-					"Body": "Happy patient"
-				},
-				"Statistic4": {
-					"Number": "10",
-					"Plus": "+",
-					"Body": "Best machines in dermatology field"
-				}
-			}
-		},
-		"OurValues": {
-			"Title": "OUR VALUES",
-			"Heading": "care and compassion are provided to you",
-			"Body": "best doctors in field with best machines and highest techniques in sterilization to satisfy your needs",
-			"Image": "/OurValuesImage.jpg",
-			"Cards": {
-				"Card1": {
-					"Heading": "Our Mission",
-					"Body": "Dedicated to enhancing your natural beauty and make you look and feel best about yourself, throughout our various treatments delivered by the latest equipment, tools and premium products."
-				},
-				"Card2": {
-					"Heading": "Our Vision",
-					"Body": "Is to provide best values, affordable, accessible yet effective cosmetic treatments and solutions, using the latest medical grade equipment, in a friendly safe environment."
-				}
-			}
-		},
-		"OurTeam": {
-			"Title": "OUT TEAM",
-			"Heading": "Meet our professionals",
-			"TeamMembers": {
-				"Member1": {
-					"Image": "/nancy.jpg",
-					"Name": "Nancy Saleh",
-					"Title": "senior doctor",
-					"Travers": "/team/nancy-saleh"
-				},
-				"Member2": {
-					"Image": "/ghada.jpg",
-					"Name": "Ghada Nabil",
-					"Title": "senior doctor",
-					"Travers": "/team/ghada-nabil"
-				}
-			}
-		}
-	}
+  "ServicesDetails": {
+    "HeroSection": {
+      "Title": "SERVICES",
+      "BodyReshaping": {
+        "Heading": "Body Reshaping",
+        "Body": "Experience the latest modalities in Weight Loss & Body Reshaping and Enjoy a Body of your Dreams.",
+        "Icon": "/body.svg",
+        "Image": "/body.jpg"
+      },
+      "FillersBotox": {
+        "Heading": "Fillers & Botox",
+        "Body": "Keep the laughter and loosen up the lines, No more frown lines.",
+        "Icon": "/filler-icon.png",
+        "Image": "/filler.jpg"
+      },
+      "HairTreatments": {
+        "Heading": "Hair Treatments",
+        "Body": "Worry no more about Hair Problems & Enjoy a Flawless Hair",
+        "Icon": "/skin-icon.png",
+        "Image": "/hair.jpg"
+      },
+      "LaserHairRemoval": {
+        "Heading": "Laser skin services",
+        "Body": "",
+        "Icon": "/laser-icon.png",
+        "Image": "/laser.jpg"
+      },
+      "SkinTreatments": {
+        "Heading": "Facial treatment",
+        "Body": "",
+        "Icon": "/skin-icon.png",
+        "Image": "/skin.jpg"
+      }
+    },
+    "AboutThisService": {
+      "Heading3": "Get in contact with us!",
+      "Button": "Contact us",
+      "Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic",
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "Laser skin services",
+          "Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
+          "Link": "View service",
+          "travers": "services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/skin-icon.png",
+          "Heading": "Facial treatment",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "Fillers & Botox",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "Hair Treatments",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "Body Reshaping",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/body-reshaping"
+        }
+      },
+      "BodyReshaping": {
+        "Articles": {
+          "Article1": {
+            "Heading": "Cool Sculpture",
+            "Body": "Experience the non-surgical instant body reshaping with the 4 different treatments offered in 1 Machine:- Cryolipolysis: Stubborn fats breakdown and termination, using the freezing technique.- Cold Laser: Fat cells termination, no more fats regrowth in treated areas.- Cavitation: Fat cells breakdown.- Radio Frequency (RF): Skin tightening and cellulite treatment."
+          },
+          "Article2": {
+            "Heading": "Weight Loss",
+            "Body": "Certified Nutritionist with medical background will be working with you closely to set goals, create plans, and follow the right steps to reach your targeted weight in the best healthy approach."
+          },
+          "Article3": {
+            "Heading": "Mesolipolysis",
+            "Body": "Works on fats reduction by administering and dissolving Stubborn Fats."
+          },
+          "Article4": {
+            "Heading": "Anti-Cellulite",
+            "Body": "Toning and Treatment of Skin Sagginess caused by excessive weight loss."
+          },
+          "Article5": {
+            "Heading": "HIFU (High-Intensity Focused Ultrasound)",
+            "Body": "Lift, Tighten, and Rejuvenate: Our cutting-edge HIFU treatments utilize focused ultrasound energy to stimulate collagen production and tighten sagging skin, resulting in a more defined and youthful contour.\nExperience:\nNon-surgical face and neck lift\nImproved skin elasticity and firmness\nReduced sagging skin and wrinkles\nA more sculpted and youthful appearance"
+          }
+        },
+        "Img": "/body.jpg"
+      },
+      "FillersBotox": {
+        "Articles": {
+          "Article1": {
+            "Heading": "Composition",
+            "Body1": "Botox: Botox, derived from the bacterium Clostridium botulinum, is a purified neurotoxin known as Botulinum Toxin. It is a protein that temporarily blocks nerve signals in muscles, resulting in muscle relaxation.",
+            "Body2": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity.",
+            "Body3": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity."
+          },
+          "Article2": {
+            "Heading": "Mechanism of Action",
+            "Body1": "Botox: Botox functions by blocking the release of acetylcholine, a neurotransmitter responsible for muscle contractions. By inhibiting muscle activity, Botox temporarily diminishes the appearance of dynamic wrinkles, such as crow's feet, forehead lines, and frown lines.",
+            "Body2": "Dermal Fillers: Dermal fillers work by physically filling in wrinkles, lines, and areas where volume has been lost. They restore volume and provide structure to the face, plumping up areas that have experienced a loss of elasticity and firmness due to aging. Dermal fillers are commonly used to address static wrinkles, including nasolabial folds (smile lines), marionette lines, and areas with hollowed features."
+          },
+          "Article3": {
+            "Heading": "Areas of Treatment",
+            "Body1": "Botox: Botox is primarily used to treat dynamic wrinkles caused by repetitive muscle movements. It is commonly applied to target wrinkles in the upper face, including forehead lines, glabellar lines (between the eyebrows), and crow's feet around the eyes. Botox can also serve non-cosmetic purposes, such as treating medical conditions like hyperhidrosis (excessive sweating) and chronic migraines.",
+            "Body2": "Dermal Fillers: Dermal fillers are versatile and can be employed to address various concerns across different areas of the face. They are commonly used to add volume and shape to the cheeks, lips, and temples. Dermal fillers can also smooth out nasolabial folds, marionette lines, and other facial wrinkles, in addition to enhancing facial contours and improving the appearance of recessed scars."
+          },
+          "Article4": {
+            "Heading": "Duration of Results",
+            "Body1": "Botox: The effects of Botox typically last around 3 to 4 months, although individual factors, dosage, and the treated area can influence this timeframe. Follow-up treatments are necessary to maintain the desired results.",
+            "Body2": "Dermal Fillers: The longevity of dermal fillers varies based on the type of filler used and the treated area. Hyaluronic acid fillers generally provide results that last between 6 months to 2 years. Over time, the filler gradually breaks down and is naturally absorbed by the body. Follow-up treatments are essential to sustain the results. It's crucial to note that both Botox and dermal fillers should be administered by qualified healthcare professionals with expertise in cosmetic procedures.",
+            "Body3": "In summary, Botox and dermal fillers are distinct treatments with different compositions, mechanisms of action, and areas of application. Botox temporarily relaxes muscles to reduce the appearance of dynamic wrinkles, while dermal fillers add volume and structure to areas affected by static wrinkles and volume loss. Consulting with a healthcare professional will help determine the most suitable treatment for specific concerns and desired results."
+          },
+          "Article5": {
+            "Heading": "What is Botox?",
+            "Body1": "Botox, derived from the bacterium Clostridium botulinum, is a neurotoxic protein widely utilized in the fields of cosmetic dermatology and medical aesthetics. Its primary function lies in temporarily blocking nerve signals in the muscles where it is injected, resulting in a temporary paralysis or relaxation of those muscles. ",
+            "Body2": "In cosmetic dermatology, Botox is highly valued for its ability to diminish the appearance of wrinkles and fine lines, particularly in areas such as the forehead, glabellar lines (between the eyebrows), and crow's feet (around the eyes). ",
+            "Body3": "By relaxing the underlying muscles responsible for wrinkle formation, Botox effectively smoothes the skin, imparting a more youthful and rejuvenated appearance.",
+            "Body4": "Botox injections are minimally invasive and typically administered through a series of small injections directly into the targeted muscles. The procedure is generally well-tolerated and often does not require anesthesia, although a topical numbing cream may be applied to enhance comfort. Beyond its cosmetic applications, Botox serves various medical purposes. It has proven effective in treating conditions like chronic migraines, hyperhidrosis (excessive sweating), muscle spasms, overactive bladder, and specific types of facial asymmetry or twitching.",
+            "Body5": "It is crucial to emphasize that Botox should always be administered by a qualified healthcare professional, such as a dermatologist or plastic surgeon, who has received proper training in the procedure. This ensures both safety and optimal results. The effects of Botox typically last for several months, after which additional treatments may be necessary to maintain the desired outcome."
+          },
+          "Article6": {
+            "Heading": "What can Botox correct?",
+            "Body1": "",
+            "Body2": "",
+            "Body3": ""
+          },
+          "Article7": {
+            "Heading": "",
+            "Body1": "",
+            "Body2": "",
+            "Body3": ""
+          }
+        },
+        "Img": "/filler.jpg"
+      },
+      "HairTreatments": {
+        "Articles": {
+          "Article1": {
+            "Heading": "PRP (Platelet-Rich Plasma)",
+            "Body": "Treat Excessive hair loss by PRP and enjoy strengthening and regrowth of your hair follicles."
+          },
+          "Article2": {
+            "Heading": "Stem Cells",
+            "Body": "Enjoy the latest revolutionary non-surgical solution for scalp baldness."
+          },
+          "Article3": {
+            "Heading": "Mesotherapy",
+            "Body": "Ensure your hair regrowth by nourishing the hair follicles with DHT hormone, vitamins, minerals and amino acid mixtures"
+          }
+        },
+        "Img": "/hair.jpg"
+      },
+      "LaserHairRemoval": {
+        "Articles": {
+          "Article1": {
+            "Heading": "Laser skin services",
+            "Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro U)\nyour needed results are best received in a shorter time than expected. \n– Works on all skin and hair types.\n – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. \n– With its dynamic cooling system, you undergo your service completely Pain Free."
+          },
+          "Article2": {
+            "Heading": "Q-Switched Laser",
+            "Body": "Unleash Your Radiance: Experience the transformative power of our Q-switched laser treatments. Designed to target and diminish a range of skin concerns, this advanced technology delivers precise and effective results.\nSay Goodbye to:\nUnwanted pigmentation\nStubborn age spots\nUnsightly tattoos\nExpect:\nReduced hyperpigmentation\nFaded age spots\nDiminished tattoo ink\nRevitalized, more even skin tone"
+          },
+          "Article3": {
+            "Heading": "Fractional Laser",
+            "Body": "Rejuvenate Your Skin: Our fractional laser treatments stimulate collagen production and promote skin renewal, revealing a more youthful and radiant complexion.\nIdeal for:\nFine lines and wrinkles\nScars (acne, surgical)\nEnlarged pores\nUneven skin texture\nExperience:\nSmoother, firmer skin\nReduced appearance of wrinkles\nImproved skin tone and texture\nA more youthful, refreshed look"
+          }
+        },
+        "Img": "/laser.jpg"
+      },
+      "SkinTreatments": {
+        "Articles": {
+          "Article1": {
+            "Heading": "Carbon Laser Peeling",
+            "Body": "Latest superficial treatment used in eliminating acne scars, enlarged pores, dark and red spots and excess oils"
+          },
+          "Article2": {
+            "Heading": "PRP",
+            "Body": "Boost your collagen and regenerate your skin tissues by making your skin softer and looking younger, perfect for wrinkles treatments."
+          },
+          "Article3": {
+            "Heading": "Chemical Peeling",
+            "Body": "Applied to the skin to remove acne scars, top layers, deeper wrinkles, and treat discoloration. Mainly used for facial purposes to restore the freshness of the skin."
+          },
+          "Article4": {
+            "Heading": "Hydrafacial (Deep facial Nettoyage)",
+            "Body": "A patent skin treatment used to hydrate face skin, toning the skin, and deep-cleansing of skin."
+          },
+          "Article5": {
+            "Heading": "Oxygeno",
+            "Body": "Revive and Revitalize: Experience the exhilarating effects of Oxygeno therapy. This innovative treatment infuses your skin with oxygen and nutrients, leaving you with a radiant, youthful glow.\nExpect:\nImproved skin tone and texture\nReduced fine lines and wrinkles\nIncreased skin hydration and firmness\nA revitalized, refreshed complexion"
+          }
+        },
+        "Img": "/skin.jpg"
+      }
+    }
+  },
+  "Home": {
+    "HomeHeroSection": {
+      "Title": "SENIOR CARE SERVICES",
+      "Heading1": "Welcome to",
+      "Heading2": "Bperfect",
+      "Heading3": " Clinic,",
+      "Body": "your trusted partner in achieving healthy and radiant skin. Our team of experienced dermatologists is dedicated to providing personalized care for a wide range of skin concerns. From treating common skin conditions to enhancing your natural beauty, we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
+      "Image": "/heroImage.jpg",
+      "Button1": "Brows Services",
+      "IconCaption": "Send a message"
+    },
+    "ContactInfo": {
+      "Cards": {
+        "card1": {
+          "Icon": "/phone-ixon.svg",
+          "Heading": "Call us",
+          "Title": "01028080800",
+          "Body": "make us call",
+          "href": "tel:01028080800"
+        },
+        "card2": {
+          "Icon": "/Message-icon.svg",
+          "Heading": "Email us",
+          "Title": "bperfectclinic3@gmail.com",
+          "Body": "Send us a email",
+          "href": "mailto:bperfectclinic3@gmail.com"
+        },
+        "card3": {
+          "Icon": "/location-icon.svg",
+          "Heading": "Visit us",
+          "Title": "Book an appointment",
+          "Body": "Schedule a visit",
+          "href": "/appointment"
+        }
+      }
+    },
+    "OurServices": {
+      "Title": "OUR SERVICES",
+      "Heading": {
+        "Heading1": "A wide range",
+        "Heading2": "of services"
+      },
+      "Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "Laser skin services",
+          "Body": "Experience smooth, hair-free skin with our advanced laser hair removal treatments. Our expert technicians use the latest technology to provide effective and long-lasting results.",
+          "Link": "View service",
+          "travers": "services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/skin-icon.png",
+          "Heading": "Facial treatment",
+          "Body": "Restore your skin's health and radiance with our customized skin treatments. From acne and eczema to anti-aging and pigmentation, we offer solutions for various skin concerns.",
+          "Link": "View service",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "Fillers & Botox",
+          "Body": "Enhance your facial features and reduce the appearance of wrinkles with our safe and effective filler and Botox treatments. Achieve a more youthful and refreshed look.",
+          "Link": "View service",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "Hair Treatments",
+          "Body": "Revitalize your hair with our nourishing hair treatments. Address hair loss, dandruff, and other scalp issues while promoting healthy hair growth.",
+          "Link": "View service",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "Body Reshaping",
+          "Body": "Contour your body and achieve your desired shape with our non-invasive body reshaping procedures. Reduce fat, tighten skin, and enhance your confidence",
+          "Link": "View service",
+          "travers": "services/body-reshaping"
+        }
+      },
+      "Links": {
+        "Link1": {
+          "Body": "Browse Services",
+          "Travers": "/services"
+        },
+        "Link2": {
+          "Body": "Book appointment",
+          "Travers": "/appointment"
+        }
+      }
+    },
+    "OurVideos": {
+      "Title": "OUR Videos",
+      "Heading": {
+        "Heading1": "A wide range",
+        "Heading2": "of services"
+      },
+      "Body": "we offer a comprehensive range of dermatological services tailored to your individual needs. Discover the transformative power of expert dermatological care at Bperfect Clinic.",
+      "Cards": {
+        "Card1": {
+          "Link": "https://youtu.be/mvpv6pWXAM4"
+        },
+        "Card2": {
+          "Link": "https://youtube.com/shorts/1LWyYQl78gI?feature=share"
+        },
+        "Card3": {
+          "Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
+        },
+        "Card4": {
+          "Link": "https://youtube.com/shorts/AaRbXvLNaDs?feature=share"
+        },
+        "Card5": {
+          "Link": "https://youtube.com/shorts/Eo2GNdKG3iE?feature=share"
+        },
+        "Card6": {
+          "Link": "https://youtube.com/shorts/VDKjCncL89o?feature=share"
+        },
+        "Card7": {
+          "Link": "https://youtube.com/shorts/LREvIYaEo-Y?feature=share"
+        },
+        "Card8": {
+          "Link": "https://youtube.com/shorts/Mm7ViFKsGdo?feature=share"
+        },
+        "Card9": {
+          "Link": "https://youtube.com/shorts/libgLEqb0JY?feature=share"
+        },
+        "Card10": {
+          "Link": "https://youtube.com/shorts/LAIV1jyrtl8?feature=share"
+        }
+      },
+      "Links": {
+        "Link1": {
+          "Body": "Browse Services",
+          "Travers": "/services"
+        },
+        "Link2": {
+          "Body": "Book appointment",
+          "Travers": "/appointment"
+        }
+      }
+    },
+    "WhyChooseUs": {
+      "Title": "WHY CHOOSE US",
+      "Heading": {
+        "Heading1": "Best dermatology",
+        "Heading2": " services for you"
+      },
+      "Body": "bperfect clinic over 10 years of experience serving you with all love to satisfy you with best machines in the field.",
+      "Images": {
+        "Image1": "/WhyChoseUsImage1.jpg",
+        "Image2": "/WhyChoseUsImage3.jpg",
+        "Image3": "/WhyChoseUsImage2.jpg"
+      },
+      "Cards": {
+        "Card1": {
+          "Icon": "/Nursing-staff-icon.svg",
+          "Body": "2 locations"
+        },
+        "Card2": {
+          "Icon": "/Resident-care-icon.svg",
+          "Body": "10 years of experience"
+        },
+        "Card3": {
+          "Icon": "/Quality-support-icon.svg",
+          "Body": "10,000 loyal customers"
+        },
+        "Card4": {
+          "Icon": "/HeartIcon.svg",
+          "Body": "15 latest machines in dermatology field"
+        }
+      },
+      "Buttons": {
+        "Button1": "More about us",
+        "Button2": "Browse services"
+      }
+    },
+    "OurFacilities": {
+      "Title": "Our Services",
+      "Heading": {
+        "Heading1": "why Bperfect clinics are the best choice for you",
+        "Heading2": "in all dermatology services"
+      },
+      "Videos": {
+        "Video1": "https://www.youtube.com/embed/seeaJi3tUt8",
+        "Video2": "https://www.youtube.com/embed/seeaJi3tUt8"
+      },
+      "Button": {
+        "Body": "Browse Services",
+        "Travers": "/services"
+      }
+    },
+    "OurTeamHome": {
+      "Title": "OUR TEAM",
+      "Heading": {
+        "Heading1": "meet our experts in dermatology field with experince more than 20 years of experience",
+        "Heading2": ""
+      },
+      "Body": "",
+      "Button": {
+        "Body": "Meet Our Team",
+        "Travers": "/about"
+      },
+      "Image": "/OurTeamHomeImage.jpg",
+      "Card": {
+        "Image": "/OurTeamIcon.svg",
+        "Body": "",
+        "Title": {
+          "Title1": "",
+          "Title2": "Founders of Bpefect Clinic"
+        }
+      }
+    },
+    "GetStartedToday": {
+      "Title": "GET STARTED TODAY",
+      "Heading": "choose a service that fits your needs",
+      "Body": "it is time to enjoy our premium services to have prettier look",
+      "Image": "/GetStartedTodayImage.jpg",
+      "Buttons": {
+        "Button1": {
+          "Body": "Book appointment",
+          "Travers": "/appointment"
+        },
+        "Button2": {
+          "Body": "Browse Services",
+          "Travers": "/services"
+        }
+      }
+    },
+    "Testimonial": {
+      "Title": "TESTIMONIALS",
+      "Heading": {
+        "Heading1": "Don’t take our word for",
+        "Heading2": "it take theirs"
+      },
+      "Button": {
+        "Body": "Book an appointment",
+        "Travers": "/appointment"
+      }
+    },
+    "OurBlog": {
+      "Title": "OUR BLOG",
+      "Heading": "News & articles",
+      "Button": "Browse all article",
+      "Cards": {
+        "Card1": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card2": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card3": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        }
+      }
+    }
+  },
+  "Services": {
+    "HeroSection": {
+      "Title": "SENIOR CARE SERVICES",
+      "Heading": {
+        "Heading1": "We provide high quality",
+        "Heading2": "dermatlogy services"
+      },
+      "Cards": {
+        "Card1": {
+          "Image": "/laser.jpg",
+          "Icon": "/laser-icon.png",
+          "Heading": "Laser skin services",
+          "Body": "With the Latest Revolutionary Laser Hair Removal Machine (Candela Gentle Lase Pro 2020), your needed results are best received in a shorter time than expected. – Works on all skin and hair types. – Treats skin pigmentation caused by sun damage or deficiency of Melanocytes. – With its dynamic cooling system, you undergo your service completely Pain Free.",
+          "Link": "",
+          "travers": "services/laser-hair-removal"
+        },
+        "Card2": {
+          "Image": "/skin.jpg",
+          "Icon": "/skin-icon.png",
+          "Heading": "Facial treatment",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/skin-treatments"
+        },
+        "Card3": {
+          "Image": "/filler.jpg",
+          "Icon": "/filler-icon.png",
+          "Heading": "Fillers & Botox",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/fillers-botox"
+        },
+        "Card4": {
+          "Image": "/hair.jpg",
+          "Icon": "/hair.svg",
+          "Heading": "Hair Treatments",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/hair-treatments"
+        },
+        "Card5": {
+          "Image": "/body.jpg",
+          "Icon": "/body.svg",
+          "Heading": "Body Reshaping",
+          "Body": "",
+          "Link": "View service",
+          "travers": "services/body-reshaping"
+        }
+      }
+    },
+    "Community": {
+      "Heading": "Join our wonderful community today",
+      "Button1": "Browse services",
+      "Button2": "Browse services"
+    }
+  },
+  "Team": {
+    "TeamHeroSection": {
+      "Title": "Senior Doctor",
+      "Button": "More about me",
+      "TeamMembers": {
+        "TeamMember1": {
+          "Img": "/ghada.jpg",
+          "Name": "Ghada Nabil",
+          "Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
+          "Links": {
+            "Link1": "Facebook",
+            "Link2": "Instagram",
+            "Link3": "Youtube"
+          }
+        },
+        "TeamMember2": {
+          "Img": "/nancy.jpg",
+          "Name": "Nancy Saleh",
+          "Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
+          "Links": {
+            "Link1": "Facebook",
+            "Link2": "Instagram",
+            "Link3": "Youtube"
+          }
+        }
+      }
+    },
+    "AboutMe": {
+      "Heading": "",
+      "Paragraphs": {
+        "TeamMembers": {
+          "TeamMember1": {
+            "Paragraph1": {
+              "Text1": "",
+              "StrongText": "",
+              "Text2": " "
+            },
+            "Paragraph2": {
+              "Text-1": "",
+              "StrongText": "",
+              "Text2": " "
+            }
+          },
+          "TeamMember2": {
+            "Paragraph1": {
+              "Text1": "",
+              "StrongText": "",
+              "Text2": " "
+            },
+            "Paragraph2": {
+              "Text-1": "",
+              "StrongText": "",
+              "Text2": " "
+            }
+          }
+        }
+      }
+    }
+  },
+  "ContactUs": {
+    "ContactUsHeroSection": {
+      "Heading": {
+        "Heading1": "Send us a",
+        "Heading2": "message"
+      },
+      "Body": "our team will contact you back as soon as possible with your inquiry",
+      "data": {
+        "Card1": {
+          "Img": "/Email-icon-elderlycare-x-webflow-template.svg",
+          "Title": "Email:",
+          "Body": [
+            {
+              "name": "bperfectclinic3@gmail.com",
+              "href": "mailto:bperfectclinic3@gmail.com"
+            }
+          ]
+        },
+        "Card2": {
+          "Card1": {
+            "Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
+            "Title": "Phone:",
+            "Body": [
+              {
+                "name": "01028080800",
+                "href": "tel:+201028080800"
+              },
+              {
+                "name": "28128025",
+                "href": "tel:+228128025"
+              },
+              {
+                "name": "01068882288",
+                "href": "tel:+201068882288"
+              }
+            ]
+          }
+        }
+      },
+      "Form": {
+        "Inputs": {
+          "Input1": {
+            "Label": "First Name",
+            "PlaceHolder": "First Name"
+          },
+          "Input2": {
+            "Label": "Last Name",
+            "PlaceHolder": "Last Name"
+          },
+          "Input3": {
+            "Label": "Email",
+            "PlaceHolder": "Email"
+          },
+          "Input4": {
+            "Label": "Phone",
+            "PlaceHolder": "Phone"
+          },
+          "Input5": {
+            "Label": "Reasons",
+            "Options": {
+              "Option1": "—Please choose an option—",
+              "Option2": "Inquiry",
+              "Option3": "Complain"
+            }
+          },
+          "Input6": {
+            "Label": "Message",
+            "PlaceHolder": "Please type your message here..."
+          }
+        }
+      },
+      "Button": "Send Message"
+    },
+    "ComeAndVisitUs": {
+      "Heading": {
+        "Heading1": "Come and",
+        "Heading2": "visit us!"
+      },
+      "Body": "bperfect clinics are located in two diffiernt locations to serve your needs",
+      "Caption1": {
+        "Image": "/2.jpg",
+        "Heading": "Cairo Medical Center, behind Elgawy Hospital, 5th Settlement",
+        "Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
+        "Links": {
+          "Link1": {
+            "Icon": "",
+            "Link": "Cairo Medical Center (CMC) N Teseen St,First New Cairo, Cairo"
+          },
+          "Link2": {
+            "Icon": "",
+            "Link": "bperfectclinic3@gmail.com"
+          },
+          "Link3": {
+            "Icon": "",
+            "Numbers": {
+              "Number1": "01028080800",
+              "Number2": "28128025",
+              "Number3": "01068882288"
+            }
+          }
+        }
+      },
+      "Caption2": {
+        "Image": "/ComeAndVisitUsImage.jpg",
+        "Heading": "Park St. Mall, Zayed City",
+        "Body": "come and visit us!bperfect clinics are located in two diffiernt locations to serve your needs",
+        "Links": {
+          "Link1": {
+            "Icon": "",
+            "Link": "Park St. Mall, Zayed City, Unit 2317"
+          },
+          "Link2": {
+            "Icon": "",
+            "Link": "bperfectclinic3@gmail.com"
+          },
+          "Link3": {
+            "Icon": "",
+            "Numbers": {
+              "Number1": "01000888580",
+              "Number2": "01000119611"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Appointment": {
+    "Heading": {
+      "Heading1": "Send us a",
+      "Heading2": "message"
+    },
+    "Body": "Lorem ipsum dolor sit amet consectetur dolor adipiscing elit nulla adipiscing tincidunt interdum.",
+    "data": {
+      "Card1": {
+        "Img": "/Email-icon-elderlycare-x-webflow-template.svg",
+        "Title": "Email:",
+        "Body": [
+          {
+            "name": "bperfectclinic3@gmail.com",
+            "href": "mailto:bperfectclinic3@gmail.com"
+          }
+        ]
+      },
+      "Card2": {
+        "Card1": {
+          "Img": "/Phone-icon-elderlycare-x-webflow-template.svg",
+          "Title": "Phone:",
+          "Body": [
+            {
+              "name": "01028080800",
+              "href": "tel:+201028080800"
+            },
+            {
+              "name": "28128025",
+              "href": "tel:+228128025"
+            },
+            {
+              "name": "01068882288",
+              "href": "tel:+201068882288"
+            }
+          ]
+        }
+      }
+    },
+    "Form": {
+      "Inputs": {
+        "Input1": {
+          "Label": "First Name",
+          "PlaceHolder": "First Name"
+        },
+        "Input2": {
+          "Label": "Last Name",
+          "PlaceHolder": "Last Name"
+        },
+        "Input3": {
+          "Label": "Email",
+          "PlaceHolder": "Email"
+        },
+        "Input4": {
+          "Label": "Phone",
+          "PlaceHolder": "Phone"
+        },
+        "Input5": {
+          "Label": "Service Type",
+          "Options": {
+            "Option1": "—Please choose an option—",
+            "Option2": "Body Reshaping",
+            "Option3": "Fillers and Botox",
+            "Option4": "Hair Treatment",
+            "Option5": "Laser skin services",
+            "Option6": "Facial treatment"
+          }
+        }
+      }
+    },
+    "Button": "Send Message"
+  },
+  "Blog": {
+    "HeroSection": {
+      "Heading": "Blog",
+      "Body": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit in voluptate velit."
+    },
+    "TeamArticlesSection": {
+      "Cards": {
+        "Card1": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card2": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card3": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card4": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card5": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        },
+        "Card6": {
+          "Img": "/TeamImgCard1.jpg",
+          "Heading": "10 Great activities to do with you grandchildren",
+          "Date": "Nov 7, 2023",
+          "Link": "Read more",
+          "Icon": ""
+        }
+      },
+      "Button": {
+        "Body": "التالي"
+      }
+    }
+  },
+  "FAQ": {
+    "Title": "FAQS",
+    "Heading": "Do you have questions?",
+    "Image": "/TeamImgCard1.jpg",
+    "QuestionsAnswers": {
+      "QuestionAnswer1": {
+        "Question": "Is laser hair removal painful?",
+        "Answer": "Laser hair removal can cause mild discomfort, often described as a rubber band snapping against the skin. However, the pain level varies from person to person and can be minimized with numbing creams or cooling techniques."
+      },
+      "QuestionAnswer2": {
+        "Question": "How long do the effects of Botox and fillers last?",
+        "Answer": "The results of Botox and fillers typically last for several months. Botox effects can last anywhere from 3 to 4 months, while filler results can last from 6 to 12 months."
+      },
+      "QuestionAnswer3": {
+        "Question": "Are there any risks associated with body reshaping procedures?",
+        "Answer": "While most body reshaping procedures are relatively safe, there are potential risks such as bruising, swelling, and discomfort. It's essential to consult with a qualified dermatologist to discuss the risks and benefits specific to your desired procedure."
+      }
+    }
+  },
+  "About": {
+    "AboutUs": {
+      "Title": "ABOUT BPERFECT",
+      "Heading": "Laser Hair Removal, Skin and Hair treatments as well as Clinical Nutrition ",
+      "Body": "Experts in laser hair removal, cosmetics, skin and hair treatments that are performed by Dr. Nancy Saleh (Dermatologist & Laser Consultant) and Dr. Ghada Nabil (Nutritionist & Laser Specialist), to best enhance your natural beauty and help you look and feel the best version of yourself.Your safety and satisfaction are our main priority.",
+      "Images": {
+        "Image1": "/AboutUsImage1.jpg",
+        "Image2": "/AboutUsImage2.jpg",
+        "Image3": "/AboutUsImage3.jpg"
+      },
+      "Statistics": {
+        "Statistic1": {
+          "Number": "2",
+          "Plus": "+",
+          "Body": "locations"
+        },
+        "Statistic2": {
+          "Number": "9",
+          "Plus": "+",
+          "Body": "Years of experience"
+        },
+        "Statistic3": {
+          "Number": "25,000",
+          "Plus": "+",
+          "Body": "Happy patient"
+        },
+        "Statistic4": {
+          "Number": "10",
+          "Plus": "+",
+          "Body": "Best machines in dermatology field"
+        }
+      }
+    },
+    "OurValues": {
+      "Title": "OUR VALUES",
+      "Heading": "care and compassion are provided to you",
+      "Body": "best doctors in field with best machines and highest techniques in sterilization to satisfy your needs",
+      "Image": "/OurValuesImage.jpg",
+      "Cards": {
+        "Card1": {
+          "Heading": "Our Mission",
+          "Body": "Dedicated to enhancing your natural beauty and make you look and feel best about yourself, throughout our various treatments delivered by the latest equipment, tools and premium products."
+        },
+        "Card2": {
+          "Heading": "Our Vision",
+          "Body": "Is to provide best values, affordable, accessible yet effective cosmetic treatments and solutions, using the latest medical grade equipment, in a friendly safe environment."
+        }
+      }
+    },
+    "OurTeam": {
+      "Title": "OUT TEAM",
+      "Heading": "Meet our professionals",
+      "TeamMembers": {
+        "Member1": {
+          "Image": "/nancy.jpg",
+          "Name": "Nancy Saleh",
+          "Title": "senior doctor",
+          "Travers": "/team/nancy-saleh"
+        },
+        "Member2": {
+          "Image": "/ghada.jpg",
+          "Name": "Ghada Nabil",
+          "Title": "senior doctor",
+          "Travers": "/team/ghada-nabil"
+        }
+      }
+    }
+  }
 }

@@ -14,20 +14,20 @@ interface PageProps {
 }
 
 const Page = async ({ params }: PageProps) => {
-	const { id } = params;
+	// const { id } = params;
 
-	const res = await fetch(
-		`https://blog-admin-brown.vercel.app/api/32ed4982-2c04-4e37-8b73-75384a47ed5f/Blog/${id}`,
-	);
+	// const res = await fetch(
+	// 	`https://blog-admin-brown.vercel.app/api/32ed4982-2c04-4e37-8b73-75384a47ed5f/Blog/${id}`,
+	// );
 
-	if (!res.ok) {
-		// Handle error (e.g., 404)
-		return <p>Error loading blog.</p>;
-	}
+	// if (!res.ok) {
+	// 	// Handle error (e.g., 404)
+	// 	return <p>Error loading blog.</p>;
+	// }
 
-	const blog: Blog = await res.json();
+	// const blog: Blog = await res.json();
 
-	return <CraftProjects blog={blog} />;
+	// return <CraftProjects blog={blog} />;
 };
 
 export default Page;

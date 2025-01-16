@@ -19,7 +19,7 @@ const ServicesHeroSection = ({ locale }: Locale) => {
 		<ServicesHero>
 			<Section as={"div"}>
 				<Row justify={"center"}>
-					<ServicesHeroSectionTitle>{t("Title")}</ServicesHeroSectionTitle>
+					<ServicesHeroSectionTitle></ServicesHeroSectionTitle>
 					<Display1>
 						{t("Heading.Heading1")} <SpanStyles>{t("Heading.Heading2")}</SpanStyles>
 					</Display1>

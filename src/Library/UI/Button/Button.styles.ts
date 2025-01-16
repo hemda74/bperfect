@@ -106,7 +106,7 @@ export const MainButton = styled.button<{
 	}};
 	line-height: ${({ size }) => {
 		switch (size) {
-			case "Default" || "Large":
+			case "Large":
 				return "1.1em";
 			case "Small":
 				return "1.125em";
