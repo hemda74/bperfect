@@ -42,10 +42,10 @@ const OurTeamHome = () => {
 					</Col>
 					<Col md={6}>
 						<OurTeamHomeImageContainer>
-							<OurTeamHomeImage src={t("Image")} alt={""} width={580} height={653} />
+							<OurTeamHomeImage src={t("Image")} alt={""} width={500} height={500} style={{ objectFit: "cover" }} />
 
 							<OurTeamInfo>
-								<Image src={t("Card.Image")} alt={""} width={71} height={42} />
+								<Image src={t("Card.Image")} alt={""} width={71} height={42} style={{ objectFit: "cover" }} />
 								<OurTeamInfoCaption>{t("Card.Body")}</OurTeamInfoCaption>
 
 								<OurTeamInfoTitle>

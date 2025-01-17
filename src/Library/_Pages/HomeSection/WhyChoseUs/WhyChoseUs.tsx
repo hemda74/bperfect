@@ -36,12 +36,12 @@ const WhyChoseUs = () => {
 							<ImageParentContainerInner gap={32} aligncenter={"center"}>
 								{/*<ColorDiv />*/}
 								<ImageContainer>
-									<ImageStyles width={295} height={400} src={t("Images.Image1")} alt={""} />
+									<ImageStyles width={295} height={400} src={t("Images.Image1")} alt={""} style={{ objectFit: "cover" }} />
 
-									<ImageStyles width={280} height={297} src={t("Images.Image2")} alt={""} />
+									<ImageStyles width={280} height={297} src={t("Images.Image2")} alt={""} style={{ objectFit: "cover" }} />
 								</ImageContainer>
 
-								<ImageStyles width={336} height={464} src={t("Images.Image3")} alt={""} />
+								<ImageStyles width={236} height={364} src={t("Images.Image3")} alt={""} style={{ objectFit: "cover" }} />
 							</ImageParentContainerInner>
 						</ImageParentContainer>
 

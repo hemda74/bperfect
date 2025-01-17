@@ -24,24 +24,24 @@ const AboutUs = () => {
 					as={"div"}
 					className={`${styles.paddingLeft24} ${styles.paddingRight24} ${styles.paddingTop110} ${styles.paddingBottom188}`}
 				>
-					<AboutUSShell>
+					<AboutUSShell >
 						<TagLine>{t("Title")}</TagLine>
 						<Row as={"ul"} justify="space-between">
-							<Col as={"li"} md={12} lg={5}>
+							<Col as={"li"} md={12} lg={4}>
 								<Display1>{t("Heading")}</Display1>
 							</Col>
-							<Col as={"li"} lg={5}>
+							<Col as={"li"} lg={8} style={{ marginBottom: "18rem" }}>
 								<AboutUsParagraph>{t("Body")} </AboutUsParagraph>
 							</Col>
 
 							<Col as={"li"} lg={12} className={styles.paddingTop64}>
 								<Row justify={"space-around"}>
-									<Col lg={6}>
+									<Col lg={5}>
 										<AboutUsImage width={510} height={466} src={t("Images.Image1")} alt={""} />
 									</Col>{" "}
-									<Col lg={3}>
+									<Col lg={4}>
 										<MiddleImageCard>
-											<AboutUsImage width={331} height={503} src={t("Images.Image2")} alt={""} />
+											<AboutUsImage width={510} height={466} src={t("Images.Image2")} alt={""} />
 										</MiddleImageCard>
 									</Col>
 									<Col lg={3}>

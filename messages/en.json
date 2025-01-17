@@ -559,7 +559,7 @@
 				"TeamMember2": {
 					"Img": "/nancy.jpg",
 					"Name": "Nancy Saleh",
-					"Body": "senior consultant at bperfect clinic professional injector for fillers and botox",
+					"Body": "Founder of Bperfect clinic, Dermatology consultant ",
 					"Links": {
 						"Link1": "Facebook",
 						"Link2": "Instagram",
@@ -875,7 +875,7 @@
 		"AboutUs": {
 			"Title": "ABOUT BPERFECT",
 			"Heading": "Laser Hair Removal, Skin and Hair treatments as well as Clinical Nutrition ",
-			"Body": "Experts in laser hair removal, cosmetics, skin and hair treatments that are performed by Dr. Nancy Saleh (Dermatologist & Laser Consultant) and Dr. Ghada Nabil (Nutritionist & Laser Specialist), to best enhance your natural beauty and help you look and feel the best version of yourself.Your safety and satisfaction are our main priority.",
+			"Body": "At Bperfect clinics, we prioritize exceptional patient care and deliver outstanding results. Our commitment to excellence is reflected in every aspect of our practice:Experienced Expertise : Our team boasts highly experienced and skilled professionals with a minimum of ten years of expertise in the field of dermatology and aesthetics. This ensures that you receive the highest quality care and minimizes the risk of complications, unlike clinics that may rely on less experienced staff.Cutting-Edge Technology : We invest in the latest and most advanced technologies to provide safe and effective treatments. Our state-of-the-art equipment, such as the Candela GentleLase Pro U for laser hair removal, ensures optimal results with maximum safety and efficiency.Comprehensive Services : Experience the convenience of having a full range of cosmetic services under one roof. From skin rejuvenation and hair restoration to body contouring and injectables, we offer a comprehensive suite of treatments to address your individual needs.Premium Quality Products: We utilize only the highest quality materials and products, including renowned brands like Juvederm, Restylane, Teosyal for fillers and Allergan Botox. This ensures optimal results, minimizes side effects, and provides long-lasting outcomes.Innovative Techniques : We stay at the forefront of advancements in aesthetic medicine, incorporating innovative techniques such as absorbable collagen threads for facial rejuvenation and PRP therapy with biotin for enhanced hair restoration.Client-Centric Approach : We value your time and prioritize your comfort. Our efficient reservation system allows you to book appointments conveniently, and we strive to minimize wait times, ensuring a seamless and enjoyable experience.Uncompromising Hygiene: We maintain the highest standards of hygiene and infection control. Our commitment to safety includes the use of personal skin protectors on laser heads to prevent any risk of cross-contamination.Ethical Practice : We believe in providing honest and transparent consultations. Our focus is on delivering the best possible outcomes for each individual, and we will never recommend a procedure that is not necessary or appropriate for your needs.Differentiating Factors: While offering a comprehensive range of services and utilizing the latest technologies, we strive to exceed expectations in several key areas:Competitive Pricing : We offer competitive pricing for our services while maintaining the highest standards of quality and safety.Efficient Appointment Scheduling : Our streamlined reservation system ensures prompt and convenient appointment scheduling, minimizing wait times and respecting your valuable time.Doctor-Driven Approach : Our team of experienced professionals, including our esteemed doctors, are actively involved in all aspects of patient care, ensuring personalized attention and optimal outcomes.",
 			"Images": {
 				"Image1": "/AboutUsImage1.jpg",
 				"Image2": "/AboutUsImage2.jpg",
@@ -927,7 +927,7 @@
 				"Member1": {
 					"Image": "/nancy.jpg",
 					"Name": "Nancy Saleh",
-					"Title": "senior doctor",
+					"Title": "Founder of Bperfect clinic, Dermatology consultant ",
 					"Travers": "/team/nancy-saleh"
 				},
 				"Member2": {
