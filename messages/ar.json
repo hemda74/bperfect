@@ -156,13 +156,13 @@
 				"Body": "تعرف على فريقنا",
 				"Travers": "/about"
 			},
-			"Image": "/ghada.jpg",
+			"Image": "/OurTeamHomeImage.jpg",
 			"Card": {
 				"Image": "/OurTeamIcon.svg",
-				"Body": "دكتور غادة",
+				"Body": "",
 				"Title": {
 					"Title1": "",
-					"Title2": "مؤسسة مركز Bperfect"
+					"Title2": "مؤسسين مركز Bperfect"
 				}
 			}
 		},
@@ -1012,10 +1012,10 @@
 				"Body": "تعرف على فريقنا",
 				"Travers": "/about"
 			},
-			"Image": "/ghada.jpg",
+			"Image": "/OurTeamHomeImage.jpg",
 			"Card": {
 				"Image": "/OurTeamIcon.svg",
-				"Body": "دكتور غادة",
+				"Body": "",
 				"Title": {
 					"Title1": "",
 					"Title2": "مؤسسة مركز Bperfect"

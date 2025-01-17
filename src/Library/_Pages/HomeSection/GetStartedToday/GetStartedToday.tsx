@@ -22,7 +22,7 @@ const GetStartedToday = () => {
 					<Row justify={"space-between"}>
 						<Col md={6} style={{ display: "flex", justifyContent: "center", marginBlock: "auto" }}>
 							<GetStartImageContainer>
-								<OurTeamHomeImage src={t("Image")} alt={""} width={570} height={450} />
+								<OurTeamHomeImage src={t("Image")} alt={""} width={570} height={450} style={{ objectFit: "cover" }} />
 							</GetStartImageContainer>
 						</Col>
 						<Col md={6}>

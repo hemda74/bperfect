@@ -543,7 +543,7 @@
 	},
 	"Team": {
 		"TeamHeroSection": {
-			"Title": "Senior Doctor",
+			"Title": "Founder of Bperfect clinic, Dermatology consultant ",
 			"Button": "More about me",
 			"TeamMembers": {
 				"TeamMember1": {
@@ -933,7 +933,7 @@
 				"Member2": {
 					"Image": "/ghada.jpg",
 					"Name": "Ghada Nabil",
-					"Title": "senior doctor",
+					"Title": "Founder of Bperfect clinic, Dermatology consultant ",
 					"Travers": "/team/ghada-nabil"
 				}
 			}
