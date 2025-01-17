@@ -162,6 +162,11 @@ const Header = ({ locale }: Locale) => {
 													{t.header.links.services.skinTreatments}
 												</Link>
 											</li>
+											<li>
+												<Link href={"/services/facial-treatment"}>
+													{t.header.links.services.facialTreatment}
+												</Link>
+											</li>
 										</ServiceLink>
 									</ServiceLinkContainer>
 

@@ -108,45 +108,28 @@
 				"Articles": {
 					"Article1": {
 						"Heading": "Composition",
-						"Body1": "Botox: Botox, derived from the bacterium Clostridium botulinum, is a purified neurotoxin known as Botulinum Toxin. It is a protein that temporarily blocks nerve signals in muscles, resulting in muscle relaxation.",
-						"Body2": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity.",
-						"Body3": "Dermal Fillers: Dermal fillers are injectable substances that augment volume and restore plumpness to facial areas. Typically composed of hyaluronic acid, a naturally occurring substance in the body, they contribute to skin hydration and elasticity."
+
+						"Body": "Fillers are injectable substances designed to restore lost volume, enhance facial contours, and smooth wrinkles.Primarily composed of hyaluronic acid (HA), a naturally occurring sugar molecule in the body, fillers effectively plump and hydrate the skin, contributing to a more youthful and rejuvenated appearance.Other types of fillers may include collagen, poly-L-lactic acid, and calcium hydroxyapatite, each offering distinct properties and longevity."
 					},
 					"Article2": {
 						"Heading": "Mechanism of Action",
-						"Body1": "Botox: Botox functions by blocking the release of acetylcholine, a neurotransmitter responsible for muscle contractions. By inhibiting muscle activity, Botox temporarily diminishes the appearance of dynamic wrinkles, such as crow's feet, forehead lines, and frown lines.",
-						"Body2": "Dermal Fillers: Dermal fillers work by physically filling in wrinkles, lines, and areas where volume has been lost. They restore volume and provide structure to the face, plumping up areas that have experienced a loss of elasticity and firmness due to aging. Dermal fillers are commonly used to address static wrinkles, including nasolabial folds (smile lines), marionette lines, and areas with hollowed features."
+						"Body": "Botox: Botox functions by blocking the release of acetylcholine, a neurotransmitter responsible for muscle contractions. By inhibiting muscle activity, Botox temporarily diminishes the appearance of dynamic wrinkles, such as crow's feet, forehead lines, and frown lines.Dermal Fillers: Dermal fillers work by physically filling in wrinkles, lines, and areas where volume has been lost. They restore volume and provide structure to the face, plumping up areas that have experienced a loss of elasticity and firmness due to aging. Dermal fillers are commonly used to address static wrinkles, including nasolabial folds (smile lines), marionette lines, and areas with hollowed features."
 					},
 					"Article3": {
 						"Heading": "Areas of Treatment",
-						"Body1": "Botox: Botox is primarily used to treat dynamic wrinkles caused by repetitive muscle movements. It is commonly applied to target wrinkles in the upper face, including forehead lines, glabellar lines (between the eyebrows), and crow's feet around the eyes. Botox can also serve non-cosmetic purposes, such as treating medical conditions like hyperhidrosis (excessive sweating) and chronic migraines.",
-						"Body2": "Dermal Fillers: Dermal fillers are versatile and can be employed to address various concerns across different areas of the face. They are commonly used to add volume and shape to the cheeks, lips, and temples. Dermal fillers can also smooth out nasolabial folds, marionette lines, and other facial wrinkles, in addition to enhancing facial contours and improving the appearance of recessed scars."
+						"Body": "Botox is primarily used to treat dynamic wrinkles caused by repetitive muscle movements. It is commonly applied to target wrinkles in the upper face, including forehead lines, glabellar lines (between the eyebrows), and crow's feet around the eyes. Botox can also serve non-cosmetic purposes, such as treating medical conditions like hyperhidrosis (excessive sweating) and chronic migraines.Dermal fillers are versatile and can be employed to address various concerns across different areas of the face. They are commonly used to add volume and shape to the cheeks, lips, and temples. Dermal fillers can also smooth out nasolabial folds, marionette lines, and other facial wrinkles, in addition to enhancing facial contours and improving the appearance of recessed scars."
 					},
 					"Article4": {
 						"Heading": "Duration of Results",
-						"Body1": "Botox: The effects of Botox typically last around 3 to 4 months, although individual factors, dosage, and the treated area can influence this timeframe. Follow-up treatments are necessary to maintain the desired results.",
-						"Body2": "Dermal Fillers: The longevity of dermal fillers varies based on the type of filler used and the treated area. Hyaluronic acid fillers generally provide results that last between 6 months to 2 years. Over time, the filler gradually breaks down and is naturally absorbed by the body. Follow-up treatments are essential to sustain the results. It's crucial to note that both Botox and dermal fillers should be administered by qualified healthcare professionals with expertise in cosmetic procedures.",
-						"Body3": "In summary, Botox and dermal fillers are distinct treatments with different compositions, mechanisms of action, and areas of application. Botox temporarily relaxes muscles to reduce the appearance of dynamic wrinkles, while dermal fillers add volume and structure to areas affected by static wrinkles and volume loss. Consulting with a healthcare professional will help determine the most suitable treatment for specific concerns and desired results."
+						"Body": "The longevity of filler results depends on the type of filler used, the treated area, and individual factors like skin metabolism and lifestyle habits.Hyaluronic acid fillers typically last between 6 months to 2 years, gradually breaking down and being naturally absorbed by the body over time.Follow-up treatments are recommended to maintain desired results."
 					},
 					"Article5": {
-						"Heading": "What is Botox?",
-						"Body1": "Botox, derived from the bacterium Clostridium botulinum, is a neurotoxic protein widely utilized in the fields of cosmetic dermatology and medical aesthetics. Its primary function lies in temporarily blocking nerve signals in the muscles where it is injected, resulting in a temporary paralysis or relaxation of those muscles. ",
-						"Body2": "In cosmetic dermatology, Botox is highly valued for its ability to diminish the appearance of wrinkles and fine lines, particularly in areas such as the forehead, glabellar lines (between the eyebrows), and crow's feet (around the eyes). ",
-						"Body3": "By relaxing the underlying muscles responsible for wrinkle formation, Botox effectively smoothes the skin, imparting a more youthful and rejuvenated appearance.",
-						"Body4": "Botox injections are minimally invasive and typically administered through a series of small injections directly into the targeted muscles. The procedure is generally well-tolerated and often does not require anesthesia, although a topical numbing cream may be applied to enhance comfort. Beyond its cosmetic applications, Botox serves various medical purposes. It has proven effective in treating conditions like chronic migraines, hyperhidrosis (excessive sweating), muscle spasms, overactive bladder, and specific types of facial asymmetry or twitching.",
-						"Body5": "It is crucial to emphasize that Botox should always be administered by a qualified healthcare professional, such as a dermatologist or plastic surgeon, who has received proper training in the procedure. This ensures both safety and optimal results. The effects of Botox typically last for several months, after which additional treatments may be necessary to maintain the desired outcome."
+						"Heading": "Safety and Considerations",
+						"Body": "It's crucial to emphasize that filler injections should only be performed by qualified healthcare professionals with expertise in cosmetic procedures.A thorough consultation beforehand ensures a personalized treatment plan and addresses any potential concerns.Filler injections are minimally invasive procedures, typically well-tolerated with minimal discomfort. Topical numbing cream may be applied for additional comfort."
 					},
 					"Article6": {
-						"Heading": "What can Botox correct?",
-						"Body1": "",
-						"Body2": "",
-						"Body3": ""
-					},
-					"Article7": {
-						"Heading": "",
-						"Body1": "",
-						"Body2": "",
-						"Body3": ""
+						"Heading": "Choosing the Right Filler:",
+						"Body": "With a variety of fillers available, a consultation with a qualified healthcare professional is essential to determine the most suitable type of filler for your specific needs and desired outcomes.Factors like the area of treatment, depth of wrinkles, and volume loss will be considered to select the optimal filler material."
 					}
 				},
 				"Img": "/filler.jpg"
