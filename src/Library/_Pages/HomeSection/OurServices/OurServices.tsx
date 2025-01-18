@@ -37,7 +37,7 @@ const OurServices = ({ locale, contactInfo = true }: Locale & { contactInfo?: bo
 						</OurServicesParagraph>
 					</OurServicesHeading>
 					<CarousalServices>
-						{[...Array(5)].map((_, index) => {
+						{[...Array(6)].map((_, index) => {
 							return (
 								<Link key={uuid()} href={t(`Cards.Card${index + 1}.travers`)}>
 									<CareServices

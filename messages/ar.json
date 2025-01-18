@@ -269,6 +269,14 @@
 					"Body": "حقق الجسم الذي تحلم به باستخدام أحدث تقنيات إعادة تشكيل الجسم.",
 					"Link": "عرض الخدمة",
 					"travers": "services/body-reshaping"
+				},
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "علاج الوجه",
+					"Body": "نوفر لك مجموعة متنوعة من علاجات الوجه التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي",
+					"Link": "عرض الخدمة",
+					"travers": "services/facial-treatment"
 				}
 			}
 		},
@@ -938,6 +946,14 @@
 					"Body": "حدد شكل جسمك وحقق الشكل الذي تريده من خلال إجراءات إعادة تشكيل الجسم غير الجراحية لدينا. قلل من الدهون، وشد الجلد، وعزز ثقتك بنفسك.",
 					"Link": "عرض الخدمة",
 					"travers": "services/body-reshaping"
+				},
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "العناية بالوجه",
+					"Body": "نوفر لك مجموعة متنوعة من علاجات الوجه التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي",
+					"Link": "عرض الخدمة",
+					"travers": "services/facial-treatment"
 				}
 			},
 			"Links": {
@@ -1125,6 +1141,14 @@
 					"Body": "حقق الجسم الذي تحلم به باستخدام أحدث تقنيات إعادة تشكيل الجسم.",
 					"Link": "عرض الخدمة",
 					"travers": "services/body-reshaping"
+				},
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "العناية بالوجه",
+					"Body": "نوفر لك مجموعة متنوعة من علاجات الوجه التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي",
+					"Link": "عرض الخدمة",
+					"travers": "services/facial-treatment"
 				}
 			}
 		},
@@ -1468,6 +1492,14 @@
 					"Body": "تقنيات متقدمة لتشكيل الجسم والوصول إلى القوام المثالي.",
 					"Link": "عرض الخدمة",
 					"travers": "services/body-reshaping"
+				},
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "العناية بالوجه",
+					"Body": "نوفر لك مجموعة متنوعة من علاجات الوجه التي تناسب احتياجاتك الفردية وتعزز جمالك الطبيعي",
+					"Link": "عرض الخدمة",
+					"travers": "services/facial-treatment"
 				}
 			},
 			"BodyReshaping": {

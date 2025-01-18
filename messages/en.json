@@ -27,7 +27,13 @@
 				"Image": "/laser.jpg"
 			},
 			"SkinTreatments": {
-				"Heading": "Facial treatment",
+				"Heading": "Skin Treatments",
+				"Body": "",
+				"Icon": "/skin-icon.png",
+				"Image": "/skin.jpg"
+			},
+			"FacialTreatments": {
+				"Heading": "Facial Treatment",
 				"Body": "",
 				"Icon": "/skin-icon.png",
 				"Image": "/skin.jpg"
@@ -49,7 +55,7 @@
 				"Card2": {
 					"Image": "/skin.jpg",
 					"Icon": "/skin-icon.png",
-					"Heading": "Facial treatment",
+					"Heading": "Skin treatment",
 					"Body": "",
 					"Link": "View service",
 					"travers": "services/skin-treatments"
@@ -77,6 +83,15 @@
 					"Body": "",
 					"Link": "View service",
 					"travers": "services/body-reshaping"
+				},
+
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "Facial treatment",
+					"Body": "",
+					"Link": "View service",
+					"travers": "services/facial-treatment"
 				}
 			},
 			"BodyReshaping": {
@@ -250,7 +265,7 @@
 				"Card2": {
 					"Image": "/skin.jpg",
 					"Icon": "/skin-icon.png",
-					"Heading": "Facial treatment",
+					"Heading": "Skin Treatment",
 					"Body": "Restore your skin's health and radiance with our customized skin treatments. From acne and eczema to anti-aging and pigmentation, we offer solutions for various skin concerns.",
 					"Link": "View service",
 					"travers": "services/skin-treatments"
@@ -278,6 +293,15 @@
 					"Body": "Contour your body and achieve your desired shape with our non-invasive body reshaping procedures. Reduce fat, tighten skin, and enhance your confidence",
 					"Link": "View service",
 					"travers": "services/body-reshaping"
+				},
+
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "Facial treatment",
+					"Body": "",
+					"Link": "View service",
+					"travers": "services/facial-treatment"
 				}
 			},
 			"Links": {
@@ -515,6 +539,14 @@
 					"Body": "",
 					"Link": "View service",
 					"travers": "services/body-reshaping"
+				},
+				"Card6": {
+					"Image": "/skin-treatments.jpg",
+					"Icon": "/facial.svg",
+					"Heading": "Facial treatment",
+					"Body": "",
+					"Link": "View service",
+					"travers": "services/facial-treatment"
 				}
 			}
 		},
