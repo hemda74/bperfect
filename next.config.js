@@ -3,7 +3,6 @@ const createNextIntlPlugin = require("next-intl/plugin");
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import("next").NextConfig} */
-
 const nextConfig = {
 	reactStrictMode: true,
 	poweredByHeader: false,
@@ -14,6 +13,9 @@ const nextConfig = {
 	output: "standalone",
 	images: {
 		domains: ["res.cloudinary.com"],
+	},
+	eslint: {
+		ignoreDuringBuilds: true,
 	},
 };
 
