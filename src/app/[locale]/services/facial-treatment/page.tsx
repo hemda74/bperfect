@@ -17,7 +17,7 @@ import OurServices from "@/Library/_Pages/HomeSection/OurServices/OurServices";
 import { videoLinks } from "@/Library/_Pages/HomeSection/OurVideos/OurVideos";
 import ServiceDetails from "@/Library/_Pages/ServiceDetails/ServiceDetails";
 export const metadata: Metadata = {
-    title: "Skin Treatment - Bperfect",
+    title: "Facial Treatments- Bperfect",
     description:
         "Discover expert skin treatments at Bperfect to rejuvenate, refresh, and enhance your natural glow.",
 };
@@ -28,9 +28,9 @@ const Page = ({ params }: { params: Locale }) => {
     return (
         <>
             <ServiceDetails
-                Icon={t("HeroSection.SkinTreatments.Icon")}
-                Heading={t("HeroSection.SkinTreatments.Heading")}
-                Img={t("HeroSection.SkinTreatments.Image")}
+                Icon={t("HeroSection.FacialTreatments.Icon")}
+                Heading={t("HeroSection.FacialTreatments.Heading")}
+                Img={t("HeroSection.FacialTreatments.Image")}
             />
 
             <Section className={`${styles.marginBottom200}`}>
@@ -42,10 +42,10 @@ const Page = ({ params }: { params: Locale }) => {
                                     return (
                                         <>
                                             <AboutHeaders>
-                                                {t(`AboutThisService.SkinTreatments.Articles.Article${i + 1}.Heading`)}
+                                                {t(`AboutThisService.FacialTreatments.Articles.Article${i + 1}.Heading`)}
                                             </AboutHeaders>
                                             <MutedText>
-                                                {t(`AboutThisService.SkinTreatments.Articles.Article${i + 1}.Body`)}
+                                                {t(`AboutThisService.FacialTreatments.Articles.Article${i + 1}.Body`)}
                                             </MutedText>
                                         </>
                                     );

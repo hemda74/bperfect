@@ -186,27 +186,52 @@
 			"SkinTreatments": {
 				"Articles": {
 					"Article1": {
+						"Heading": "PRP",
+						"Body": "Boost your collagen and regenerate your skin tissues by making your skin softer and looking younger, perfect for wrinkles treatments."
+					},
+					"Article2": {
+						"Heading": "DermaPen",
+						"Body": "Micro needles, used to treat Acne Scars, Open Pores and Wrinkles."
+					},
+					"Article3": {
+						"Heading": "Gold Stamp",
+						"Body": "Micro needles, used to treat Acne Scars, Pigmentations, Age spots and Improve overall skin quality, that will give you the brighter fresh and soft looks."
+					},
+					"Article4": {
+						"Heading": "Skin Boosters",
+						"Body": "Hydrate and Revitalize: Our skin booster treatments deliver potent hyaluronic acid deep into your skin, providing intense hydration and improving skin elasticity and radiance."
+					},
+					"Article5": {
+						"Heading": "Enjoy",
+						"Body": "Plump, hydrated skin Improved skin tone and texture Reduced fine lines and wrinkles A more youthful and radiant complexion"
+					}
+				},
+				"Img": "/skin.jpg"
+			},
+			"FacialTreatments": {
+				"Articles": {
+					"Article1": {
 						"Heading": "Carbon Laser Peeling",
 						"Body": "Latest superficial treatment used in eliminating acne scars, enlarged pores, dark and red spots and excess oils"
 					},
 					"Article2": {
-						"Heading": "PRP",
-						"Body": "Boost your collagen and regenerate your skin tissues by making your skin softer and looking younger, perfect for wrinkles treatments."
-					},
-					"Article3": {
 						"Heading": "Chemical Peeling",
 						"Body": "Applied to the skin to remove acne scars, top layers, deeper wrinkles, and treat discoloration. Mainly used for facial purposes to restore the freshness of the skin."
 					},
-					"Article4": {
+					"Article3": {
 						"Heading": "Hydrafacial (Deep facial Nettoyage)",
 						"Body": "A patent skin treatment used to hydrate face skin, toning the skin, and deep-cleansing of skin."
 					},
-					"Article5": {
+					"Article4": {
 						"Heading": "Oxygeno",
-						"Body": "Revive and Revitalize: Experience the exhilarating effects of Oxygeno therapy. This innovative treatment infuses your skin with oxygen and nutrients, leaving you with a radiant, youthful glow.\nExpect:\nImproved skin tone and texture\nReduced fine lines and wrinkles\nIncreased skin hydration and firmness\nA revitalized, refreshed complexion"
+						"Body": "Revive and Revitalize: Experience the exhilarating effects of Oxygeno therapy. This innovative treatment infuses your skin with oxygen and nutrients, leaving you with a radiant, youthful glow."
+					},
+					"Article5": {
+						"Heading": "Expect",
+						"Body": "Improved skin tone and texture Reduced fine lines and wrinkles Increased skin hydration and firmness A revitalized, refreshed complexion"
 					}
 				},
-				"Img": "/skin.jpg"
+				"Img": "/skin-treatments.jpg"
 			}
 		}
 	},

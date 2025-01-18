@@ -25,7 +25,7 @@ const ServicesHeroSection = ({ locale }: Locale) => {
 					</Display1>
 				</Row>
 				<Row as={"ul"} justify={"center"}>
-					{[...Array(5)].map((_, index) => {
+					{[...Array(6)].map((_, index) => {
 						return (
 							<Col as={"li"} className={styles.marginBottom40} md={6} lg={5} key={uuid()}>
 								<Link key={uuid()} href={t(`Cards.Card${index + 1}.travers`)}>
