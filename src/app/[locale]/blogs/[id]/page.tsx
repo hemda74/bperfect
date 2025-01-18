@@ -20,22 +20,29 @@ interface PageProps {
 const Page = async ({ params }: PageProps) => {
 	const { id } = params;
 
-	// Determine the path to the JSON file
-	const filePath = path.join(process.cwd(), "data", "blogs.json");
+	try {
+		// Path to the JSON file
+		const filePath = path.join(process.cwd(), "data", "blogs.json");
 
-	// Read and parse the JSON data
-	const fileData = await fs.readFile(filePath, "utf-8");
-	const blogs: Blog[] = JSON.parse(fileData);
+		// Read and parse JSON data
+		const fileData = await fs.readFile(filePath, "utf-8");
+		const blogs: Blog[] = JSON.parse(fileData);
 
-	// Find the blog with the matching ID
-	const blog = blogs.find(blog => blog.id === id);
+		// Find the blog with the matching ID
+		const blog = blogs.find(blog => blog.id === id);
 
-	if (!blog) {
-		// Handle error (e.g., blog not found)
-		return <p>Error loading blog: Blog not found.</p>;
+		if (!blog) {
+			// Return a 404-like error page if the blog is not found
+			return <p style={{ textAlign: "center", marginTop: "2rem" }}>Blog not found. Please check the URL and try again.</p>;
+		}
+
+		// Render the blog details
+		return <CraftProjects blog={blog} />;
+	} catch (error) {
+		// Handle unexpected errors
+		console.error("Error loading blog:", error);
+		return <p style={{ textAlign: "center", marginTop: "2rem" }}>An error occurred while loading the blog.</p>;
 	}
-
-	return <CraftProjects blog={blog} />;
 };
 
 export default Page;
